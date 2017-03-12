@@ -2,6 +2,8 @@
 title: "Начало" #
 lang: ru
 permalink: /get-started.html
+sidebar:
+  nav: "get-started"
 ---
 
 Следующие шаги подготовят вашу SD-карту к установке кастомной прошивки coldboothax
@@ -25,7 +27,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!
 {: .notice--warning}
 
-#### Что понадобится
+#### <a name="what_need" />Что понадобится:
 
 * [`config.txt`](images/config.txt) *(нажмите на ссылку правой кнопкой мыши -> Сохранить как...)*
 * [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
@@ -41,7 +43,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 * Свежая версия [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
 
-#### Инструкция
+#### <a name="instructions" />Инструкция:
 
 1. Убедитесь в том, что Wii U выключена
 2. Вставьте SD-карту приставки в компьютер

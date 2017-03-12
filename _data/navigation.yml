@@ -28,9 +28,9 @@ main:
 disc2app:
   - title: "Разделы"
     children:
-      - title: "• Что необходимо"
+      - title: "• Что понадобится"
         url: /disc2app#what_need
-      - title: "• Что делать"
+      - title: "• Инструкция"
         url: /disc2app#instructions
       - title: "  - Часть I - форматирование внешнего винчестера"
         url: /disc2app#part1
@@ -49,7 +49,7 @@ disc2app:
       - title: "• В начало раздела"
         url: disc2app/#start
     
-    faq:
+faq:
   - title: "Разделы"
     children:
       - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
@@ -80,6 +80,18 @@ disc2app:
         url: /faq#faq_NNID
       - title: "• Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?"
         url: /faq#faq_nopc
+      - title: "• В начало раздела"
+        url: /faq#start
+        
+get-started:
+  - title: "Разделы"
+    children:
+      - title: "• Что понадобится"
+        url: /get-started#what_need
+      - title: "• Инструкция"
+        url: /get-started#instructions
+      - title: "• В начало раздела"
+        url: /get-started#start
         
 home:
   - title: "Разделы"
@@ -100,9 +112,9 @@ home:
 h2testw-windows:
   - title: "Разделы"
     children:
-      - title: "• Что нужно?"
+      - title: "• Что понадобится"
         url: /h2testw-windows#what_need
-      - title: "• Что делать:"
+      - title: "• Инструкция:"
         url: /h2testw-windows#instructions
       - title: "• В начало раздела"
         url: /h2testw-windows#start
@@ -110,9 +122,9 @@ h2testw-windows:
 homebrew-launcher-browser:
   - title: "Разделы"
     children:
-      - title: "• Что нужно?"
+      - title: "• Что понадобится"
         url: /homebrew-launcher-browser#what_need
-      - title: "• Что делать:"
+      - title: "• Инструкция:"
         url: /homebrew-launcher-browser#instructions
       - title: "  - Часть I - Подготовка"
         url: /homebrew-launcher-browser#part1
@@ -130,9 +142,9 @@ homebrew-launcher-browser:
 Homebrew-launcher-no-browser:
   - title: "Разделы"
     children:
-      - title: "• Что нужно?"
+      - title: "• Что понадобится"
         url: /Homebrew-launcher-no-browser#what_need
-      - title: "• Что делать:"
+      - title: "• Инструкция:"
         url: /Homebrew-launcher-no-browser#instructions
       - title: "• В начало раздела"
         url: /Homebrew-launcher-no-browser#start
