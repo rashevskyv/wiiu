@@ -23,6 +23,7 @@ permalink: /credits.html
 + yellows8
 
 Люди, переводившие руководство:     
-• [Zloebot](https://crowdin.com/profile/Aibot)   
-• [xHR](https://crowdin.com/profile/rashevskyv)   
-• [kryksyh](https://crowdin.com/profile/kryksyh)   
+
++ [Zloebot](https://crowdin.com/profile/Aibot)   
++ [xHR](https://crowdin.com/profile/rashevskyv)   
++ [kryksyh](https://crowdin.com/profile/kryksyh)   
