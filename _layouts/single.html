@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<a name="start" /></a>
 
 {% include base_path %}
 
@@ -39,33 +40,20 @@ layout: default
 
         <center>
 
-        {% assign split_path = page.path | split: "/" %}
-        {% assign locale = split_path[1] %}
-        {% for link in site.data.navigation[locale].bottom %}
-          {% if link.url contains 'http' %}
-            {% assign domain = '' %}
-          {% else %}
-            {% assign domain = site.url | append: site.baseurl %}
-          {% endif %}
-          <div class ="notice--info"><b>{{ link.title }}</b></div>
-        {% endfor %}
-
+	
+        <!--<div class ="notice--info"><b>За помощью обращайтесь в группу <a href="https://vk.com/3ds_cfw">вконтакте</a>.<br>Если вам помог или просто понравился этот гайд, то милости прошу <a href="donations">донатить</a>.</b></div>-->
+        
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Guide -->
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-6670011780914577"
              data-ad-slot="2889110246"
              data-ad-format="auto"></ins>
-        <!--<ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-2981562493941577"
-             data-ad-slot=""
-             data-ad-format="auto"></ins>-->
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-
+        </script>  
+          
         </center>
 
       </section>

@@ -1,33 +1,567 @@
----
+# main links links
 main:
-  -
-    title: Guide
-  -
-    title: FAQ
-  -
-    title: Donations
-  -
-    title: Credits
-  -
-    title: disc2app
-  -
-    title: vWii Modding
-  -
-    title: Uninstall Mocha CFW
-  -
-    title: Site Navigation
-bottom:
-  -
-    title: For support in English, ask for help at either <a href="https://qchat.rizon.net/?channels=wiiuhacks">#wiiuhacks on Rizon IRC</a> or <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
-  -
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a> through both Bitcoin and PayPal.
-  -
-    title: If you would like to support me (Plailect) by using my Amazon referral links, you can find those here.<br><a data-amazon-tld="com" href="https://www.amazon.com/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;linkCode=ur2&amp;tag=plailect-20" rel="external nofollow noopener noreferrer" target="_blank">United States</a>&nbsp;-&nbsp;<a data-amazon-tld="ca" href="https://www.amazon.ca/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;linkCode=ur2&amp;tag=plailect-20" rel="external nofollow noopener noreferrer" target="_blank">Canada</a>&nbsp;-&nbsp;<a data-amazon-tld="co.uk" href="https://www.amazon.co.uk/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;linkCode=ur2&amp;tag=plailect-20" rel="external nofollow noopener noreferrer" target="_blank">United Kingdom</a>&nbsp;-&nbsp;&nbsp;<a data-amazon-tld="de" href="https://www.amazon.de/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;linkCode=ur2&amp;tag=plailect-20" rel="external nofollow noopener noreferrer" target="_blank">Germany</a>&nbsp;-&nbsp;&nbsp;<a data-amazon-tld="es" href="https://www.amazon.es/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;linkCode=ur2&amp;tag=plailect-20" rel="external nofollow noopener noreferrer" target="_blank">Spain&nbsp;</a>-&nbsp;&nbsp;<a data-amazon-tld="fr" href="https://www.amazon.fr/?_encoding=UTF8&amp;camp=1789&amp;creative=390957&amp;linkCode=ur2&amp;tag=plailect-20" rel="external nofollow noopener noreferrer" target="_blank">France&nbsp;</a>
+  - title: "На главную"
+    url: http://customfw.xyz
+  - title: "FAQ"
+    url: /faq
+  - title: "Проблемы и<br>их решения"
+    url: /troubleshooting
+  - title: "Homebrew<br>launcher"
+    url: /homebrew-launcher-soundhax
+  - title: "Homebrew Launcher<br>(используя браузер)"
+    url: /homebrew-launcher-browser
+  - title: "Homebrew Launcher<br>(альтернативные методы)"
+    url: /homebrew-launcher-alternatives
+  - title: "2.1.0<br>ctrtransfer"
+    url: /2.1.0-ctrtransfer
+  - title: "9.2.0<br>ctrtransfer"
+    url: /9.2.0-ctrtransfer
+  - title: "Установка<br>arm9loaderhax"
+    url: /installing-arm9loaderhax   
+  - title: "Decrypt9<br>(MSET)"
+    url: /decrypt9-mset
+  - title: "Decrypt9<br>(HBL)"
+    url: /decrypt9-homebrew-launcher
+  - title: "Decrypt9<br>(Браузер)"
+    url: /decrypt9-browser
+  - title: "Внедрение<br>FBI"
+    url: /fbi
+  - title: "Обновление с<br>помощью картриджа"
+    url: /cart-update
+  - title: "Установка и использование<br>жетонов (badges)"
+    url: /badges
+  - title: "Установка и использование тем"
+    url: /themes
+  - title: "Конвертация 3DS-ромов в CIA"
+    url: /3ds-to-cia
+  - title: "Обновление A9LH"
+    url: /updating-a9lh
+  - title: "Смена региона"
+    url: /region-changing
+  - title: "Перенос EmuNAND"
+    url: /move-emunand
+  - title: "OTP"
+    url: /otp-info
+  - title: "Пожертвования"
+    url: /donations
+  - title: "Благодарности"
+    url: /credits
+    
+troubleshooting:
+  - title: "Разделы"
+    children:
+      - title: "• DSi / DS игры не работают после завершения руководства"
+        url: /troubleshooting#twl_broken
+      - title: "• Удаление NNID без форматирования устройства"
+        url: /troubleshooting#rm_nnid
+      - title: "• Не выходит сделать интеграцию в Health & Safety на устройстве с пониженной прошивкой с помощью Gateway"
+        url: /troubleshooting#gw_fbi
+      - title: "• Почему не работает эксплойт, использующий браузер?"
+        url: /troubleshooting#ts_browser
+      - title: "• Приставка грузится в SafeA9LHInstaller"
+        url: /troubleshooting#ts_safe_a9lh
+      - title: "• Изображение после запуска SafeA9LHInstaller некорректно"
+        url: /troubleshooting#ts_safe_a9lh_screen
+      - title: "• Decrypt9 или Hourglass9 не восстанавливают / не видят мой NAND-бекап"
+        url: /troubleshooting#ts_d9_backup
+      - title: "• Черный экран при загрузке SysNAND "
+        url: /troubleshooting#ts_sys_down
+      - title: "• Черный экран при загрузке SysNAND после установки a9lh"
+        url: /troubleshooting#ts_sys_a9lh
+      - title: "• Голубой экран при загрузке (bootrom error)"
+        url: /troubleshooting#ts_sys_blue
+      - title: "• В начало раздела"
+        url: /troubleshooting#start
+        
+faq:
+  - title: "Разделы"
+    children:
+      - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
+        url: /faq#faq_latestfw
+      - title: "• Как можно обновить Luma3DS?"
+        url: /faq#faq_updatecfw
+      - title: "• В чем различие между EmuNAND и RedNAND?"
+        url: /faq#faq_RedNAND
+      - title: "• Я слышал, что в продаже есть различные устройства (Gateway, Sky3DS, и т. д.), нужны ли они мне?"
+        url: /faq#faq_gatewaysky
+      - title: "• Как мне перенести свои сохранения с Gateway на консоль для установленных игр?"
+        url: /faq#faq_gatewaysaves
+      - title: "• Что мне потребуется для выполнения руководства?"
+        url: /faq#faq_need
+      - title: "• Насколько опасно взламывать консоль?"
+        url: /faq#faq_risky
+      - title: "• Смогу ли я после взлома запускать сторонние программы и эмуляторы?"
+        url: /faq#faq_homebrew
+      - title: "• Смогу ли я играть в игры других регионов?"
+        url: /faq#faq_regionfree
+      - title: "• Безопасно ли обновлять кастомную прошивку, установленную в SysNAND?"
+        url: /faq#faq_updates
+      - title: "• Можно ли удалить NNID без форматирования устройства?"
+        url: /faq#faq_rm_nnid
+      - title: "• Куда я могу обратиться за помощью?"
+        url: /faq#faq_support
+      - title: "• Могу ли я использовать SD-карту размером 4 ГБ (или меньше)?"
+        url: /faq#faq_le4gbsd
+      - title: "• Могу ли я использовать SD-карту размером 128 ГБ (или больше)?"
+        url: /faq#faq_ge128gbsd
+      - title: "• Как мне перенести данные на новую SD-карту?"
+        url: /faq#faq_movesd
+      - title: "• Могу ли я сохранить свой NNID?"   
+        url: /faq#faq_NNID
+      - title: "• Работает ли Передача Данных (System Transfer)?"
+        url: /faq#faq_systransfer
+      - title: "• Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?"
+        url: /faq#faq_nopc
+      - title: "• Помогите! Что-то пошло не так, и консоль больше не запускается..."
+        url: /faq#faq_problem
+      - title: "• В начало раздела"
+        url: /faq#start
+        
+home:
+  - title: "Разделы"
+    children:
+      - title: "• Что такое Homebrew?"
+        url: /#what_hombrw
+      - title: "• Что такое кастомная прошивка (CFW)?"
+        url: /#what_cfw
+      - title: "• Так чему же учит этот гайд?"
+        url: /#what_guide
+      - title: "• Что же можно делать на кастомной прошивке?"
+        url: /#what_can_cfw
+      - title: "• Что нужно знать, перед тем, как начать?"
+        url: /#what_know
+      - title: "• В начало раздела"
+        url: /#start
 
-footer:
-  -
-    title: Source
-  -
-    title: Site Navigation
-  -
-    title: Why Ads?
+fbi:
+  - title: "Разделы"
+    children:
+      - title: "• Часть I - Подготовка"
+        url: /fbi#part1
+      - title: "• Часть II - Внедрение FBI"
+        url: /fbi#part2
+      - title: "• В начало раздела"
+        url: /fbi#start
+        
+2.1.0-ctrtransfer:
+  - title: "Разделы"
+    children:
+      - title: "• Что будем делать?"
+        url: /2.1.0-ctrtransfer#steps
+      - title: "• Что нужно?"
+        url: /2.1.0-ctrtransfer#what_need
+      - title: "• Что делать:"
+        url: /2.1.0-ctrtransfer#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /2.1.0-ctrtransfer#part1
+      - title: "  - Часть II - ctrtransfer"
+        url: /2.1.0-ctrtransfer#part2
+      - title: "• В начало раздела"
+        url: /2.1.0-ctrtransfer#start
+        
+3ds-to-cia:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /3ds-to-cia#what_need
+      - title: "• Что делать:"
+        url: /3ds-to-cia#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /3ds-to-cia#part1
+      - title: "  - Часть II - Генерация xorpad'ов"
+        url: /3ds-to-cia#part2
+      - title: "  - Часть III - Конвертация 3DS-ромов в CIA"
+        url: /3ds-to-cia#part3
+
+9.2.0-ctrtransfer:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /9.2.0-ctrtransfer#what_need
+      - title: "• Что делать:"
+        url: /9.2.0-ctrtransfer#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /9.2.0-ctrtransfer#part1
+      - title: "  - Часть II - Резервное копирование тикетов"
+        url: /9.2.0-ctrtransfer#part2
+      - title: "  - Часть III - ctrtransfer"
+        url: /9.2.0-ctrtransfer#part3
+      - title: "  - Часть IV - Внедрение FBI"
+        url: /9.2.0-ctrtransfer#part4
+      - title: "  - Часть V - Переустановка тикетов"
+        url: /9.2.0-ctrtransfer#part5
+      - title: "  - Часть VI - Восстановление приложения Информация о здоровье и безопасности"
+        url: /9.2.0-ctrtransfer#part6
+      - title: "• В начало раздела"
+        url: /9.2.0-ctrtransfer#start
+        
+9.2.0-downgrade:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /9.2.0-downgrade#what_need
+      - title: "• Что делать:"
+        url: /9.2.0-downgrade#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /9.2.0-downgrade#part1
+      - title: "  - Часть II - Понижение прошивки"
+        url: /9.2.0-downgrade#part2
+      - title: "• В начало раздела"
+        url: /9.2.0-downgrade#start
+
+badges:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /badges#what_need
+      - title: "• Что делать:"
+        url: /badges#instructions
+      - title: "  - Часть I - Установка freeshop и hblauncher loader"
+        url: /badges#part1
+      - title: "  - Часть II - Установка жетонов"
+        url: /badges#part2
+      - title: "  - Часть III - Завершение работы"
+        url: /badges#part3
+      - title: "• В начало раздела"
+        url: /badges#start
+
+cart-update:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /cart-update#what_need
+      - title: "• Что делать:"
+        url: /cart-update#instructions
+      - title: "• Владельцам Sky3DS"
+        url: /cart-update#sky3ds
+      - title: "• В начало раздела"
+        url: /cart-update#start
+
+decrypt9-browser:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /decrypt9-browser#what_need
+      - title: "• Что делать:"
+        url: /decrypt9-browser#instructions
+      - title: "• В начало раздела"
+        url: /decrypt9-browser#start
+
+decrypt9-homebrew-launcher:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /decrypt9-homebrew-launcher#what_need
+      - title: "• Что делать:"
+        url: /decrypt9-homebrew-launcher#instructions
+      - title: "• В начало раздела"
+        url: /decrypt9-homebrew-launcher#start
+
+decrypt9-mset:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /decrypt9-mset#what_need
+      - title: "• Что делать:"
+        url: /decrypt9-mset#instructions
+      - title: "• В начало раздела"
+        url: /decrypt9-mset#start
+
+dsiware-downgrade-app-injection-and-second-3ds:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#what_need
+      - title: "• Что делать:"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part1
+      - title: "  - Часть II - Резервное копирование DsiWare"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part2
+      - title: "  - Часть III - Установка сохранения"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part3
+      - title: "  - Часть IV - ctr-httpwn"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part4
+      - title: "  - Часть V - Перенос системы"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part5
+      - title: "  - Часть VI - Восстановление исходной 3DS"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part6
+      - title: "  - Часть VII - Резервное копирование прошивки целевой 3DS"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part7
+      - title: "  - Часть VIII - Прошивка целевой 3DS"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part8
+      - title: "  - Часть IX - Проверка эксплойта"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#part9
+      - title: "• В начало раздела"
+        url: /dsiware-downgrade-app-injection-and-second-3ds#start
+        
+dsiware-downgrade-save-injection-and-second-3ds:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#what_need
+      - title: "• Что делать:"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part1
+      - title: "  - Часть II - Резервное копирование DsiWare"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part2
+      - title: "  - Часть III - Установка сохранения"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part3
+      - title: "  - Часть IV - ctr-httpwn"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part4
+      - title: "  - Часть V - Перенос системы"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part5
+      - title: "  - Часть VI - Восстановление исходной 3DS"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part6
+      - title: "  - Часть VII - Резервное копирование прошивки целевой 3DS"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part7
+      - title: "  - Часть VIII - Прошивка целевой 3DS"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part8
+      - title: "  - Часть IX - Проверка эксплойта"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#part9
+      - title: "• В начало раздела"
+        url: /dsiware-downgrade-save-injection-and-second-3ds#start
+
+dsiware-downgrade-save-injection:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /dsiware-downgrade-save-injection#what_need
+      - title: "• Что делать:"
+        url: /dsiware-downgrade-save-injection#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /dsiware-downgrade-save-injection#part1
+      - title: "  - Часть II - Резервное копирование DsiWare"
+        url: /dsiware-downgrade-save-injection#part2
+      - title: "  - Часть III - waithax"
+        url: /dsiware-downgrade-save-injection#part3
+      - title: "  - Часть IV - Резервное копирование NAND"
+        url: /dsiware-downgrade-save-injection#part4
+      - title: "  - Часть V - Прошивка целевой 3DS"
+        url: /dsiware-downgrade-save-injection#part5
+      - title: "  - Часть VI - Проверка эксплойта"
+        url: /dsiware-downgrade-save-injection#part6
+      - title: "• В начало раздела"
+        url: /dsiware-downgrade-save-injection#start
+
+dsiware-list:
+  - title: "Разделы"
+    children:
+      - title: "• Игры USA-региона"
+        url: /dsiware-list#usa
+      - title: "• Игры EUR-региона"
+        url: /dsiware-list#eur
+      - title: "• Игры JPN-региона"
+        url: /dsiware-list#jpn
+      - title: "• В начало раздела"
+        url: /dsiware-list#start
+        
+h2testw-windows:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /h2testw-windows#what_need
+      - title: "• Что делать:"
+        url: /h2testw-windows#instructions
+      - title: "• В начало раздела"
+        url: /h2testw-windows#start
+
+hardmod-downgrade:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /hardmod-downgrade#what_need
+      - title: "• Что делать:"
+        url: /hardmod-downgrade#instructions
+      - title: "  - Часть I - Модификация NAND"
+        url: /hardmod-downgrade#part1
+      - title: "  - Часть II - Проверка эксплойта"
+        url: /hardmod-downgrade#part2
+      - title: "• В начало раздела"
+        url: /hardmod-downgrade#start
+
+homebrew-launcher-alternatives:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /homebrew-launcher-alternatives#what_need
+      - title: "• Что делать:"
+        url: /homebrew-launcher-alternatives#instructions
+      - title: "• В начало раздела"
+        url: /homebrew-launcher-alternatives#start
+        
+homebrew-launcher-browser:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /homebrew-launcher-browser#what_need
+      - title: "• Что делать:"
+        url: /homebrew-launcher-browser#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /homebrew-launcher-browser#part1
+      - title: "  - Часть II - Обход проверки версии"
+        url: /homebrew-launcher-browser#part2
+      - title: "  - Часть III - Блокировка conntest.nintendowifi.net"
+        url: /homebrew-launcher-browser#part3
+      - title: "  - Часть IV - browserhax"
+        url: /homebrew-launcher-browser#part4
+      - title: "  - Часть V - menuhax"
+        url: /homebrew-launcher-browser#part5
+      - title: "• В начало раздела"
+        url: /homebrew-launcher-browser#start
+
+Homebrew-launcher-no-browser:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /Homebrew-launcher-no-browser#what_need
+      - title: "• Что делать:"
+        url: /Homebrew-launcher-no-browser#instructions
+      - title: "• В начало раздела"
+        url: /Homebrew-launcher-no-browser#start
+
+installing-arm9loaderhax:
+  - title: "Разделы"
+    children:
+      - title: "• Что будем делать?"
+        url: /installing-arm9loaderhax#steps
+      - title: "• Что нужно?"
+        url: /installing-arm9loaderhax#what_need
+      - title: "• Что делать:"
+        url: /installing-arm9loaderhax#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /installing-arm9loaderhax#part1
+      - title: "  - Часть II - Установка arm9loaderhax"
+        url: /installing-arm9loaderhax#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /installing-arm9loaderhax#part3
+      - title: "  - Часть IV - Восстановление системы"
+        url: /installing-arm9loaderhax#part4
+      - title: "  - Часть V - Внедрение FBI"
+        url: /installing-arm9loaderhax#part5
+      - title: "  - Часть VI - Заканчиваем настройку"
+        url: /installing-arm9loaderhax#part6
+      - title: "• Полезные ссылки"
+        url: /installing-arm9loaderhax#part7
+      - title: "• В начало раздела"
+        url: /installing-arm9loaderhax#start
+
+        
+move-emunand:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /move-emunand#what_need
+      - title: "• Что делать:"
+        url: /move-emunand#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /move-emunand#part1
+      - title: "  - Часть II - Резервное копирование тикетов"
+        url: /move-emunand#part2
+      - title: "  - Часть III - Создание бекапа EmuNAND"
+        url: /move-emunand#part3
+      - title: "  - Часть IV - Восстановление бекапа EmuNAND в SysNAND"
+        url: /move-emunand#part4
+      - title: "  - Часть V - Часть V - Восстановление тикетов"
+        url: /move-emunand#part5
+      - title: "• В начало раздела"
+        url: /move-emunand#start
+
+ntr-and-cubic-ninja:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /ntr-and-cubic-ninja#what_need
+      - title: "• Что делать:"
+        url: /ntr-and-cubic-ninja#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /ntr-and-cubic-ninja#part1
+      - title: "  - Часть II - Резервное копирование тикетов"
+        url: /ntr-and-cubic-ninja#part2
+      - title: "• В начало раздела"
+        url: /ntr-and-cubic-ninja#start
+
+region-changing:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /region-changing#what_need
+      - title: "• Что делать:"
+        url: /region-changing#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /region-changing#part1
+      - title: "  - Часть II - Резервное копирование тикетов"
+        url: /region-changing#part2
+      - title: "  - Часть III - ctrtransfer"
+        url: /region-changing#part3
+      - title: "  - Часть IV - Редактирование SecureInfo"
+        url: /region-changing#part4
+      - title: "  - Часть V - Интеграция FBI"
+        url: /region-changing#part5
+      - title: "  - Часть VI - Переустановка тикетов"
+        url: /region-changing#part6
+      - title: "  - Часть VII - Региональные настройки"
+        url: /region-changing#part7
+      - title: "  - Часть VIII - Восстановление приложения Информация о здоровье и безопасности"
+        url: /region-changing#part8
+      - title: "• В начало раздела"
+        url: /region-changing#start
+
+themes:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /themes#what_need
+      - title: "• Что делать:"
+        url: /themes#instructions
+      - title: "• В начало раздела"
+        url: /themes#start
+
+updating-a9lh:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /updating-a9lh#what_need
+      - title: "• Что делать:"
+        url: /updating-a9lh#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /updating-a9lh#part1
+      - title: "  - Часть II - Обновление загрузчика"
+        url: /updating-a9lh#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /updating-a9lh#part3
+      - title: "  - Часть IV - CTRNAND Luma3DS"
+        url: /updating-a9lh#part4
+      - title: "• В начало раздела"
+        url: /updating-a9lh#start
+
+nand-size:
+  - title: "Разделы"
+    children:
+      - title: "• 2DS"
+        url: /nand-size#2ds
+      - title: "• Old 3DS"
+        url: /nand-size#3ds
+      - title: "• New 3DS"
+        url: /nand-size#n3ds
+      - title: "• В начало раздела"
+        url: /nand-size#start
+
+updating-a9lh:
+  - title: "Разделы"
+    children:
+      - title: "• Что нужно?"
+        url: /updating-a9lh#what_need
+      - title: "• Что делать:"
+        url: /updating-a9lh#instructions
+      - title: "  - Часть I - Подготовка"
+        url: /updating-a9lh#part1
+      - title: "  - Часть II - Обновление загрузчика"
+        url: /updating-a9lh#part2
+      - title: "  - Часть III - Настройка Luma3DS"
+        url: /updating-a9lh#part3
+      - title: "  - Часть IV - CTRNAND Luma3DS"
+        url: /updating-a9lh#part4
+      - title: "• В начало раздела"
+        url: /updating-a9lh#start
