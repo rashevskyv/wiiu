@@ -1,17 +1,15 @@
 ---
-layout: splash
-title: "Wii U Guide" #
+layout: single-no-ads
+title: "Руководство" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Начать" #
+  cta_label: "Начнем!"
   cta_url: "/get-started" #
   caption:
-
-excerpt: "Полное руководство по прошивке Wii U, <br /> от начала до Coldboot Haxchi + RedNAND.<br />" #
-lang: ru
-permalink: /index.html
+excerpt: 'Полное руководство по прошивке Wii U, <br /> от начала до Coldboot Haxchi + RedNAND.<br /><br />**Последнее изменение: <br />12.03.2017<br /><br />**' #
+permalink: /
 ---
 
 {% capture notice-home %}
@@ -23,12 +21,15 @@ permalink: /index.html
 **Это руководство нуждается в *вашей* помощи в [переводе](https://translate.wiiu.guide/) на другие языки!**
 {: .notice--success}
 
-**Прочитайте все вводные страницы прежде чем начать**
+**Перед началом работ следует прочитать инструкцию полностью, чтобы осознать весь фронт работ.**
+{: .notice--warning}
+
+**Об ошибках и неточностях просьба рапортовать сюда - [http://vk.com/3ds_cfw](http://vk.com/3ds_cfw)**
 {: .notice--warning}
 
 ## Что такое Homebrew?
 
-Под словом [**Homebrew (хомбрю)**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) (англ.) обычно подразумевают программное обеспечение, не авторизованное Nintendo. В качестве примера можно привести разные самописные игры, программы для бэкапа и редактирования сохранений и эмуляторы консолей предыдущих поколений.
+Под словом [**Homebrew(хомбрю)**](https://ru.wikipedia.org/wiki/Homebrew_(%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%B5_%D0%B8%D0%B3%D1%80%D1%8B)) обычно подразумевают программное обеспечение, не авторизованное Nintendo. В качестве примера можно привести разные самописные игры, программы для бэкапа и редактирования сохранений и эмуляторы консолей предыдущих поколений.
 
 Запуск хомбрю абсолютно бесплатен и не требует ничего, кроме браузера консоли.
 
@@ -59,5 +60,5 @@ Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемс
 + Если всё пройдет по плану, вы ничего не потеряете и всё останется в первоначальном состоянии (игры, сохранения, NNID).
 + Процесс создания RedNAND может занять **несколько** часов для устройства с заполенной внутренней памятью
 
-+ Ваш SD-карта должна быть [MBR, не GPT] (http://www.howtogeek.com/245610/).
++ Ваш SD-карта должна быть [MBR, не GPT](http://www.howtogeek.com/245610/).
 + Если вам нужно отформатировать новую SD-карту, воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (англ.) и установите Allocation Unit Size на 32К.

@@ -21,3 +21,12 @@ layout: single-no-ads
 
 [![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted){: .align-center}
 {: .text-center}
+
+---
+
+<h4 align="center">Так же все желающие могут поблагодарить материально и переводчика - <a href="https://vk.com/rashevskyv">xHR</a><br>Перевод делался для группы <a href="https://vk.com/3ds_cfw">3ds_CFW</a></h4>
+
+<div align="center">
+<img border="0" alt="W3Schools" src="https://raw.githubusercontent.com/rashevskyv/3ds_cfw/master/p24.jpg">
+<p align="center"><i>4731 1856 0013 8488<br>Рашевский Владислав
+</i></p></div>
