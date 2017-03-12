@@ -1,7 +1,7 @@
 ---
 title: "Благодарности" #
 lang: ru
-permalink: /ru_RU/credits.html
+/credits.html
 ---
 
 Если мы кого-то забыли, свяжитесь со нами и мы добавим ваше имя.

@@ -1,7 +1,7 @@
 ---
 title: "Модификация vWii" #
 lang: ru
-permalink: /ru_RU/vwii-modding.html
+/vwii-modding.html
 ---
 
 Мы установим Homebrew Channel и другие модификации для встроенного в Wii U эмулятора Wii (vWii - virtual Wii).

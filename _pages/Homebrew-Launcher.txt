@@ -1,7 +1,7 @@
 ---
 title: "Homebrew Launcher" #
 lang: ru
-permalink: /ru_RU/homebrew-launcher.html
+/homebrew-launcher.html
 ---
 
 Homebrew Launcher - приложение, выводящее в виде списка и позволяющее запускать другие хомбрю приложения прямо с SD-карты.

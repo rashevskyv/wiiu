@@ -1,7 +1,7 @@
 ---
 title: "Вопросы и ответы" #
 lang: ru
-permalink: /ru_RU/faq.html
+/faq.html
 ---
 
 <a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*    

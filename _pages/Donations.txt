@@ -1,7 +1,7 @@
 ---
 title: "Donations" #
 lang: ru
-permalink: /ru_RU/donations.html
+/donations.html
 layout: single-no-ads
 ---
 
