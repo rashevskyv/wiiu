@@ -1,7 +1,7 @@
 ---
 title: "F3X (Mac)" #
 lang: ru
-permalink: /f3x-(mac).html
+permalink: /f3x-mac.html
 ---
 
 В этом разделе рассказывается о том, как проверить SD-карту на ошибки с помощью F3X.
@@ -10,7 +10,7 @@ permalink: /f3x-(mac).html
 В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 {: .notice--info}
 
-Этот раздел предназначен для пользователей Mac. Если у вас не Mac, воспользуйтесь [H2testw (windows)](h2testw-(windows)) или [F3 (Linux)](f3-(linux)).
+Этот раздел предназначен для пользователей Mac. Если у вас не Mac, воспользуйтесь [H2testw (windows)](h2testw-windows) или [F3 (Linux)](f3-linux).
 {: .notice--info}
 
 #### Что понадобится

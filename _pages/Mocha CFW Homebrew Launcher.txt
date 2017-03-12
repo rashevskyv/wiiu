@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (Homebrew Launcher)" #
 lang: ru
-permalink: /mocha-cfw-(homebrew-launcher).html
+permalink: /mocha-cfw-homebrew-launcher.html
 ---
 
 Mocha CFW - кастомная прошивка, которая патчит проверку подписей и загружает RedNAND.
@@ -74,5 +74,5 @@ ___
 Если вы хотите пользоваться vWii, следует запускать его из SysNAND. При использовании RedNAND функциональность vWii недоступна полностью.
 {: .notice--warning}
 
-Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-channel).
 {: .notice--primary}

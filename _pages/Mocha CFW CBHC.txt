@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (CBHC)" #
 lang: ru
-permalink: /mocha-cfw-(cbhc).html
+permalink: /mocha-cfw-cbhc.html
 ---
 
 CBHC (Coldboot Haxchi) изменяет системный тайл, запускающийся по-умолчанию при старте SysNAND, на игру из DS virtual console, которая настроена на запуск RedNAND.
@@ -73,5 +73,5 @@ ___
 **Не подключайте интернет, находясь в SysNAND. Любые обновления системного ПО, установленные в SysNAND, могут привести к БРИКУ!**
 {: .notice--danger}
 
-Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-channel).
 {: .notice--primary}

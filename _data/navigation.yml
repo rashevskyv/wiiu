@@ -4,8 +4,6 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
-  - title: "Проблемы и<br>их решения"
-    url: /troubleshooting
   - title: "Homebrew<br>launcher"
     url: /homebrew-launcher-soundhax
   - title: "Homebrew Launcher<br>(используя браузер)"

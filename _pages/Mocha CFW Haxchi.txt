@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (Haxchi)" #
 lang: ru
-permalink: /mocha-cfw-(haxchi).html
+permalink: /mocha-cfw-haxchi.html
 ---
 
 Mocha CFW - кастомная прошивка, которая патчит проверку подписей и загружает RedNAND.
@@ -118,5 +118,5 @@ ___
 Если вы хотите пользоваться vWii, следует запускать его из SysNAND. При использовании RedNAND функциональность vWii недоступна полностью.
 {: .notice--warning}
 
-Следующий шаг: [Mocha CFW (CBHC)](mocha-cfw-(cbhc)).
+Следующий шаг: [Mocha CFW (CBHC)](mocha-cfw-cbhc).
 {: .notice--primary}
