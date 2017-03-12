@@ -1,47 +1,47 @@
 ---
-title: "FAQ" #
-lang: en
-permalink: /faq.html
+title: "Вопросы и ответы" #
+lang: ru
+permalink: /ru_RU/faq.html
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes
+<a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*    
+**О:** Да
 
-<a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can / should  I do with it?*    
-**A:** Update your Wii U to the latest version (5.5.1)
+<a name="faq_oldfw" />**В:** *Моя WiiU на прошивке X.X.X. Что мне следует сделать?*    
+**О:** Обновите WiiU до последней прошивки (5.5.1)
 
-<a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
-**A:** It is unlikely that Nintendo would release updates for a console that they no longer support, but the counter-argument to that is that they did update the Nintendo DSi 2 years after it ended production. The real answer is that we don't know, so be safe with internet connectivity on SysNAND (use protective DNS servers or keep internet off).
+<a name="faq_updates" />**Q:** *На текущий момент Nintendo завершила производство Wii U, означает ли это, что больше не будет новых обновлений прошивки?*    
+**A:** Очень маловероятно, что Nintendo будет выпускать обновление прошивки для консоли, которую она уже не поддерживает. Однако, стоит отметить, что Nintendo выпускала обновления DSi спустя два года после окончания производства. Мы не знаем наверняка, поэтому будьте осторожны с подключением к интернету на SysNAND (ипользуйте фильтрующие DNS серверы или держите интернет выключенным).
 
-<a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
-**A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
+<a name="faq_updatemocha" />**Q:** *Как я могу обновить Mocha CFW до последней версии?*    
+**A:** Скачайте последний релиз [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), затем скопируйте `mocha.elf` из Mocha CFW `.zip` в папку `/wiiu/apps/mocha/` на SD карте (с заменой существующих файлов)
 
-<a name="faq_rednand" />**Q:** *What is RedNAND?*    
-**A:** RedNAND is short for "**Red**irected **NAND**". This is a copy of your Wii U's internal memory stored in a partition of the SD card which is used instead of the main system memory. RedNAND is completely independent of the physical memory chip in your Wii U, meaning that your device will still work even if you brick the RedNAND by installing something you should not have.
+<a name="faq_rednand" />**Q:** *Что такое RedNAND?*    
+**A:** RedNAND это сокращение от "**Red**irected **NAND**". Это полная копия внутренней памяти консоли сохраненная на отдельном скрытом разделе SD карты. Эта копия использует вместо основной системной памяти. При использовании RedNAND основной физический модуль памяти консоли остается совершенно нетронутым. Это означает, что даже если вы окирпичите RedNAND копию прошивки, ваша консоль останется полностью работоспособна.
 
-<a name="faq_vwiirednand" />**Q:** *Can I access vWii with RedNAND?*    
-**A:** No. If you wish to use vWii, you must access it from SysNAND or the CBHC boot menu. All vWii functions will be unusable on RedNAND.
+<a name="faq_vwiirednand" />**Q:** *Могу ли я запускать режим vWii из RedNAND?*    
+**О:** Нет. Если вы захотите войти в режим vWii, вам придется использовать либо SysNAND, либо загрузочное меню CBCH. При использовании RedNAND функциональность vWii недоступна полностью.
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
+<a name="faq_risky" />**Q:** *Насколько рискованно взламывать мою консоль?*    
+**A:** Вероятность окирпичивания крайне мала. Чаще всего это происходит при невыполнении или пропуске некоторых инструкций руководства.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! Mocha CFW + RedNAND not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+<a name="faq_homebrew" />**Q:** *Смогу ли запускать homebrew программы и эмуляторы?*    
+**A:** Конечно! Mocha CFW + RedNAND не только поддерживает Homebrew Launcher, но и сохраняет возможность его запуска даже после обновлений.
 
-<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
-**A:** Mocha CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+<a name="faq_regionfree" />**Q:** *Смогу ли я играть в игры предназначенные для других регионов?*    
+**A:** Mocha CFW поддерживает Region Free патчи, которые позволяют пользователю устанавливать и запускать игры для всех регионов без каких-либо модификаций.
 
-<a name="faq_updates" />**Q:** *Is it safe to update RedNAND?*    
-**A:** Yes.
+<a name="faq_updates" />**Q:** *Безопасно ли обновлять RedNAND?*    
+**A:** Да.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [#wiiuhacks on Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) or [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).  
+<a name="faq_support" />**В:** *Куда я могу обратиться за помощью?*    
+**О:** Если у вас есть вопросы, вы можете задать их на [#wiiuhacks on Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) (англ.) или [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.).  
 
-<a name="faq_sdsize" />**Q:** *How big of an SD card do I need?*    
-**A:** Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
+<a name="faq_sdsize" />**Q:** *Насколько большая SD карта мне понадобится?*    
+**A:** Карта должна быть по меньшей мере 64ГБ для черной (32ГБ) консоли. Для белой (8ГБ) консоли, карта должна быть по меньшей мере 16ГБ.
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
-**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+<a name="faq_NNID" />**В:** *Могу ли я сохранить свой NNID?*    
+**О:** Если точно следовать этому руководству от начала и до конца, вы сохраните свой NNID.
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to put files on an SD card!
+<a name="faq_nopc" />**В:** *Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?*    
+**О:** Все, что вам понадобится, это возможность копировать файлы на SD-карту!

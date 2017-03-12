@@ -1,71 +1,71 @@
 ---
-title: "Get Started" #
-lang: en
-permalink: /get-started.html
+title: "Начало" #
+lang: ru
+permalink: /ru_RU/get-started.html
 ---
 
-These steps will prepare your SD card in preparation for installing coldboothax custom firmware.
+Следующие шаги подготовят вашу SD-карту к установке кастомной прошивки coldboothax
 {: .notice--primary}
 
-Before beginning, you should update your Wii U to the latest version to ensure compatibility. This is currently 5.5.1.
+Прежде всего, нужно обновить Wii U до актуальной прошивки, чтобы обеспечить совместимость. В данный момент - это 5.5.1.
 {: .notice--info}
 
-Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
+Ваша SD-карта должна быть по меньшей мере 64ГБ для черной (32ГБ) консоли. Если у вас белая Wii U (8ГБ), карта должна быть не менее 16ГБ.
 {: .notice--info}
 
-Your SD card must be formatted as FAT32 (64kb clusters if possible, otherwise 32kb clusters will do). Most SD cards will be formatted this way by default.
+SD-карта должна быть отформатирована в FAT32 (с кластером в 64КБ или 32 КБ). Большинство SD-карт изначально так и отформатированы.
 {: .notice--info}
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32kb.
+Если вы планируете форматировать SD-карту в Windows, не используйте встроенную утилиту для форматирования, это в дальнейшем может вызывать проблемы. Лучше воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm). Установите "Allocation Unit Size" в "32kb".
 {: .notice--warning}
 
-Your SD card **cannot** be named `wiiu`, or it will cause problems.
+**Нельзя** называть SD-карту `wiiu`, это приведет к проблемам.
 {: .notice--warning}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### What you need
+#### Что понадобится
 
-* [`config.txt`](images/config.txt) *(right click -> save as)*
+* [`config.txt`](images/config.txt) *(нажмите на ссылку правой кнопкой мыши -> Сохранить как...)*
 * [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* The latest release of [saviine](https://github.com/Maschell/saviine/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
-* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+* Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* Свежая версия [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
+* Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* Свежая версия [saviine](https://github.com/Maschell/saviine/releases)
+* Свежая версия [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
+* Предыдущая версия [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
+* Свежая версия [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
+* Свежая версия [Hackmii Installer](https://bootmii.org/download/)
 
-#### Instructions
+#### Инструкция
 
-1. Ensure your Wii U is powered off
-2. Put your SD card from your Wii U into your computer
-3. Create a folder named `wiiu` on the root of your SD card
-4. Create a folder named `install` on the root of your SD card
-5. Copy the `apps` folder from the Hombebrew App Store `.zip` to the `/wiiu/` folder on your SD card
-6. Copy and merge _the contents of_ the Homebrew Launcher `.zip` to the root of your SD card
-7. Copy and merge _the contents of_ the Haxchi `.zip` to the root of your SD card
-8. Copy and merge _the contents of_ the CBHC `.zip` to the root of your SD card
-9. Copy `config.txt` to the `/haxchi/` folder on your SD card
-10. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/` folder on your SD card
-11. Create a folder named `mocha` in the `/wiiu/apps/` folder on your SD card
-12. Copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card
-13. Copy and merge _the contents of_ the Modified WUP Installer `.zip` to the root of your SD card
-14. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
-15. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
-16. Copy and merge _the contents of_ the saviine `.zip` to the root of your SD card
-17. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
-18. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
-19. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
-20. Reinsert your SD card into your Wii U
-21. Power on your Wii U
+1. Убедитесь в том, что Wii U выключена
+2. Вставьте SD-карту приставки в компьютер
+3. Создайте папку `wiiu` в корне SD-карты
+4. Создайте папку `install` в корне SD-карты
+5. Скопируйте папку `apps` из `.zip-архива` с Hombebrew App Stor в папку `/wiiu/` на SD-карте
+6. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher в корень вашей SD-карты
+7. Скопируйте _содержимое_ `.zip-архива` с Haxchi в корень вашей SD-карты
+8. Скопируйте _содержимое_ `.zip-архива` с CBHC в корень вашей SD-карты
+9. Скопируйте `config.txt` в папку `/haxchi/` на SD-карте
+10. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher Channel в папку `/install/`на SD-карте
+11. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
+12. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
+13. Скопируйте с заменой _содержимое_ `.zip-архива` с Modified WUP Installer в корень вашей SD-карты
+14. Скопируйте с заменой _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
+15. Скопируйте с заменой _содержимое_ `.zip-архива` с WUPhax в корень вашей SD-карты
+16. Скопируйте с заменой _содержимое_ `.zip-архива` с saviine в корень вашей SD-карты
+17. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в корень вашей SD-карты
+18. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip`в корень вашей SD-карты
+19. Скопируйте с заменой папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
+20. Вставьте SD-карту обратно в Wii U
+21. Включите Wii U
 
 ___
 
-Continue to [Homebrew Launcher](homebrew-launcher)
+Следующий шаг: [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
