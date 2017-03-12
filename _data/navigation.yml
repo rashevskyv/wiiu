@@ -5,41 +5,21 @@ main:
   - title: "FAQ"
     url: /faq
   - title: "Homebrew<br>launcher"
-    url: /homebrew-launcher-soundhax
-  - title: "Homebrew Launcher<br>(используя браузер)"
-    url: /homebrew-launcher-browser
-  - title: "Homebrew Launcher<br>(альтернативные методы)"
-    url: /homebrew-launcher-alternatives
-  - title: "2.1.0<br>ctrtransfer"
-    url: /2.1.0-ctrtransfer
-  - title: "9.2.0<br>ctrtransfer"
-    url: /9.2.0-ctrtransfer
-  - title: "Установка<br>arm9loaderhax"
-    url: /installing-arm9loaderhax   
-  - title: "Decrypt9<br>(MSET)"
-    url: /decrypt9-mset
-  - title: "Decrypt9<br>(HBL)"
-    url: /decrypt9-homebrew-launcher
-  - title: "Decrypt9<br>(Браузер)"
-    url: /decrypt9-browser
-  - title: "Внедрение<br>FBI"
-    url: /fbi
-  - title: "Обновление с<br>помощью картриджа"
-    url: /cart-update
-  - title: "Установка и использование<br>жетонов (badges)"
-    url: /badges
-  - title: "Установка и использование тем"
-    url: /themes
-  - title: "Конвертация 3DS-ромов в CIA"
-    url: /3ds-to-cia
-  - title: "Обновление A9LH"
-    url: /updating-a9lh
-  - title: "Смена региона"
-    url: /region-changing
-  - title: "Перенос EmuNAND"
-    url: /move-emunand
-  - title: "OTP"
-    url: /otp-info
+    url: /homebrew-launcher
+  - title: "Homebrew Launcher<br>(Channel)"
+    url: /homebrew-launcher-channel
+  - title: "Mocha CFW<br>(CBHC)"
+    url: /mocha-cfw-cbhc
+  - title: "Mocha CFW<br>(Haxchi)"
+    url: /mocha-cfw-haxchi
+  - title: "Mocha CFW<br>(Homebrew Launcher)"
+    url: /mocha-cfw-homebrew-launcher
+  - title: "Удаление<br>Mocha CFW"
+    url: /mocha-cfw-homebrew-launcher
+  - title: "Модификация vWii"
+    url: /vwii-modding
+  - title: "disc2app"
+    url: /disc2app
   - title: "Пожертвования"
     url: /donations
   - title: "Благодарности"
