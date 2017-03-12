@@ -32,22 +32,22 @@ disc2app:
         url: /disc2app#what_need
       - title: "• Инструкция"
         url: /disc2app#instructions
-      - title: "  - Часть I - форматирование внешнего винчестера"
+      - title: "• Часть I - форматирование внешнего винчестера"
         url: /disc2app#part1
-      - title: "  - Часть II - Запуск disc2app на SysNAND"
+      - title: "• Часть II - Запуск disc2app на SysNAND"
         url: /disc2app#part2
-      - title: "• CBHC"
+      - title: "- CBHC"
         url: /disc2app#cbhc
-      - title: "• Haxchi"
+      - title: "- Haxchi"
         url: /disc2app#haxchi
-      - title: "• Homebrew Launcher"
+      - title: "- Homebrew Launcher"
         url: /disc2app#hbl
-      - title: "  - Часть III - Использование disc2app"
+      - title: "• Часть III - Использование disc2app"
         url: /disc2app#part3
-      - title: "  - Часть IV - Установка игры из образа"
+      - title: "• Часть IV - Установка игры из образа"
         url: /disc2app#part4
       - title: "• В начало раздела"
-        url: disc2app/#start
+        url: /disc2app#start
     
 faq:
   - title: "Разделы"
@@ -119,7 +119,7 @@ h2testw-windows:
       - title: "• В начало раздела"
         url: /h2testw-windows#start
        
-homebrew-launcher-browser:
+homebrew-launcher:
   - title: "Разделы"
     children:
       - title: "• Что понадобится"
