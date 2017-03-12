@@ -25,7 +25,31 @@ main:
   - title: "Благодарности"
     url: /credits
     
-faq:
+disc2app:
+  - title: "Разделы"
+    children:
+      - title: "• Что необходимо"
+        url: /disc2app#what_need
+      - title: "• Что делать"
+        url: /disc2app#instructions
+      - title: "  - Часть I - форматирование внешнего винчестера"
+        url: /disc2app#part1
+      - title: "  - Часть II - Запуск disc2app на SysNAND"
+        url: /disc2app#part2
+      - title: "• CBHC"
+        url: /disc2app#cbhc
+      - title: "• Haxchi"
+        url: /disc2app#haxchi
+      - title: "• Homebrew Launcher"
+        url: /disc2app#hbl
+      - title: "  - Часть III - Использование disc2app"
+        url: /disc2app#part3
+      - title: "  - Часть IV - Установка игры из образа"
+        url: /disc2app#part4
+      - title: "• В начало раздела"
+        url: disc2app/#start
+    
+    faq:
   - title: "Разделы"
     children:
       - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
