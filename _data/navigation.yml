@@ -119,21 +119,21 @@ h2testw-windows:
       - title: "• В начало раздела"
         url: /h2testw-windows#start
        
-mocha-cfw-cbhc:
+mocha-cfw-haxchi:
   - title: "Разделы"
     children:
       - title: "• Что понадобится"
-        url: /mocha-cfw-cbhc#what_need
+        url: /mocha-cfw-haxchi#what_need
       - title: "- Игры, совместимые с Haxchi"
-        url: /mocha-cfw-cbhc#games
+        url: /mocha-cfw-haxchi#games
       - title: "• Инструкция"
-        url: /mocha-cfw-cbhc#instructions
+        url: /mocha-cfw-haxchi#instructions
       - title: "- Часть I - Настройка Mocha CFW"
-        url: /mocha-cfw-cbhc#part1
+        url: /mocha-cfw-haxchi#part1
       - title: "- Часть II - Запуск Mocha CFW"
-        url: /mocha-cfw-cbhc#part2
+        url: /mocha-cfw-haxchi#part2
       - title: "• В начало раздела"
-        url: /mocha-cfw-cbhc#start
+        url: /mocha-cfw-haxchi#start
 
 
 mocha-cfw-homebrew-launcher:
