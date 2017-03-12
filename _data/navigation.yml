@@ -166,26 +166,26 @@ uninstall-mocha-cfw:
       - title: "• В начало раздела"
         url: /uninstall-mocha-cfw#start
 
-uninstall-mocha-cfw:
+vwii-modding:
   - title: "Разделы"
     children:
       - title: "• Инструкция"
-        url: /uninstall-mocha-cfw#instructions
+        url: /vwii-modding#instructions
       - title: "• Часть I - Запуск Homebrew Launcher из SysNAND"
-        url: /uninstall-mocha-cfw#part1
+        url: /vwii-modding#part1
       - title: "- CBHC"
-        url: /uninstall-mocha-cfw#cbhc
+        url: /vwii-modding#cbhc
       - title: "- Haxchi"
-        url: /uninstall-mocha-cfw#haxchi
+        url: /vwii-modding#haxchi
       - title: "- Homebrew Launcher"
-        url: /uninstall-mocha-cfw#hbl
+        url: /vwii-modding#hbl
       - title: "• Часть II - wuphax"
-        url: /uninstall-mocha-cfw#part2
+        url: /vwii-modding#part2
       - title: "• Часть III - Снятие образа vWii NAND"
-        url: /uninstall-mocha-cfw#part3
-      - title: "• Часть IV - УУстановка cIOS"
-        url: /uninstall-mocha-cfw#part4
+        url: /vwii-modding#part3
+      - title: "• Часть IV - Установка cIOS"
+        url: /vwii-modding#part4
       - title: "• Часть V - Применение патчей к IOS80"
-        url: /uninstall-mocha-cfw#part5
+        url: /vwii-modding#part5
       - title: "• В начало раздела"
-        url: /uninstall-mocha-cfw#start
+        url: /vwii-modding#start
