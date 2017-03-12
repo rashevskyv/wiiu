@@ -1,7 +1,7 @@
 ---
 title: "F3 (Linux)" #
 lang: ru
-/f3-(linux).html
+permalink: /f3-(linux).html
 ---
 
 В этом разделе рассказывается о том, как проверить SD-карту на ошибки с помощью F3.

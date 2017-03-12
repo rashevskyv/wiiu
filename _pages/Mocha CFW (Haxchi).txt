@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (Haxchi)" #
 lang: ru
-/mocha-cfw-(haxchi).html
+permalink: /mocha-cfw-(haxchi).html
 ---
 
 Mocha CFW - кастомная прошивка, которая патчит проверку подписей и загружает RedNAND.

@@ -1,7 +1,7 @@
 ---
 title: "Homebrew Launcher (Channel)" #
 lang: ru
-/homebrew-launcher-(channel).html
+permalink: /homebrew-launcher-(channel).html
 ---
 
 Мы установим Homebrew Channel в RedNAND, после чего исчезнет необходимость использовать браузер для запуска Homebrew Launcher.

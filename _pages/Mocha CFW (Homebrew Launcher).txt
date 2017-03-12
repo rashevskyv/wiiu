@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (Homebrew Launcher)" #
 lang: ru
-/mocha-cfw-(homebrew-launcher).html
+permalink: /mocha-cfw-(homebrew-launcher).html
 ---
 
 Mocha CFW - кастомная прошивка, которая патчит проверку подписей и загружает RedNAND.
