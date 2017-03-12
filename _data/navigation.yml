@@ -123,17 +123,17 @@ mocha-cfw-cbhc:
   - title: "Разделы"
     children:
       - title: "• Что понадобится"
-        url: /mocha-cfw-haxchi#what_need
+        url: /mocha-cfw-cbhc#what_need
       - title: "- Игры, совместимые с Haxchi"
-        url: /mocha-cfw-haxchi#games
+        url: /mocha-cfw-cbhc#games
       - title: "• Инструкция"
-        url: /mocha-cfw-haxchi#instructions
+        url: /mocha-cfw-cbhc#instructions
       - title: "- Часть I - Настройка Mocha CFW"
-        url: /mocha-cfw-haxchi#part1
+        url: /mocha-cfw-cbhc#part1
       - title: "- Часть II - Запуск Mocha CFW"
-        url: /mocha-cfw-haxchi#part2
+        url: /mocha-cfw-cbhc#part2
       - title: "• В начало раздела"
-        url: /mocha-cfw-haxchi#start
+        url: /mocha-cfw-cbhc#start
 
 
 mocha-cfw-homebrew-launcher:
