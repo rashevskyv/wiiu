@@ -2,6 +2,8 @@
 title: "Mocha CFW (Haxchi)" #
 lang: ru
 permalink: /mocha-cfw-haxchi.html
+sidebar:
+  nav: "mocha-cfw-haxchi"
 ---
 
 Mocha CFW - кастомная прошивка, которая патчит проверку подписей и загружает RedNAND.
@@ -17,7 +19,7 @@ Haxchi - это эксплойт, позволяющий запускать Moch
 {: .notice--primary}
 
 
-#### Что понадобится
+#### <a name="what_need" />Что понадобится:
 
 + Купленная копия одной из указанных игр из DS virtual console, установленная во внутреннюю память Wii U
   + **Не** устанавливайте игру от DS virtual console на USB-носитель
@@ -26,7 +28,7 @@ Haxchi - это эксплойт, позволяющий запускать Moch
   + После окончания процесса установки, в игру невозможно будет сыграть
   **Ваша игра от DS virtual console, используемая для Haxchi, ДОЛЖНА быть ЛЕГАЛЬНОЙ копией!**
 
-| Игры, совместимые с Haxchi|
+<a name="games" />| Игры, совместимые с Haxchi|
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Training |
@@ -51,9 +53,9 @@ Haxchi - это эксплойт, позволяющий запускать Moch
 | Yoshi's Island DS |
 | Yoshi's Touch & Go |
 
-#### Инструкция
+#### <a name="instructions" />Инструкция:
 
-##### Часть I - Настройка Mocha CFW
+##### <a name="part1" />Часть I - Настройка Mocha CFW
 
 1. Находясь в Homebrew Launcher, извлеките SD-карту из Wii U
 2. Вставьте SD-карту приставки в компьютер
@@ -86,7 +88,7 @@ Haxchi - это эксплойт, позволяющий запускать Moch
 17. Вставьте SD-карту обратно в Wii U
 18. Включите Wii U
 
-##### Часть II - Запуск Mocha CFW
+##### <a name="part2" />Часть II - Запуск Mocha CFW
 
 1. На первой странице меню Home создайте папку и назовите ее "SysNAND"
 2. Запустите Системные настройки (System Settings) и удалите все сетевые подключения

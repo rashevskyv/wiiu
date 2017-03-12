@@ -119,33 +119,73 @@ h2testw-windows:
       - title: "• В начало раздела"
         url: /h2testw-windows#start
        
-homebrew-launcher:
+mocha-cfw-cbhc:
   - title: "Разделы"
     children:
       - title: "• Что понадобится"
-        url: /homebrew-launcher-browser#what_need
-      - title: "• Инструкция:"
-        url: /homebrew-launcher-browser#instructions
-      - title: "  - Часть I - Подготовка"
-        url: /homebrew-launcher-browser#part1
-      - title: "  - Часть II - Обход проверки версии"
-        url: /homebrew-launcher-browser#part2
-      - title: "  - Часть III - Блокировка conntest.nintendowifi.net"
-        url: /homebrew-launcher-browser#part3
-      - title: "  - Часть IV - browserhax"
-        url: /homebrew-launcher-browser#part4
-      - title: "  - Часть V - menuhax"
-        url: /homebrew-launcher-browser#part5
+        url: /mocha-cfw-haxchi#what_need
+      - title: "- Игры, совместимые с Haxchi"
+        url: /mocha-cfw-haxchi#games
+      - title: "• Инструкция"
+        url: /mocha-cfw-haxchi#instructions
+      - title: "- Часть I - Настройка Mocha CFW"
+        url: /mocha-cfw-haxchi#part1
+      - title: "- Часть II - Запуск Mocha CFW"
+        url: /mocha-cfw-haxchi#part2
       - title: "• В начало раздела"
-        url: /homebrew-launcher-browser#start
+        url: /mocha-cfw-haxchi#start
 
-Homebrew-launcher-no-browser:
+
+mocha-cfw-homebrew-launcher:
   - title: "Разделы"
     children:
-      - title: "• Что понадобится"
-        url: /Homebrew-launcher-no-browser#what_need
       - title: "• Инструкция:"
-        url: /Homebrew-launcher-no-browser#instructions
+        url: /mocha-cfw-homebrew-launcher#instructions
+      - title: "- Часть I - Настройка Mocha CFW"
+        url: /mocha-cfw-homebrew-launcher#part1
+      - title: "- Часть II - Запуск Mocha CFW"
+        url: /mocha-cfw-homebrew-launcher#part2
       - title: "• В начало раздела"
-        url: /Homebrew-launcher-no-browser#start
+        url: /mocha-cfw-homebrew-launcher#start
         
+uninstall-mocha-cfw:
+  - title: "Разделы"
+    children:
+      - title: "• Инструкция"
+        url: /uninstall-mocha-cfw#instructions
+      - title: "• Часть I - Удаление из Wii U"
+        url: /uninstall-mocha-cfw#part1
+      - title: "- CBHC"
+        url: /uninstall-mocha-cfw#cbhc
+      - title: "- Haxchi"
+        url: /uninstall-mocha-cfw#haxchi
+      - title: "- Homebrew Launcher"
+        url: /uninstall-mocha-cfw#hbl
+      - title: "• Часть II - Удаление из SD-карты"
+        url: /uninstall-mocha-cfw#part2
+      - title: "• В начало раздела"
+        url: /uninstall-mocha-cfw#start
+
+uninstall-mocha-cfw:
+  - title: "Разделы"
+    children:
+      - title: "• Инструкция"
+        url: /uninstall-mocha-cfw#instructions
+      - title: "• Часть I - Запуск Homebrew Launcher из SysNAND"
+        url: /uninstall-mocha-cfw#part1
+      - title: "- CBHC"
+        url: /uninstall-mocha-cfw#cbhc
+      - title: "- Haxchi"
+        url: /uninstall-mocha-cfw#haxchi
+      - title: "- Homebrew Launcher"
+        url: /uninstall-mocha-cfw#hbl
+      - title: "• Часть II - wuphax"
+        url: /uninstall-mocha-cfw#part2
+      - title: "• Часть III - Снятие образа vWii NAND"
+        url: /uninstall-mocha-cfw#part3
+      - title: "• Часть IV - УУстановка cIOS"
+        url: /uninstall-mocha-cfw#part4
+      - title: "• Часть V - Применение патчей к IOS80"
+        url: /uninstall-mocha-cfw#part5
+      - title: "• В начало раздела"
+        url: /uninstall-mocha-cfw#start
