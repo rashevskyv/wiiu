@@ -4,7 +4,7 @@ lang: ru
 permalink: /credits.html
 ---
 
-**Отдельное спасибо всем [переводчикам](https://crowdin.com/) за их работу!**
+**Отдельное спасибо всем [переводчикам](http://translate.wiiu.guide) за их работу!**
 {: .notice--primary}
 
 Если мы кого-то забыли, свяжитесь со нами и мы добавим ваше имя.
@@ -22,8 +22,8 @@ permalink: /credits.html
 + Yardape8000
 + yellows8
 
-Люди, переводившие руководство:     
-
+### Люди, переводившие руководство:     
+	
 + [Zloebot](https://crowdin.com/profile/Aibot)   
 + [xHR](https://crowdin.com/profile/rashevskyv)   
 + [kryksyh](https://crowdin.com/profile/kryksyh)   
