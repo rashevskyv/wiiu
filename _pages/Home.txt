@@ -8,7 +8,7 @@ header:
   cta_label: "Начнем!"
   cta_url: "/get-started" #
   caption:
-excerpt: 'Полное руководство по прошивке Wii U, <br /> от начала до Coldboot Haxchi + RedNAND.<br /><br />**Последнее изменение: <br />12.03.2017<br /><br />**' #
+excerpt: 'Полное руководство по прошивке Wii U, <br /> от начала до Coldboot Haxchi + RedNAND.<br /><br />**Последнее изменение: <br />29.03.2017<br /><br />**' #
 permalink: /
 sidebar:
   nav: "home"
