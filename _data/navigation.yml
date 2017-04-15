@@ -86,7 +86,7 @@ get-started:
         url: /get-started#part1
       - title: "• Блокировка обновления системы"
         url: /get-started#part2
-        - title: "• В начало раздела"
+      - title: "• В начало раздела"
         url: /get-started#start
         
 home:
