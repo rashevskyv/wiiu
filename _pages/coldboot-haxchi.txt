@@ -9,7 +9,7 @@ sidebar:
 CBHC (Coldboot Haxchi) изменяет системный тайл, запускающийся по-умолчанию при старте SysNAND, на игру из DS virtual console, которая настроена на запуск пропатченного SysNAND.
 {: .notice}
 
-Выполнение инструкций на этой странице не обязательно. Обычный Haxchi прекрасно работает; станет просто слегка удобней. Если вы хотите пропустить эту часть, переходите к [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Выполнение инструкций на этой странице не обязательно. Обычный Haxchi прекрасно работает; станет просто слегка удобней. Если вы хотите пропустить эту часть, переходите к [Homebrew Launcher (Channel)](homebrew-launcher-channel)).
 {: .notice--info}
 
 **Для продолжения необходимо иметь функционирующий Haxchi. Без него получите гарантированный БРИК!**
@@ -71,5 +71,5 @@ ___
 **Никогда не форматируйте приставку, если у вас установлен CBHC, иначе получите БРИК.**
 {: .notice--danger}
 
-Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-channel).
 {: .notice--primary}
