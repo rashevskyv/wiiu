@@ -8,11 +8,11 @@ main:
     url: /homebrew-launcher
   - title: "Homebrew Launcher<br>(Channel)"
     url: /homebrew-launcher-channel
-  - title: "Mocha CFW<br>(CBHC)"
+  - title: "CBHC"
     url: /mocha-cfw-cbhc
-  - title: "Mocha CFW<br>(Haxchi)"
+  - title: "Haxchi"
     url: /mocha-cfw-haxchi
-  - title: "Mocha CFW<br>(Homebrew Launcher)"
+  - title: "Mocha CFW"
     url: /mocha-cfw-homebrew-launcher
   - title: "Удаление<br>Mocha CFW"
     url: /mocha-cfw-homebrew-launcher
