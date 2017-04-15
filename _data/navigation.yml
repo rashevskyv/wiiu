@@ -34,18 +34,10 @@ disc2app:
         url: /disc2app#instructions
       - title: "• Часть I - форматирование внешнего винчестера"
         url: /disc2app#part1
-      - title: "• Часть II - Запуск disc2app на SysNAND"
+      - title: "• Часть II - Использование disc2app"
         url: /disc2app#part2
-      - title: "- CBHC"
-        url: /disc2app#cbhc
-      - title: "- Haxchi"
-        url: /disc2app#haxchi
-      - title: "- Homebrew Launcher"
-        url: /disc2app#hbl
-      - title: "• Часть III - Использование disc2app"
+      - title: "• Часть III - Установка игры из образа"
         url: /disc2app#part3
-      - title: "• Часть IV - Установка игры из образа"
-        url: /disc2app#part4
       - title: "• В начало раздела"
         url: /disc2app#start
     
@@ -90,7 +82,11 @@ get-started:
         url: /get-started#what_need
       - title: "• Инструкция"
         url: /get-started#instructions
-      - title: "• В начало раздела"
+      - title: "• Подготовительные работы"
+        url: /get-started#part1
+      - title: "• Блокировка обновления системы"
+        url: /get-started#part2
+        - title: "• В начало раздела"
         url: /get-started#start
         
 home:
@@ -119,73 +115,56 @@ h2testw-windows:
       - title: "• В начало раздела"
         url: /h2testw-windows#start
        
-mocha-cfw-haxchi:
+haxchi:
   - title: "Разделы"
     children:
       - title: "• Что понадобится"
-        url: /mocha-cfw-haxchi#what_need
+        url: /haxchi#what_need
       - title: "- Игры, совместимые с Haxchi"
-        url: /mocha-cfw-haxchi#games
+        url: /haxchi#games
       - title: "• Инструкция"
-        url: /mocha-cfw-haxchi#instructions
-      - title: "- Часть I - Настройка Mocha CFW"
-        url: /mocha-cfw-haxchi#part1
-      - title: "- Часть II - Запуск Mocha CFW"
-        url: /mocha-cfw-haxchi#part2
+        url: /haxchi#instructions
       - title: "• В начало раздела"
-        url: /mocha-cfw-haxchi#start
+        url: /haxchi#start
 
-
-mocha-cfw-homebrew-launcher:
+mocha-cfw:
   - title: "Разделы"
     children:
       - title: "• Инструкция:"
-        url: /mocha-cfw-homebrew-launcher#instructions
-      - title: "- Часть I - Настройка Mocha CFW"
-        url: /mocha-cfw-homebrew-launcher#part1
-      - title: "- Часть II - Запуск Mocha CFW"
-        url: /mocha-cfw-homebrew-launcher#part2
+        url: /mocha-cfw#instructions
       - title: "• В начало раздела"
-        url: /mocha-cfw-homebrew-launcher#start
+        url: /mocha-cfw#start
         
-uninstall-mocha-cfw:
+uninstall-cfw:
   - title: "Разделы"
     children:
       - title: "• Инструкция"
-        url: /uninstall-mocha-cfw#instructions
+        url: /uninstall-cfw#instructions
       - title: "• Часть I - Удаление из Wii U"
-        url: /uninstall-mocha-cfw#part1
+        url: /uninstall-cfw#part1
       - title: "- CBHC"
-        url: /uninstall-mocha-cfw#cbhc
+        url: /uninstall-cfw#cbhc
       - title: "- Haxchi"
-        url: /uninstall-mocha-cfw#haxchi
+        url: /uninstall-cfw#haxchi
       - title: "- Homebrew Launcher"
-        url: /uninstall-mocha-cfw#hbl
+        url: /uninstall-cfw#hbl
       - title: "• Часть II - Удаление из SD-карты"
-        url: /uninstall-mocha-cfw#part2
+        url: /uninstall-cfw#part2
       - title: "• В начало раздела"
-        url: /uninstall-mocha-cfw#start
+        url: /uninstall-cfw#start
 
 vwii-modding:
   - title: "Разделы"
     children:
       - title: "• Инструкция"
         url: /vwii-modding#instructions
-      - title: "• Часть I - Запуск Homebrew Launcher из SysNAND"
+      - title: "• Часть I - wuphax"
         url: /vwii-modding#part1
-      - title: "- CBHC"
-        url: /vwii-modding#cbhc
-      - title: "- Haxchi"
-        url: /vwii-modding#haxchi
-      - title: "- Homebrew Launcher"
-        url: /vwii-modding#hbl
-      - title: "• Часть II - wuphax"
+      - title: "• Часть II - Снятие образа vWii NAND"
         url: /vwii-modding#part2
-      - title: "• Часть III - Снятие образа vWii NAND"
+      - title: "• Часть III - Установка cIOS"
         url: /vwii-modding#part3
-      - title: "• Часть IV - Установка cIOS"
+      - title: "• Часть IV - Применение патчей к IOS80"
         url: /vwii-modding#part4
-      - title: "• Часть V - Применение патчей к IOS80"
-        url: /vwii-modding#part5
       - title: "• В начало раздела"
         url: /vwii-modding#start
