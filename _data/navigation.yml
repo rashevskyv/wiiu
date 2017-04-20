@@ -158,13 +158,15 @@ vwii-modding:
     children:
       - title: "• Инструкция"
         url: /vwii-modding#instructions
-      - title: "• Часть I - wuphax"
+      - title: "• Часть I - Подготовительные работы"
         url: /vwii-modding#part1
-      - title: "• Часть II - Снятие образа vWii NAND"
+      - title: "• Часть II - wuphax"
         url: /vwii-modding#part2
-      - title: "• Часть III - Установка cIOS"
+      - title: "• Часть III - Снятие образа vWii NAND"
         url: /vwii-modding#part3
-      - title: "• Часть IV - Применение патчей к IOS80"
+      - title: "• Часть IV - Установка cIOS"
         url: /vwii-modding#part4
+      - title: "• Часть V - Применение патчей к IOS80"
+        url: /vwii-modding#part5
       - title: "• В начало раздела"
         url: /vwii-modding#start

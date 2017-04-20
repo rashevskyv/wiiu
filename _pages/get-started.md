@@ -1,4 +1,4 @@
----
+ ---
 title: "Начало" #
 lang: ru
 permalink: /get-started.html
@@ -30,11 +30,8 @@ SD-карта должна быть отформатирована в FAT32 (с 
 #### <a name="what_need" />Что понадобится:
 
 * [`config.txt`](images/config.txt)
-* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
-* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Свежая версия [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
-* Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
 * Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
@@ -42,7 +39,6 @@ SD-карта должна быть отформатирована в FAT32 (с 
 * Свежая версия [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
 * Предыдущая версия [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
 * Свежая версия [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* Свежая версия [Hackmii Installer](https://bootmii.org/download/)
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### <a name="instructions" />Инструкция:
@@ -65,12 +61,8 @@ SD-карта должна быть отформатирована в FAT32 (с 
 1. Скопируйте папку `savemii` из `.zip-архива` с savemii в папку `/wiiu/apps/` на SD-карте
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с Modified WUP Installer в корень вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
-1. Скопируйте с заменой _содержимое_ `.zip-архива` с WUPhax в корень вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с hid\_to\_vpad в корень вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с NNU-Patcher в корень вашей SD-карты
-1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в корень вашей SD-карты
-1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip`в корень вашей SD-карты
-1. Скопируйте с заменой папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
