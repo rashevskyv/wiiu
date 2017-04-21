@@ -1,4 +1,4 @@
- ---
+---
 title: "Начало" #
 lang: ru
 permalink: /get-started.html
