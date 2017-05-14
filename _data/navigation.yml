@@ -4,6 +4,8 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
+  - title: "Бекап<br>NAND"
+    url: /nand-backup
   - title: "Homebrew<br>launcher"
     url: /homebrew-launcher
   - title: "Homebrew Launcher<br>(Channel)"

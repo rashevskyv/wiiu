@@ -29,16 +29,17 @@ SD-карта должна быть отформатирована в FAT32 (с 
 
 #### <a name="what_need" />Что понадобится:
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* Свежая версия [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
+* Свежая версия [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* Свежая версия [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
+* Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* Свежая версия [savemii](https://github.com/Ryuzaki-MrL/savemii/releases)
-* Свежая версия [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* Предыдущая версия [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
-* Свежая версия [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
+* Свежая версия [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
+* Свежая версия [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
+* Предыдущая версия [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
+* Свежая версия [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### <a name="instructions" />Инструкция:
@@ -56,17 +57,18 @@ SD-карта должна быть отформатирована в FAT32 (с 
 1. Скопируйте `config.txt` в папку `/haxchi/` на SD-карте
 1. Создайте папку `hbc` в папке `/install/` на SD-карте
 1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher Channel в папку `/install/hbc/`на SD-карте
+1. Скопируйте папку `WUP_Installer_GX2` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
 1. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
 1. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
 1. Скопируйте папку `savemii` из `.zip-архива` с savemii в папку `/wiiu/apps/` на SD-карте
-1. Скопируйте с заменой _содержимое_ `.zip-архива` с Modified WUP Installer в корень вашей SD-карты
+1. Скопируйте с заменой _содержимое_ `.zip-архива` с WUP Installer GX2 (Homebrew Launcher) в корень SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с hid\_to\_vpad в корень вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с NNU-Patcher в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-##### <a name="part1" />асть II - Блокировка обновления системы
+##### <a name="part1" />Часть II - Блокировка обновления системы
 
 Обратите внимание, что если вы не заблокируете обновления этим методом на текущем и всех будущих интернет-соединениях, то все обновления для WiiU будут скачиваться и устанавливаться *автоматически* без вашего ведома и *не могут* быть отменены. 
 {: .notice--danger}

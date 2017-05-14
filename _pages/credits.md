@@ -10,6 +10,8 @@ permalink: /credits.html
 Если мы кого-то забыли, свяжитесь со нами и мы добавим ваше имя.
 {: .notice}
 
+{% capture notice-1 %}
+
 + damysteryman
 + derrek
 + dimok789
@@ -27,3 +29,7 @@ permalink: /credits.html
 + [Zloebot](https://crowdin.com/profile/Aibot)   
 + [xHR](https://crowdin.com/profile/rashevskyv)   
 + [kryksyh](https://crowdin.com/profile/kryksyh)   
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
