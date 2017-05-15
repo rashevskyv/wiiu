@@ -10,14 +10,14 @@ main:
     url: /homebrew-launcher
   - title: "Homebrew Launcher<br>(Channel)"
     url: /homebrew-launcher-channel
-  - title: "CBHC"
-    url: /mocha-cfw-cbhc
+  - title: "Coldboot<br>Haxchi"
+    url: /coldboot-haxchi
   - title: "Haxchi"
-    url: /mocha-cfw-haxchi
+    url: /haxchi
   - title: "Mocha CFW"
-    url: /mocha-cfw-homebrew-launcher
-  - title: "Удаление<br>Mocha CFW"
-    url: /mocha-cfw-homebrew-launcher
+    url: /mocha-cfw
+  - title: "Удаление<br>CFW"
+    url: /uninstall-cfw
   - title: "Модификация<br>vWii"
     url: /vwii-modding
   - title: "disc2app"
@@ -141,7 +141,7 @@ uninstall-cfw:
   - title: "Разделы"
     children:
       - title: "• Инструкция"
-        url: /uninstall-cfw#instructions
+        url: /uninstall-cfww#instructions
       - title: "• Часть I - Удаление из Wii U"
         url: /uninstall-cfw#part1
       - title: "- CBHC"
