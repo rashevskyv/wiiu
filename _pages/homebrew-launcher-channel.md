@@ -10,6 +10,7 @@ permalink: /homebrew-launcher-channel.html
 #### Инструкция
 
 1. Зайдите в Homebrew Launcher, используя `http://loadiine.ovh`, Haxchi, или Coldboot Haxchi
+1. **Только для пользователей Homebrew Launcher:** Запустите Mocha CFW, затем перезапустите Homebrew Launcher
 1. Запустите WUP Installer GX2
 1. Выберите Homebrew Channel и WUP Installer GX2
 1. Нажмите "Install" для установки, а затем "Yes" для подтверждения
@@ -23,6 +24,9 @@ ___
 
 Помните, что для доступа к eShop с установленными DNS, вам необходимо сначала запустить NNU-Patcher из Homebrew Launcher (NNU-Patcher - временный патч и его нужно запускать каждый раз после перезагрузки, если вам нужен доступ к eShop).
 {: .notice--info}
+
+Помните, что если вы перенесете WUP Installer GX2 на USB-носитель (через Системные настройки), он сможет устанавливать приложения только на него же.
+{: .notice--warning}
 
 В целях безопасности крайне *желательно* выполнить резервное копирование NAND, следуя [инструкции](nand-backup).
 {: .notice--primary}
