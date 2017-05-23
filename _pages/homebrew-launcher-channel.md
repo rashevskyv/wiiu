@@ -10,6 +10,7 @@ permalink: /homebrew-launcher-channel.html
 #### Инструкция
 
 1. Зайдите в Homebrew Launcher, используя `http://loadiine.ovh`, Haxchi, или Coldboot Haxchi
+  + Пользователи Haxchi должны сначала запустить Haxchi, чтобы пропатчить SysNAND, а затем запустить его еще раз, удерживая (A), чтобы запустить Homebrew Launcher
 1. **Только для пользователей Homebrew Launcher:** Запустите Mocha CFW, затем перезапустите Homebrew Launcher
 1. Запустите WUP Installer GX2
 1. Выберите Homebrew Channel и WUP Installer GX2
