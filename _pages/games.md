@@ -19,6 +19,8 @@ sidebar:
 {: .notice--info}
 
 #### <a name="what_need" />Что понадобится:
++ Приставка должна быть взломана. Если это не так, начните гайд с начала.
++ *Для пользователей Windows:* Свежая версия [uTikDownloadHelper](https://github.com/DanTheMan827/uTikDownloadHelper/releases/latest) (`.exe-файл`)
 
 #### <a name="what_need" />Часть I - Получаем установочные файлы игры
 
