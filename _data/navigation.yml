@@ -1,7 +1,10 @@
 # main links links
 main:
-  - title: "На главную"
+  - title: "<b>Прошивка<br>WiiU, PS Vita</b>"
     url: http://customfw.xyz
+  - title: "<i>Купить<br>прошитую</i>"
+    url: https://vk.com/market-125012133?section=album_2
+  - title: "Обновление<br>Luma3DS"
   - title: "FAQ"
     url: /faq
   - title: "Бекап<br>NAND"
@@ -170,5 +173,7 @@ vwii-modding:
         url: /vwii-modding#part4
       - title: "• Часть V - Применение патчей к IOS80"
         url: /vwii-modding#part5
+      - title: "• Часть VI - Установка загрузчиков игр vWii"
+        url: /vwii-modding#part6
       - title: "• В начало раздела"
         url: /vwii-modding#start

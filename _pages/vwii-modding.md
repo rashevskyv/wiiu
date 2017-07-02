@@ -9,6 +9,9 @@ sidebar:
 Мы установим Homebrew Channel и другие модификации для встроенного в Wii U эмулятора Wii (vWii - virtual Wii).
 {: .notice--info}
 
+Помните, что без оригинального контроллера Wii, вы не сможете зайти в vWii
+{: .notice--warning}
+
 #### <a name="instructions" />Инструкция:
 
 #### <a name="what_need" />Что понадобится:
@@ -17,6 +20,10 @@ sidebar:
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
+* [WiiFlow 4.2.1](https://yadi.sk/d/q397XtTJ3KgKqq)
+* [USBLoader_GX_V3_0_AllinOnePackage_IOS249](https://yadi.sk/d/U6FadcZe3KgKto)
+* [YAWMM_EN](https://yadi.sk/d/jOffWhsa3KgLRa)
+
 
 ##### <a name="part1" />Часть I - Подготовительные работы
 
@@ -26,6 +33,8 @@ sidebar:
 1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в корень вашей SD-карты
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip`в корень вашей SD-карты
 1. Скопируйте с заменой папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
+1. Скопируйте с заменой папку `apps` из архива `WiiFlow 4.2.1.zip` в корень вашей SD-карты
+1. Скопируйте с заменой папку `apps` из архива `USBLoader_GX_V3_0_AllinOnePackage_IOS249.zip` в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
@@ -35,7 +44,7 @@ sidebar:
 1. Запустите wuphax
 1. Нажмите (A) для того, чтобы сделать резервную копию Mii Channel и интегрировать Hackmii Installer
 1. Вас выкинет обратно в Homebrew Launcher, запущенный из SysNAND
-1. Нажмите (Home), чтобы вернуться в системное меню
+1. Нажмите (HOME), чтобы вернуться в системное меню
 1. Запустите vWii
 1. Запустите Mii Channel в vWii
 1. Если эксплойт сработал корректно, запустится Hackmii Installer
@@ -102,6 +111,22 @@ sidebar:
   + Все должно пройти очень быстро
 1. По завершении процесса, нажмите любую кнопку, чтобы вернуться в Homebrew Channel
 1. Выйдите в меню vWii
+
+##### <a name="part5" />Часть VI - Установка загрузчиков игр vWii
+
+На данном этапе мы установим два приложения, с помощью которых можно запускать игры vWii с USB-ноcителей. USB Loader GX и WiiFlow. Первый, хоть и более функционален, не умеет запускать игры с SD-карты, с чем без труда справляется WiiFlow. Если вы не планируете запускать игры с SD-карты, пропустите установку WiiFlow.
+{: .notice--info}
+
+1. Из Homebrew Channel в vWii, запустите Yet Another Wad Manager Mod для vWii
+1. При запуске программы будет показано предупреждение, пропустите его, нажав кнопку (A)
+1. На запрос "Load another IOS anyways" выберите "No", если не выбрано, и нажмите (A)
+1. Выберите "SD Card" и нажмите (A)
+1. Перейдите в папку wad
+1. Выделите `WiiFLow - DWFA - vWii.wad` и `USB Loader GX-UNEO_Forwarder_5_1_AHBPROT (For vWii ONLY).wad` с помощью кнопки (+)
+1. Переместите курсор на один из выбранных файлов и нажмите (A) для подтверждения установки, а затем еще раз (A) для ее начала
+1. Нажмите любую кнопку, чтобы продолжить
+1. Нажмите кнопку (HOME), чтобы вернуться в Homebrew Channel
+1. Нажмите (HOME) и выберите "Exit to System Menu", чтобы вернуться в главное меню vWii
 
 ___
 
