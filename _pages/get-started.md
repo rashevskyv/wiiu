@@ -37,9 +37,9 @@ SD-карта должна быть отформатирована в FAT32 (с 
 * Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * Свежая версия [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
-* Свежая версия [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
+* Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
 * Предыдущая версия [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
-* Свежая версия [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
+* Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### <a name="instructions" />Инструкция:

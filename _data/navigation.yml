@@ -1,10 +1,11 @@
 # main links links
 main:
-  - title: "<b>Прошивка<br>WiiU, PS Vita</b>"
+  - title: "<b>Прошивка<br>3DS, PS Vita</b>"
     url: http://customfw.xyz
   - title: "<i>Купить<br>прошитую</i>"
     url: https://vk.com/market-125012133?section=album_2
-  - title: "Обновление<br>Luma3DS"
+  - title: "Установка<br>игр"
+    url: /games
   - title: "FAQ"
     url: /faq
   - title: "Бекап<br>NAND"
