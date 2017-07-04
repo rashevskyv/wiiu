@@ -10,7 +10,7 @@ permalink: nand-backup.html
 Если у вас черная модель Wii U (32ГБ), SD-карта должна быть не менее 64ГБ. Если у вас белая модель Wii U (8ГБ), SD-карта должна быть не менее 16ГБ.
 {: .notice--info}
 
-Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
+Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!
 {: .notice--warning}
 
 #### Что понадобится
