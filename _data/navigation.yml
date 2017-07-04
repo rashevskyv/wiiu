@@ -83,6 +83,62 @@ faq:
       - title: "• В начало раздела"
         url: /faq#start
         
+games:
+  - title: "Разделы"
+    children:
+      - title: "• Установка игр для WiiU"
+        url: /games#wiiu
+      - title: "- Что понадобится"
+        url: /games#wiiu_what_need
+      - title: "- Часть I - Получаем установочные файлы игры"
+        url: /games#wiiu_get_games
+      - title: "- Часть II - Установка игры в WiiU"
+        url: /games#wiiu_install
+      - title: "• Установка и запуск игр для vWii"
+        url: /games#wii
+      - title: "- Что понадобится"
+        url: /games#wii_what_need
+      - title: "- Установка Wii-игр на носитель"
+        url: /games#wii_install
+      - title: "• Запуск Wii-игр в vWii через USB Loader GX"
+        url: /games#wii_launch_ulg
+      - title: "- Что понадобится"
+        url: /games#what_need_ulg
+      - title: "- Часть I - Подготовительные работы"
+        url: /games#prep_ulg
+      - title: "- Часть II - Инструкция"
+        url: /games#instruction_ulg
+      - title: "• Запуск Wii-игр в vWii через WiiFlow"
+        url: /games#wii_launch_wf
+      - title: "- Что понадобится"
+        url: /games#what_need_wf
+      - title: "- Часть I - Подготовительные работы"
+        url: /games#prep_wf
+      - title: "- Часть II - Инструкция"
+        url: /games#instruction_wf
+      - title: "• Установка WiiWare и WiiVC"
+        url: /games#wii_launch_wad
+      - title: "- Что понадобится"
+        url: /games#what_need_wad
+      - title: "- Часть I - Подготовительные работы"
+        url: /games#prep_wad
+      - title: "- Часть II - Инструкция"
+        url: /games#instruction_wad
+      - title: "• Установка игр от Gameсube"
+        url: /games#wii_install_gc
+      - title: "- Что понадобится"
+        url: /games#what_need_gc
+      - title: "- Часть I - Подготовительные работы"
+        url: /games#prep_gc
+      - title: "- Часть II - Установка Gamecube-игр на носитель"
+        url: /games#gc_install
+      - title: "- Часть III - Настройка USB Loader GX и Nintendont"
+        url: /games#gc_setup
+      - title: "- Часть IV - Запуск Gamecube-игр"
+        url: /games#gc_launch
+      - title: "• В начало раздела"
+        url: /games#start
+        
 get-started:
   - title: "Разделы"
     children:

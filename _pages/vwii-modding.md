@@ -21,7 +21,7 @@ sidebar:
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
 * [WiiFlow 4.2.1](https://yadi.sk/d/q397XtTJ3KgKqq)
-* [USBLoader_GX_V3_0_AllinOnePackage_IOS249](https://yadi.sk/d/U6FadcZe3KgKto)
+* [USBLoaddrGX r1262.7z](https://yadi.sk/d/CYaSr-N33KkYpn)
 * [YAWMM_EN](https://yadi.sk/d/jOffWhsa3KgLRa)
 
 
@@ -34,7 +34,7 @@ sidebar:
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip`в корень вашей SD-карты
 1. Скопируйте с заменой папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
 1. Скопируйте с заменой папку `apps` из архива `WiiFlow 4.2.1.zip` в корень вашей SD-карты
-1. Скопируйте с заменой папку `apps` из архива `USBLoader_GX_V3_0_AllinOnePackage_IOS249.zip` в корень вашей SD-карты
+1. Скопируйте с заменой папку `apps` из архива `USBLoaddrGX r1262.7z` в корень вашей SD-карты
 1. Скопируйте содержимое `.zip-архива` YAWMM_EN в папку `apps` на вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
