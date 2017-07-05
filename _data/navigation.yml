@@ -203,7 +203,7 @@ uninstall-cfw:
   - title: "Разделы"
     children:
       - title: "• Инструкция"
-        url: /uninstall-cfw#instructions
+        url: /uninstall-cfw #instructions
       - title: "• Часть I - Удаление из Wii U"
         url: /uninstall-cfw#part1
       - title: "- CBHC"
