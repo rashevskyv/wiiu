@@ -31,6 +31,20 @@ main:
   - title: "Благодарности"
     url: /credits
     
+bought-hacked:
+  - title: "Разделы"
+    children:
+      - title: "• ЧТО НЕЛЬЗЯ ДЕЛАТЬ НИ ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ"
+        url: /bought-hacked#dont_do
+      - title: "• Что нужно сделать сразу после получения приставки"
+        url: /bought-hacked#need_to_do
+      - title: "- Копирование файлов приложений"
+        url: /bought-hacked#copy_files
+      - title: "- Блокирование обновлений"
+        url: /bought-hacked#block_dns
+      - title: "• В начало раздела"
+        url: /bought-hacked#start
+    
 disc2app:
   - title: "Разделы"
     children:
