@@ -60,6 +60,12 @@
           Keybase
         </a></li>
       {% endif %}
+      {% if author.vk %}
+        <li><a href="https://vk.com/{{ author.vk }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-vk" aria-hidden="true"></i>
+          Вконтакте
+        </a></li>
+      {% endif %}
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
           <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i>
@@ -186,6 +192,7 @@
           Vine
         </a></li>
       {% endif %}
+	<a href="#start" style="margin:20px auto; text-align:center; display:block; width 150px" class="btn btn--inverse btn--small">Наверх</a>  
     </ul>
   </div>
 </div>
