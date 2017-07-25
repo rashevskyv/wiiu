@@ -2,7 +2,10 @@
 title: "F3X (Mac)" #
 lang: ru
 permalink: /f3x-mac.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 В этом разделе рассказывается о том, как проверить SD-карту на ошибки с помощью F3X.
 {: .notice}
@@ -13,11 +16,11 @@ permalink: /f3x-mac.html
 Этот раздел предназначен для пользователей Mac. Если у вас не Mac, воспользуйтесь [H2testw (windows)](h2testw-windows) или [F3 (Linux)](f3-linux).
 {: .notice--info}
 
-#### Что понадобится
+## Что понадобится
 
 * Свежая версия [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-#### Инструкция
+## Инструкция
 
 1. Разархивируйте `.zip-архив` с F3X
 2. Вставьте SD-карту в компьютер
@@ -35,4 +38,4 @@ ___
 {: .notice--danger}
 
 Вернитесь к [Началу](get-started)
-{: .notice--primary}
+{: .notice--success}

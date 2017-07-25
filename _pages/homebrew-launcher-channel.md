@@ -2,12 +2,13 @@
 title: "Homebrew Launcher (Channel)" #
 lang: ru
 permalink: /homebrew-launcher-channel.html
+author_profile: true
 ---
 
 Мы установим Homebrew Channel таким образом, что при запуске патченной SysNAND, Homebrew Channe появится в виде иконки в системном меню.
 {: .notice--info}
 
-#### Инструкция
+## Инструкция
 
 1. Зайдите в Homebrew Launcher, используя `http://loadiine.ovh`, Haxchi, или Coldboot Haxchi
   + Пользователи Haxchi должны сначала запустить Haxchi, чтобы пропатчить SysNAND, а затем запустить его еще раз, удерживая (A), чтобы запустить Homebrew Launcher
@@ -33,7 +34,7 @@ ___
 {: .notice--warning}
 
 В целях безопасности крайне *желательно* выполнить резервное копирование NAND, следуя [инструкции](nand-backup).
-{: .notice--primary}
+{: .notice--success}
 
 Для информации о том, как сохранять игры с дисков в формате, пригодном для установки в систему для последующей игры без диска, перейдите к странице с [disc2app](disc2app).
 {: .notice--success}

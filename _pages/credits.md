@@ -2,10 +2,12 @@
 title: "Благодарности" #
 lang: ru
 permalink: /credits.html
+author_profile: true
 ---
 
+
 **Отдельное спасибо всем [переводчикам](http://translate.wiiu.guide) за их работу!**
-{: .notice--primary}
+{: .notice--success}
 
 Если мы кого-то забыли, свяжитесь со нами и мы добавим ваше имя.
 {: .notice}
@@ -24,7 +26,14 @@ permalink: /credits.html
 + Yardape8000
 + yellows8
 
-### Люди, переводившие руководство:     
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+
+## Люди, переводившие руководство:     
+
+{% capture notice-1 %}
 	
 + [Zloebot](https://crowdin.com/profile/Aibot)   
 + [xHR](https://crowdin.com/profile/rashevskyv)   

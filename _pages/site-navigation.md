@@ -4,27 +4,42 @@ lang: ru
 permalink: /site-navigation.html
 layout: single-no-ads
 sitemap: false
+author_profile: true
 ---
 
-{% capture notice-2 %}
-**Все**
+{% capture notice-1 %}
+**Популярные страницы**
 
-+ [Благодарности](credits)
++ [Mocha CFW](mocha-cfw)
++ [Вопросы и ответы](faq)
++ [Модификация vWii](vwii-modding)
++ [Установка игр для WiiU, vWii и Game Cube](games)
+
+{% endcapture %}
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-2 %}
+**Все страницы**
+
++ [Coldboot Haxchi](coldboot-haxchi)
 + [disc2app](disc2app)
-+ [Пожертвования](donations)
 + [F3 (Linux)](f3-linux)
 + [F3X (Mac)](f3x-mac)
-+ [FAQ](faq)
-+ [Начало](get-started)
 + [H2testw (Windows)](h2testw-windows)
-+ [Home](/)
++ [Haxchi](haxchi)
 + [Homebrew Launcher (Channel)](homebrew-launcher-channel)
 + [Homebrew Launcher](homebrew-launcher)
-+ [Mocha CFW (CBHC)](mocha-cfw-cbhc)
-+ [Mocha CFW (Haxchi)](mocha-cfw-haxchi)
-+ [Mocha CFW (Homebrew Launcher)](mocha-cfw-homebrew-launcher)
-+ [Удаление Mocha CFW](uninstall-mocha-cfw)
-+ [Модификация vWii](vwii-modding)
++ [Mocha CFW](mocha-cfw)
++ [Благодарности](credits)
++ [Вопросы и ответы](faq)
++ [Действия после получения прошитой приставки](bought-hacked)
 + [Зачем реклама?](why-ads)
++ [Модификация vWii](vwii-modding)
++ [Начало](get-started)
++ [Пожертвования](donations)
++ [Резервное копирование NAND](nand-backup)
++ [Удаление кастомной прошивки](uninstall-cfw)
++ [Установка игр для WiiU, vWii и Game Cube](games)
+
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

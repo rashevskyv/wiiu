@@ -2,12 +2,13 @@
 title: "Начало" #
 lang: ru
 permalink: /get-started.html
-sidebar:
-  nav: "get-started"
+author_profile: true
 ---
 
+{% include toc title="Разделы" %}
+
 Следующие шаги подготовят вашу SD-карту к установке кастомной прошивки coldboothax
-{: .notice--primary}
+{: .notice--success}
 
 Прежде всего, нужно убедиться, что прошивка вашей приставки 5.5.0 или 5.5.1. В новой прошивке 5.5.2 пропатчена уязвимость в браузере, которую нам необходимо использовать.
 {: .notice--info}
@@ -27,7 +28,9 @@ SD-карта должна быть отформатирована в FAT32 (с 
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!
 {: .notice--warning}
 
-#### <a name="what_need" />Что понадобится:
+
+## Что понадобится
+<a name="what_need" />
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -42,9 +45,12 @@ SD-карта должна быть отформатирована в FAT32 (с 
 * Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-#### <a name="instructions" />Инструкция:
 
-##### <a name="part1" />Часть I - Подготовительные работы
+## Инструкция
+<a name="instructions" />
+
+#### Часть I - Подготовительные работы
+<a name="part1" />
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
@@ -68,7 +74,8 @@ SD-карта должна быть отформатирована в FAT32 (с 
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-##### <a name="part2" />Часть II - Блокировка обновления системы
+#### Часть II - Блокировка обновления системы
+<a name="part2" />
 
 Обратите внимание, что если вы не заблокируете обновления этим методом на текущем и всех будущих интернет-соединениях, то все обновления для WiiU будут скачиваться и устанавливаться *автоматически* без вашего ведома и *не могут* быть отменены. 
 {: .notice--danger}
@@ -91,4 +98,4 @@ SD-карта должна быть отформатирована в FAT32 (с 
 ___
 
 Следующий шаг: [Homebrew Launcher](homebrew-launcher)
-{: .notice--primary}
+{: .notice--success}

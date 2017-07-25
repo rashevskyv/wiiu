@@ -2,7 +2,10 @@
 title: "Резервное копирование NAND"
 lang: ru
 permalink: nand-backup.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 На этой странице мы создадим резервную копию NAND на SD-карте, что позволит нам восстановить работоспособность устройства, используя хардмод, в случае брика.
 {: .notice}
@@ -13,11 +16,11 @@ permalink: nand-backup.html
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!
 {: .notice--warning}
 
-#### Что понадобится
+## Что понадобится
 
 * Свежая версия [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
-#### Инструкция
+## Инструкция
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер

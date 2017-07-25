@@ -9,9 +9,9 @@
   {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+        <center><img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image"></center>
       {% else %}
-        <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image">
+        <center><img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image"></center>
       {% endif %}
     </div>
   {% endif %}
@@ -32,7 +32,7 @@
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
           <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
           <span itemprop="name"> {{ author.location }} </span>
-        </li>
+        </li><br>
       {% endif %}
 
       {% if author.uri %}
@@ -64,6 +64,12 @@
         <li><a href="https://vk.com/{{ author.vk }}" itemprop="sameAs">
           <i class="fa fa-fw fa-vk" aria-hidden="true"></i>
           Вконтакте
+        </a></li>
+      {% endif %}
+      {% if author.vk_group %}
+        <li><a href="https://vk.com/{{ author.vk_group }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-vk" aria-hidden="true"></i>
+          Группа вконтакте
         </a></li>
       {% endif %}
       {% if author.twitter %}
@@ -192,7 +198,6 @@
           Vine
         </a></li>
       {% endif %}
-	<a href="#start" style="margin:20px auto; text-align:center; display:block; width 150px" class="btn btn--inverse btn--small">Наверх</a>  
     </ul>
   </div>
 </div>

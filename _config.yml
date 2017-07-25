@@ -77,17 +77,17 @@ analytics:
 
 
 
-# Site Author
 author:
   name             : "xHR"
-  avatar           : "bio-photo.png"
-  bio              : "Wii U Hacker"
+  avatar           : "/images/bio-photo.png"
   location         : "Кривой рог, Украина"
   email            : "rashevsky.v@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
+  vk               : "rashevskyv"
+  vk_group         : "3ds_cfw"
   flickr           :
   facebook         :
   foursquare       :

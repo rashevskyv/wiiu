@@ -2,9 +2,10 @@
 title: "Удаление кастомной прошивки" #
 lang: ru
 permalink: /uninstall-cfw.html
-sidebar:
-  nav: "uninstall-cfw"
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 Мы удалим CFW из вашей Wii U. Метод удаления не зависит от метода установки. По окончанию инструкции, приставка вернется к изначальной конфигурации.
 {: .notice--info}
@@ -12,11 +13,11 @@ sidebar:
 Игры и сохранения хранятся во внутренней памяти, а не на SD-карте. Следовательно, все игры, а так же их сохранения, установленные после установки RedNAND, будут удалены, останется лишь SysNAND, то есть то, с чего мы начинали!
 {: .notice--danger}
 
-#### <a name="instructions" />Инструкция:
+## Часть I - Удаление из Wii U
+<a name="part1" />
 
-##### <a name="part1" />Часть I - Удаление из Wii U
-
-###### <a name="cbhc" />CBHC
+#### CBHC
+<a name="cbhc" />
 
 1. Запустите Homebrew Launcher Channel
 1. Запустите инсталлятор CBHC
@@ -27,16 +28,19 @@ sidebar:
 1. Откройте Системные настройки (System Settings), Управление данными (Data Management) и удалите вашу игру от DS virtual console
 1. Переустановите вашу игру от DS virtual console из eShop
 
-###### <a name="haxchi" />Haxchi
+#### Haxchi
+<a name="haxchi" />
 
 1. Откройте Системные настройки (System Settings), Управление данными (Data Management) и удалите вашу игру от DS virtual console
 1. Переустановите вашу игру от DS virtual console из eShop
 
-###### <a name="hbl" />Homebrew Launcher
+#### Homebrew Launcher
+<a name="hbl" />
 
 1. Удалите все сделанные вами закладки из браузера Wii U
 
-##### <a name="part2" />Часть II - Удаление из SD-карты
+## Часть II - Удаление из SD-карты
+<a name="part2" />
 
 {% capture notice-3 %}
 **Удалите все файлы и папки из корня SD-карты, **кроме** указанных ниже (некоторых, а то и всех, может на карте не оказаться):**

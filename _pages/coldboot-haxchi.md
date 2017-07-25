@@ -2,9 +2,10 @@
 title: "Coldboot Haxchi" #
 lang: ru
 permalink: /coldboot-haxchi.html
-sidebar:
-  nav: "mocha-cfw-cbhc"
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 CBHC (Coldboot Haxchi) изменяет системный тайл, запускающийся по-умолчанию при старте SysNAND, на игру из DS virtual console, которая настроена на запуск пропатченного SysNAND.
 {: .notice}
@@ -24,7 +25,9 @@ CBHC (Coldboot Haxchi) изменяет системный тайл, запус�
 **Все USB-устройства должны быть отключены перед установкой, иначе есть шанс получить БРИК!**
 {: .notice--danger}
 
-#### <a name="instructions" />Инструкция:
+
+## Инструкция
+<a name="instructions" />
 
 1. Отключите все USB-устройства от Вашей Wii U
 1. Войдите в Homebrew Launcher, удерживая (A) во время запуска хакнутой игры для DS virtual console
@@ -80,4 +83,4 @@ ___
 {: .notice--danger}
 
 Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-channel).
-{: .notice--primary}
+{: .notice--success}

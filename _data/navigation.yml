@@ -26,10 +26,14 @@ main:
     url: /vwii-modding
   - title: "disc2app"
     url: /disc2app
+  - title: "Для тех, кто<br>купил прошитую"
+    url: /bought-hacked
   - title: "Пожертвования"
     url: /donations
   - title: "Благодарности"
     url: /credits
+  - title: "Навигация по сайту"
+    url: /site-navigation
     
 bought-hacked:
   - title: "Разделы"

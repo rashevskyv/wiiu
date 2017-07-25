@@ -2,7 +2,10 @@
 title: "F3 (Linux)" #
 lang: ru
 permalink: /f3-linux.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 В этом разделе рассказывается о том, как проверить SD-карту на ошибки с помощью F3.
 {: .notice}
@@ -13,11 +16,11 @@ permalink: /f3-linux.html
 Этот раздел предназначен только для пользователей Linux. Если у вас не Linux, воспользуйтесь [H2testw (windows)](h2testw-windows) или [F3X (mac)](f3x-mac).
 {: .notice--info}
 
-#### Что понадобится
+## Что понадобится
 
 * Свежая версия [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-#### Инструкция
+## Инструкция
 
 1. Разархивируйте `.zip-архив` с F3
 2. Перейдите в каталог с F3 командой `cd`
@@ -60,4 +63,4 @@ ___
 {: .notice--danger}
 
 Вернитесь к [Началу](get-started)
-{: .notice--primary}
+{: .notice--success}

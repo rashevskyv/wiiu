@@ -2,7 +2,10 @@
 title: "H2testw (Windows)" #
 lang: ru
 permalink: /h2testw-windows.html
+author_profile: true
 ---
+
+{% include toc title="Разделы" %}
 
 В этом разделе рассказывается о том, как проверить SD-карту на ошибки с помощью h2testw.
 {: .notice}
@@ -13,11 +16,11 @@ permalink: /h2testw-windows.html
 Этот раздел предназначен для пользователей Windows. Если у вас не Windows, воспользуйтесь [F3 (linux)](f3-linux) или [F3X (mac)](f3x-mac).
 {: .notice--info}
 
-#### Что понадобится
+## Что понадобится
 
 * Свежая версия [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Инструкция
+## Инструкция
 
 1. Скопируйте `h2testw.exe` из `.zip-архива` с h2testw на рабочий стол
 2. Вставьте SD-карту в компьютер
@@ -38,4 +41,4 @@ ___
 {: .notice--danger}
 
 Вернитесь к [Началу](get-started)
-{: .notice--primary}
+{: .notice--success}

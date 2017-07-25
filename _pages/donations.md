@@ -1,6 +1,7 @@
 ---
 title: "Пожертвования"
 permalink: /donations.html
+author_profile: true
 ---
 
 ## Если вам помогло или просто понравилось это руководство, то автор принимает пожертвования:
@@ -16,7 +17,7 @@ permalink: /donations.html
 {: .text-center}
 {: .notice--info}
 
-### FlimFlam69
+## FlimFlam69
 
 [![Paypal]({{ base_path }}/images/paypal_transparent.png){:height="73px" width="256px"}](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted){: .align-center}
 {: .text-center}
