@@ -5,8 +5,6 @@ permalink: /coldboot-haxchi.html
 author_profile: true
 ---
 
-{% include toc title="Разделы" %}
-
 CBHC (Coldboot Haxchi) изменяет системный тайл, запускающийся по-умолчанию при старте SysNAND, на игру из DS virtual console, которая настроена на запуск пропатченного SysNAND.
 {: .notice}
 
