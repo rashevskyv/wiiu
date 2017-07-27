@@ -39,7 +39,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* Свежая версия [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
+* Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
 * Предыдущая версия [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
 * Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
@@ -66,7 +66,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 1. Скопируйте папку `WUP_Installer_GX2` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
 1. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
 1. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
-1. Скопируйте папку `savemii` из `.zip-архива` с savemii в папку `/wiiu/apps/` на SD-карте
+1. Скопируйте папку `savemii_mod` из `.zip-архива` с savemii_mod в папку `/wiiu/apps/` на SD-карте
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с WUP Installer GX2 (Homebrew Launcher) в корень SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с hid\_to\_vpad в корень вашей SD-карты
