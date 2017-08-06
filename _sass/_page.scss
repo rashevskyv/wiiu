@@ -10,6 +10,7 @@
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
+  font-size: .9em;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -55,10 +56,10 @@
     border-bottom: 1px solid $border-color;
   }
 
-  p, li, dl {
-    font-size: .9em;
+/*   p, li, dl {
+    font-size: 1em;
   }
-
+ */
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;

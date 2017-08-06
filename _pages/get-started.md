@@ -35,16 +35,14 @@ SD-карта должна быть отформатирована в FAT32 (с 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Свежая версия [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* Свежая версия [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
 * Предыдущая версия [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
 * Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
-
+* Свежая версия [FTPU Everywhere](https://github.com/FIX94/ftpiiu/releases/latest) *(`.elf-архива`)*
 
 ## Инструкция
 <a name="instructions" />
@@ -62,10 +60,10 @@ SD-карта должна быть отформатирована в FAT32 (с 
 1. Скопируйте _содержимое_ `.zip-архива` с CBHC в корень вашей SD-карты
 1. Скопируйте `config.txt` в папку `/haxchi/` на SD-карте
 1. Создайте папку `hbc` в папке `/install/` на SD-карте
-1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher Channel в папку `/install/hbc/`на SD-карте
-1. Скопируйте папку `WUP_Installer_GX2` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
 1. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
 1. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
+1. Создайте папку `ftpiiu_e` в папке `/wiiu/apps/` на SD-карте
+1. Скопируйте `ftpiiu.elf` в папку `/wiiu/apps/ftpiiu_e/`на SD-карте
 1. Скопируйте папку `savemii_mod` из `.zip-архива` с savemii_mod в папку `/wiiu/apps/` на SD-карте
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с WUP Installer GX2 (Homebrew Launcher) в корень SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
@@ -95,7 +93,51 @@ SD-карта должна быть отформатирована в FAT32 (с 
   + Нажмите "Подтвердить" (Confirm), а затем (B), чтобы сохранить внесенные изменения
   + Эти сервера заблокируют получение обновлений SysNAND на Wii U
 
+Homebrew Launcher - приложение, выводящее в виде списка и позволяющее запускать другие хомбрю приложения прямо с SD-карты.
+{: .notice}
+
+Поскольку мы запускаем его из встроенного браузера Wii U, нам понадобится доступ в интернет на консоли.
+{: .notice--info}
+
+#### Часть III - Homebrew launcher
+<a name="part3" />
+
+1. Запустите браузер на приставке
+1. Перейдите в настройки браузера и выберите пункт "Сброс данных сохранения" (Reset Save Data)
+  + Это поможет избежать проблем при использовании уязвимости браузера
+  + Это приведет также к удалению всех сохраненных данные, включая настройки, историю и закладки
+1. Вернитесь к браузеру
+1. Перейдите на сайт `http://loadiine.ovh`
+  + Можете добавить этот сайт в закладки, чтобы не вводить адрес каждый раз заново
+1. Убедитесь, что в выпадающем списке выбран пункт "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", а затем нажмите "Submit"
+  + Может потребоваться несколько попыток
+  + В некоторых случаях лучше срабатывает пункт "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)"
+  + При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова
+  + Иногда выполнение этого пункта не требуется вовсе и консоль сама автоматически загружается в HBL
+1. Консоль должна загрузиться в Homebrew Launcher
+
+#### Часть IV - Радикальная блокировка обновлений и удаление уже скачанного апдейта
+<a name="part4" />
+
+1. Запустите Mocha CFW  вернитесь в меню HOME
+1. Запустите Homebrew Launcher через браузер
+1. Запустите ftpiiu_everywhere
+1. Подключитесь с помощью FTP-клиента к вашей Wii U, используя IP-адрес, написанный на экране приставки
+
+	Как пользоваться FTP-клиентом на вашей ОС ищите сами
+	{: .notice--warning}
+	
+1. Перейдлите в папку: storage_mlc > sys
+1. В папке "sys" вы найдёте папку "update" - удалите её
+1. Вернитесь в меню HOME и перезагрузите приставку
+
+	В результате при попытке обновления будет выскакивать ошибка `105-3012`, этол значит, что система не может найти папку `update` и, как следствие, загрузить туда обновление. Сама же Wii U не может создать эту папку.
+	{: .notice--success}
+
 ___
 
-Следующий шаг: [Homebrew Launcher](homebrew-launcher)
+Если вы хотите, чтобы кастомная прошивка запускалась автоматически при включении приставки и готовы купить *(или уже купили)* одну из DS virtual console-игр из списка, перейдите к установке [Haxchi](haxchi).
+{: .notice--success}
+
+Если вы хотите запускать кастомную прошивку через браузер каждый раз после загрузки приставки, но при этом сохранить деньги, перейдите к установке [Mocha CFW](mocha-cfw).
 {: .notice--success}
