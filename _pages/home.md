@@ -5,8 +5,6 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Начнем!"
-  cta_url: "/get-started" #
   caption:
 excerpt: "Полное руководство пользователей по кастомной прошивке Wii U, <br /> от начала до Coldboot Haxchi<br /><br />**Последнее изменение: <br />6 сентября 2017<br /><br />**"
 permalink: /
@@ -67,3 +65,8 @@ Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемс
 + Рекомендуется использовать SD-карту не менее 16 или 32Гб, иначе вам не хватит места для дампинга и установки игр.
 + Ваша SD-карта должна быть [MBR, не GPT](http://www.howtogeek.com/245610/).
 + Если вам нужно отформатировать новую SD-карту, воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (англ.) и установите Allocation Unit Size на 64К.
+
+___
+
+<a href="get-started" style="margin:20px auto; text-align:center; display:block; width:200px;" class="btn btn--x-large">Начнем!!</a>
+{: .notice--success}
