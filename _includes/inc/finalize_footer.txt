@@ -1,0 +1,35 @@
+{% capture notice-10 %}
+Вы можете использовать Luma3DS Updater для обновления кастомной прошивки. Запустите его и нажмите (А)+(X).     
+Это не тоже самое что обновление системы (System Update). Приложение обновляет только файлы Luma3DS на SD-карте и в CTRNAND. То есть при запуске консоли без SD-карты, будет загружена обновленная версия Luma3DS.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-10 | markdownify }}</div>
+
+{% capture notice-10 %}
+По умолчанию будет запускаться Luma3DS CFW SysNAND.    
+Для запуска конфигуратора Luma3DS включите консоль с зажатой кнопкой (SELECT).    
+<br>
+Для запуска Luma3DS chainloader удерживайте (START) при загрузке системы (обратите внимание, что Luma3DS chainloader меню отображается только если существует более одного приложения).
+<br><br>
+Теперь нажатие (L) + (ВНИЗ) + (SELECT) в запущенной системе открывает меню Rosalina, встроенное в Luma3DS. Полный список функций Rosalina можно найти тут: [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0) (англ.) и немного вольный [перевод на русский](https://vk.com/3ds_cfw?w=wall-125012133_5360)
+{% endcapture %}
+
+<div class="notice--info">{{ notice-10 | markdownify }}</div>
+
+При желании вы можете перейти на [Luma3DS 7.1 Legacy](files/boot.firm). Она не имеет модуля Rosalina, в следствии чего расходует меньше батареи, а так же более стабильна в целом.
+{: .notice--info}
+
+Для использования [NTR CFW](https://github.com/44670/BootNTR/), установите [BootNTR Selector](https://gbatemp.net/threads/432911/).
+{: .notice--info}
+
+Чтобы узнать, как сменить регион своей консоли, обратитесь к разделу [Смена региона](region-changing).
+{: .notice--success}
+
+Для получения информации по использованию различных функций GodMode9 обратитесь к разделу [Использование GodMode9](godmode9-usage).
+{: .notice--success}
+
+Для справки об использовании различных функций Luma3DS обратитесь к её [вики](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage) (англ.).
+{: .notice--success}
+
+Различные инструкции, не имеющие прямого отношения ко взлому, однако помогающие лучше изучить возможности 3DS на кастомной прошивке и эффективнее ей пользоваться находятся [здесь](addons).
+{: .notice--success}

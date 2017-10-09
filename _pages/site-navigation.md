@@ -2,7 +2,6 @@
 title: "Навигация по сайту" #
 lang: ru
 permalink: /site-navigation.html
-layout: single-no-ads
 sitemap: false
 author_profile: true
 ---

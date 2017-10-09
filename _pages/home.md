@@ -1,12 +1,11 @@
 ---
-layout: single-no-ads
 title: "Wii U Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "Полное руководство пользователей по кастомной прошивке Wii U, <br /> от начала до Coldboot Haxchi<br /><br />**Последнее изменение: <br />05 октября 2017<br /><br />**"
+excerpt: "Полное руководство пользователей по кастомной прошивке Wii U, от начала до Coldboot Haxchi<br />**Последнее изменение:** 05 октября 2017"
 permalink: /
 author_profile: true
 ---
@@ -68,5 +67,5 @@ Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемс
 
 ___
 
-<a href="get-started" style="margin:20px auto; text-align:center; display:block; width:200px;" class="btn btn--x-large">Начнем!!</a>
+<center><a href="get-started" style="margin:20px auto; text-align:center; display:block; width:200px;" class="btn btn--short">Начнем!!</a></center>
 {: .notice--success}
