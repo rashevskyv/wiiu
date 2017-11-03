@@ -102,6 +102,7 @@ thead {
 
 td {
 	border: 1px solid mix(#000, $border-color, 25%);
+	// font-weight: normal !important;
 
 	a {
       color: #52adc8 !important;
@@ -110,6 +111,11 @@ td {
         color: mix(#000, #52adc8, 30%) !important;
       }
     }
+}
+
+th {
+  border: 2px solid mix(#000, $border-color, 25%) !important;
+  text-align: center !important;
 }
  
 // Кнопки 
@@ -212,7 +218,7 @@ td {
 }
 
 
-// Цвет ссылокв в notice
+// Цвет ссылок в notice
 @mixin notice($notice-color) {
   font-weight: normal;
   background-color: mix(#fff, $notice-color, 90%);
@@ -302,6 +308,12 @@ td {
 @mixin notice($notice-color) {
   font-size: 1em !important;
 }
+
+// .sidebar__right {
+  // @include breakpoint($large) { Эту часть нужно добавить в sidebar.scss"
+	// float: right;
+  // }
+// }
 
 // toc
 .toc {

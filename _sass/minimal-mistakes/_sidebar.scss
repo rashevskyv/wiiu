@@ -51,7 +51,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 3em);
+    width: calc(#{$right-sidebar-width-narrow} - 1em);
   }
 
   h2, h3, h4, h5, h6 {
@@ -81,20 +81,15 @@
     margin-right: -1 * $right-sidebar-width-narrow;
     padding-left: 1em;
     z-index: 10;
+	float: right;
   }
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
     margin-right: -1 * $right-sidebar-width;
-
-
-
-
-
-
-
 	float: right;
   }
+  
     &.sticky {
       overflow-y: auto;
       /* calculate height of nav list */
