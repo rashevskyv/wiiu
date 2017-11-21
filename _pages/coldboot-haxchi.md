@@ -47,12 +47,12 @@ ___
 {% capture notice-1 %}
 Нажатие кнопки (HOME) при загрузке CBHC, вызовет меню настроек программы. Ниже краткое описание каждого из пунктов:
 
-    + Boot System Menu -> Загрузиться в SysNAND
-    + Boot Homebrew Launcher -> Загрузиться в Homebrew Launcher в SysNAND
-    + Boot Mocha CFW -> Загрузиться в Mocha CFW в RedNAND
-    + Boot fw.img on SD Card -> Загрузить старую CFW из файла fw.img из корня SD-карты
-    + Boot vWii System Menu -> Загрузиться в vWii в SysNAND
-    + Boot vWii Homebrew Channel -> Загрузиться в vWii Homebrew Channel в SysNAND
++ Boot System Menu -> Загрузиться в SysNAND
++ Boot Homebrew Launcher -> Загрузиться в Homebrew Launcher в SysNAND
++ Boot Mocha CFW -> Загрузиться в Mocha CFW в RedNAND
++ Boot fw.img on SD Card -> Загрузить старую CFW из файла fw.img из корня SD-карты
++ Boot vWii System Menu -> Загрузиться в vWii в SysNAND
++ Boot vWii Homebrew Channel -> Загрузиться в vWii Homebrew Channel в SysNAND
 
 {% endcapture %}
 

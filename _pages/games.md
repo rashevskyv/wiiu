@@ -29,7 +29,7 @@ author_profile: true
 <a name="wiiu_what_need" />
 
 + Приставка должна быть взломана. Если это не так, начните гайд [с начала](/). Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133) или на [OLX](https://www.olx.ua/list/user/1nlHd/)), то приставка уже взломана. 
-+ Свежая версия [uTikDownloadHelper](https://github.com/DanTheMan827/uTikDownloadHelper/releases/latest) (`.exe-файл`)
++ Свежая версия [uTikDownloadHelper](files/uTikDownloadHelper.zip) (`.exe-файл`)
 
 ### Часть I - Получаем установочные файлы игры
 <a name="wiiu_get_games" />
