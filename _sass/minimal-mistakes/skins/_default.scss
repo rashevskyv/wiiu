@@ -71,6 +71,10 @@ a {
 
 }
 
+a img {
+	vertical-align: bottom !important;
+}
+
 // Полоса прокрутки 
 html::-webkit-scrollbar
 {
@@ -284,6 +288,11 @@ th {
 @mixin notice($notice-color) {
   margin: 1.5em 0 !important;  // Вертикальные маргины между нотайсами
 }
+
+.notice {
+  @include notice($dark-gray);
+}
+
   
 // Ширина текстового поля в шапке страницы home
 .page__hero {
@@ -334,10 +343,14 @@ th {
 	max-height: 80vh !important;
 	min-height: auto !important; 
 	overflow-y: auto !important;
+    position: absolute;
+    top: -372px;
+    font-size: $type-size-5;
 	
 	.nav__title {
 	  text-transform: uppercase;
 	  padding: 0.3rem 0.8rem 0.3rem 0.8rem !important;
+      font-size: $type-size-5;
 	}
 
 	a {

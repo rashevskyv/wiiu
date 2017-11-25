@@ -133,7 +133,7 @@ author_profile: true
 
 ___
 
-Теперь вы можете установить и использовать любое хомбрю для vWii, например, [USB Loader GX](games#wii_launch_ulg), [Wiiflow](games#wii_launch_wf), CFG USB Loader, эмуляторы, и т. д.
+Теперь вы можете установить и использовать любое хомбрю для vWii, например, [USB Loader GX](games#запуск-wii-игр-в-vwii-через-usb-loader-gx), [Wiiflow](games#запуск-wii-игр-в-vwii-через-wiiflow), CFG USB Loader, эмуляторы, и т. д.
 {: .notice--success}
 
 Для того, чтобы научиться устанавливать игры, перейдите [сюда](games)
