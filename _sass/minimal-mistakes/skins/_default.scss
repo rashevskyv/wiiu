@@ -329,6 +329,13 @@ th {
   font-size: 1em !important;
 }
 
+hr {
+    border: 0 !important;
+    height: 1px  !important;
+    background: #333 !important;
+    background-image: linear-gradient(to right, #fff, #969696, #b0adad, #969696, #fff) !important;
+	}
+
 // .sidebar__right {
   // @include breakpoint($large) { Эту часть нужно добавить в sidebar.scss"
 	// float: right;
@@ -342,6 +349,7 @@ th {
 	letter-spacing: 0.4px !important;
 	max-height: 80vh !important;
 	min-height: auto !important; 
+	min-width: 275px !important; 
 	overflow-y: auto !important;
     position: absolute;
     top: -372px;
