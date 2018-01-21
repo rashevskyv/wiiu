@@ -20,9 +20,9 @@ author_profile: true
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
-* [WiiFlow 4.2.1](files/WiiFLow.wad)
-* [USBLoaddrGX r1262.7z](files/USBLGX.wad)
-* [YAWMM_EN](https://yadi.sk/d/jOffWhsa3KgLRa)
+* [WiiFlow 4.2.1](files/WiiFlow_4.2.1.wad)
+* [USBLoaddrGX r1262](files/USBLoaddrGX_r1262.wad)
+* [YAWMM_EN](files/YAWMM_EN.zip)
 * Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
 
 
@@ -34,8 +34,8 @@ author_profile: true
 1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в **корень вашей SD-карты**
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip`в корень вашей SD-карты
 1. Скопируйте с заменой папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в **корень вашей SD-карты**
-1. Скопируйте с заменой папку `apps` из архива `WiiFlow 4.2.1.zip` в **корень вашей SD-карты**
-1. Скопируйте с заменой папку `apps` из архива `USBLoaddrGX r1262.7z` в **корень вашей SD-карты**
+1. Скопируйте `WiiFlow_4.2.1.wad` в папку `wad` в корне SD-карты
+1. Скопируйте `USBLoaddrGX_r1262.wad` в папку `wad` в корне SD-карты
 1. Скопируйте содержимое `.zip-архива` YAWMM_EN в **папку `apps`** на вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` Homebrew Launcher в **корень вашей SD-карты**
 1. Вставьте SD-карту обратно в консоль
