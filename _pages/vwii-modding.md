@@ -20,8 +20,8 @@ author_profile: true
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
-* [WiiFlow 4.2.1](https://yadi.sk/d/q397XtTJ3KgKqq)
-* [USBLoaddrGX r1262.7z](https://yadi.sk/d/CYaSr-N33KkYpn)
+* [WiiFlow 4.2.1](files/WiiFLow.wad)
+* [USBLoaddrGX r1262.7z](files/USBLGX.wad)
 * [YAWMM_EN](https://yadi.sk/d/jOffWhsa3KgLRa)
 * Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
 
