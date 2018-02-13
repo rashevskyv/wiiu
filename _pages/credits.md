@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 
-**Отдельное спасибо всем [переводчикам](http://translate.wiiu.guide) за их работу!**
+**Отдельное спасибо всем [переводчикам](https://crowdin.com/project/wii-u-guide){:target="_blank"} за их работу!**
+
 {: .notice--success}
 
 Если мы кого-то забыли, свяжитесь со нами и мы добавим ваше имя.
