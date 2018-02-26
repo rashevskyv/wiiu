@@ -33,13 +33,13 @@ $type-size-2                  : 1.953em !default;  // ~31.248px
 $type-size-3                  : 1.563em !default;  // ~25.008px
 $type-size-4                  : 1.25em !default;   // ~20px
 $type-size-5                  : 0.8rem !default;      // ~16px
-$type-size-6                  : 0.75em !default;   // ~12px
+$type-size-6                  : .9em !default;   // ~12px
 $type-size-7                  : 0.6875em !default; // ~11px
 $type-size-8                  : 0.8em !default;  // ~10px
    
 // Шрифт на странице
 #main {
-  font-size: .9em;
+  font-size: .8em;
 }
 
 body {
@@ -125,6 +125,8 @@ td {
 th {
   border: 2px solid mix(#000, $border-color, 25%) !important;
   text-align: center !important;
+  background-color: $border-color !important;
+  border-bottom: 2px solid mix(#000, $border-color, 25%) !important;
 }
  
 // Кнопки 
@@ -306,17 +308,42 @@ th {
 }
 
 
-// Сайдбар
+// Сайдбар (может нужно добавлять в sidebar.scss)
 .sidebar {
-  a {
-    color: $text-color;
-	font-size: 0.9em !important; // Размер шрифта авторских ссылок
+	 a {
+		display: block;
+		margin-bottom: 5px;
+		padding-right: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		color: $text-color;
+		font-size: 0.96em !important;
+		text-decoration: none; 
 
-	&:hover {
-        color: $gray;
-    }
-  }
+		&:hover {
+		  opacity: 0.5;
+		}
+
+	}
 }
+
+  
+.sidebar__right {
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list */
+    }
+}
+
+// .sidebar__right {
+  // @include breakpoint($large) { Эту часть нужно добавить в sidebar.scss"
+	//float: right;
+	//position: sticky;
+    //top: -20px !important;
+  // }
+// }
+
+
 
 .page__content {
 
@@ -336,24 +363,18 @@ hr {
     background-image: linear-gradient(to right, #fff, #969696, #b0adad, #969696, #fff) !important;
 	}
 
-// .sidebar__right {
-  // @include breakpoint($large) { Эту часть нужно добавить в sidebar.scss"
-	// float: right;
-  // }
-// }
 
 // toc
 .toc {
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: none !important;
 	letter-spacing: 0.4px !important;
-	max-height: 58vh !important;
+	max-height: 75vh !important;
 	min-height: auto !important; 
-	min-width: 275px !important; 
-	overflow-y: auto !important;
-    position: absolute;
-    top: -372px;
+	min-width: auto !important; 
+	max-width: auto !important;
     font-size: $type-size-5;
+	overflow-y: auto !important;
 	
 	.nav__title {
 	  text-transform: uppercase;

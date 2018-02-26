@@ -27,29 +27,33 @@ author_profile: true
 6. Выполните `./f3write <точка монтирования SD-карты>`
 7. Дождитесь окончания проверки. Ниже приведен пример результата работы программы.
 
-		$ ./f3write /media/michel/6135-3363/
-		Free space: 29.71 GB
-		Creating file 1.h2w ... OK!
-		...
-		Creating file 30.h2w ... OK!
-		Free space: 0.00 Byte
-		Average Writing speed: 4.90 MB/s
+~~~ bash
+$ ./f3write /media/michel/6135-3363/
+Free space: 29.71 GB
+Creating file 1.h2w ... OK!
+...
+Creating file 30.h2w ... OK!
+Free space: 0.00 Byte
+Average Writing speed: 4.90 MB/s
+~~~
 
 8. Выполните `./f3read <точка монтирования SD-карты>`
 9. Дождитесь окончания проверки. Ниже приведен пример результата работы программы.
 
-		$ ./f3read /media/michel/6135-3363/
-		                  SECTORS      ok/corrupted/changed/overwritten
-		Validating file 1.h2w ... 2097152/        0/      0/      0
-		...
-		Validating file 30.h2w ... 1491904/        0/      0/      0
+~~~ bash
+$ ./f3read /media/michel/6135-3363/
+				  SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+...
+Validating file 30.h2w ... 1491904/        0/      0/      0
 
-		  Data OK: 29.71 GB (62309312 sectors)
-		Data LOST: 0.00 Byte (0 sectors)
-			       Corrupted: 0.00 Byte (0 sectors)
-			Slightly changed: 0.00 Byte (0 sectors)
-			     Overwritten: 0.00 Byte (0 sectors)
-		Average Reading speed: 9.42 MB/s
+  Data OK: 29.71 GB (62309312 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+		   Corrupted: 0.00 Byte (0 sectors)
+	Slightly changed: 0.00 Byte (0 sectors)
+		 Overwritten: 0.00 Byte (0 sectors)
+Average Reading speed: 9.42 MB/s
+~~~
 
 ___
 
