@@ -5,7 +5,7 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "Полное руководство пользователей по кастомной прошивке Wii U, от начала до Coldboot Haxchi<br />**Последнее изменение:** 26 февраля 2018"
+excerpt: "Полное руководство пользователей по кастомной прошивке Wii U, от начала до Coldboot Haxchi<br />**Последнее изменение:** 25 марта 2018"
 permalink: /
 author_profile: true
 ---

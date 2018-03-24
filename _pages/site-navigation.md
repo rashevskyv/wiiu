@@ -32,12 +32,16 @@ author_profile: true
 + [Благодарности](credits)
 + [Вопросы и ответы](faq)
 + [Действия после получения прошитой приставки](bought-hacked)
+<!--+ [Запуск игр из других платформ с помощью встроенного эмулятора](games-inject)-->
 + [Зачем реклама?](why-ads)
 + [Модификация vWii](vwii-modding)
 + [Начало](get-started)
 + [Пожертвования](donations)
 + [Резервное копирование NAND](nand-backup)
 + [Удаление кастомной прошивки](uninstall-cfw)
++ [Установка игр для GameCube](games-gc)
++ [Установка игр для vWii](games-vwii)
++ [Установка игр для WiiU](games-wiiu)
 + [Установка игр для WiiU, vWii и Game Cube](games)
 
 {% endcapture %}
