@@ -7,7 +7,7 @@ author_profile: true
 
 {% include toc title="Разделы" %}
 
-Мы установим Homebrew Channel таким образом, что при запуске патченной SysNAND, Homebrew Channe появится в виде иконки в системном меню.
+Мы установим Homebrew Channel таким образом, что при запуске кастомной прошивки, Homebrew Channel появится в виде иконки в системном меню.
 
 ## Что понадобится
 
@@ -16,21 +16,12 @@ author_profile: true
 
 ## Инструкция
 
-### Часть I - Подготовительные работы
-
-1. Выключите консоль
-1. Вставьте SD-карту в компьютер
-1. Создайте папку `install` в корне SD-карты
-1. Создайте папку `hbc` в папке `/install/` на SD-карте
-1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher Channel в папку `/install/hbc`
-1. Скопируйте _содержимое_ `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/`
-
-### Часть II - Установка каналов
+### Часть I - Установка каналов
 
 1. Запустите Homebrew Launcher
 	+ Пользователи CBHC должны нажать кнопку (HOME) во время загрузки для доступа к меню CBHC, где необходимо выбрать Homebrew Launcher
-	+ Пользователи Haxchi должны сначала запустить Haxchi, чтобы пропатчить SysNAND, а затем запустить его еще раз, удерживая (A), чтобы запустить Homebrew Launcher
-	+ Пользователи Mocha CFW должны сперва запустить Mocha CFW, а затем перезапустить Homebrew Launcher
+	+ Пользователи Haxchi должны сначала запустить Haxchi, а затем запустить его еще раз, удерживая (A), чтобы войти в Homebrew Launcher
+	+ Пользователи Mocha CFW должны просто запустить Homebrew Launcher
 1. Запустите WUP Installer GX2
 	+ Если WUP Installer GX2 падает с ошибкой "DSi Exception Has Occurred", перезапустите приставку и попробуйте заново.
 1. Отметьте галочками "hbc" и "WUP Installer GX2"
@@ -40,7 +31,7 @@ author_profile: true
 
 ___
 
-Теперь вы можете запускать Homebrew Launcher из патченного SysNAND, просто воспользовавшись Homebrew Channel.
+Теперь вы можете запускать Homebrew Launcher из кастомной прошивки, просто воспользовавшись Homebrew Channel.
 {: .notice}
 
 Для того, чтобы научиться устанавливать игры, перейдите [сюда](games)

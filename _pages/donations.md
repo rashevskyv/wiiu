@@ -17,7 +17,7 @@ plailect@gmail.com
 {: .notice--info}
 
 [![Ethereum]({{ "/images/donate/ethereum.png" | absolute_url }}){:target="_blank"}{:height="64px" width="256px"}{: style="padding-bottom: .35em"}](https://www.ethereum.org/){: .align-center}
-0x608C5554D2C53698aA7DFFc7e64BF37f7bebb475
+0x0ff3aa34308ed81db88e096416e30fe222592efc
 {: .text-center}
 {: .notice--info}
 
