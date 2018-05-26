@@ -23,8 +23,8 @@ SD-карта должна быть отформатирована в FAT32 (с 
 
 ## Что понадобится
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download}
+* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest){:target="_blank"}
 * Свежая версия [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest){:target="_blank"}
