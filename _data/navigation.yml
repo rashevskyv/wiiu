@@ -35,227 +35,40 @@ main:
   - title: "Навигация по сайту"
     url: /site-navigation
     
-bought-hacked:
-  - title: "Разделы"
-    children:
-      - title: "• ЧТО НЕЛЬЗЯ ДЕЛАТЬ НИ ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ"
-        url: /bought-hacked#dont_do
-      - title: "• Что нужно сделать сразу после получения приставки"
-        url: /bought-hacked#need_to_do
-      - title: "- Копирование файлов приложений"
-        url: /bought-hacked#copy_files
-      - title: "- Блокирование обновлений"
-        url: /bought-hacked#block_dns
-      - title: "• В начало раздела"
-        url: /bought-hacked#start
-    
-disc2app:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /disc2app#what_need
-      - title: "• Инструкция"
-        url: /disc2app#instructions
-      - title: "• Часть I - форматирование внешнего винчестера"
-        url: /disc2app#part1
-      - title: "• Часть II - Использование disc2app"
-        url: /disc2app#part2
-      - title: "• Часть III - Установка игры из образа"
-        url: /disc2app#part3
-      - title: "• В начало раздела"
-        url: /disc2app#start
-    
-faq:
-  - title: "Разделы"
-    children:
-      - title: "• У меня есть уже прошитая приставка, что мне нужно знать в первую очередь?"
-        url: /faq#bought_hacked
-      - title: "• Моя консоль на последней версии прошивки, могу ли я её взломать?"
-        url: /faq#faq_latestfw
-      - title: "• Моя WiiU на прошивке X.X.X. Что мне следует сделать?"
-        url: /faq#faq_oldfw
-      - title: "• На текущий момент Nintendo завершила производство Wii U, означает ли это, что больше не будет новых обновлений прошивки?"
-        url: /faq#faq_updates
-      - title: "• Как я могу обновить Mocha CFW до последней версии?"
-        url: /faq#faq_updatemocha
-      - title: "• Что такое RedNAND?"
-        url: /faq#faq_rednand
-      - title: "• Могу ли я запускать режим vWii из RedNAND?"
-        url: /faq#faq_vwiirednand
-      - title: "• Насколько рискованно взламывать мою консоль?"
-        url: /faq#faq_risky
-      - title: "• Смогу ли запускать homebrew программы и эмуляторы?"
-        url: /faq#faq_homebrew
-      - title: "• Смогу ли я играть в игры предназначенные для других регионов?"
-        url: /faq#faq_regionfree
-      - title: "• Безопасно ли обновлять RedNAND?"
-        url: /faq#faq_updates
-      - title: "• Куда я могу обратиться за помощью?"
-        url: /faq#faq_support
-      - title: "• Насколько большая SD карта мне понадобится?"
-        url: /faq#faq_sdsize
-      - title: "• Могу ли я сохранить свой NNID?"
-        url: /faq#faq_NNID
-      - title: "• Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?"
-        url: /faq#faq_nopc
-      - title: "• В начало раздела"
-        url: /faq#start
-        
-games:
-  - title: "Разделы"
-    children:
-      - title: "• Установка игр для WiiU"
-        url: /games#wiiu
-      - title: "- Что понадобится"
-        url: /games#wiiu_what_need
-      - title: "- Часть I - Получаем установочные файлы игры"
-        url: /games#wiiu_get_games
-      - title: "- Часть II - Установка игры в WiiU"
-        url: /games#wiiu_install
-      - title: "• Установка и запуск игр для vWii"
-        url: /games#wii
-      - title: "- Что понадобится"
-        url: /games#wii_what_need
-      - title: "- Установка Wii-игр на носитель"
-        url: /games#wii_install
-      - title: "• Запуск Wii-игр в vWii через USB Loader GX"
-        url: /games#wii_launch_ulg
-      - title: "- Что понадобится"
-        url: /games#what_need_ulg
-      - title: "- Часть I - Подготовительные работы"
-        url: /games#prep_ulg
-      - title: "- Часть II - Инструкция"
-        url: /games#instruction_ulg
-      - title: "• Запуск Wii-игр в vWii через WiiFlow"
-        url: /games#wii_launch_wf
-      - title: "- Что понадобится"
-        url: /games#what_need_wf
-      - title: "- Часть I - Подготовительные работы"
-        url: /games#prep_wf
-      - title: "- Часть II - Инструкция"
-        url: /games#instruction_wf
-      - title: "• Установка WiiWare и WiiVC"
-        url: /games#wii_launch_wad
-      - title: "- Что понадобится"
-        url: /games#what_need_wad
-      - title: "- Часть I - Подготовительные работы"
-        url: /games#prep_wad
-      - title: "- Часть II - Инструкция"
-        url: /games#instruction_wad
-      - title: "• Установка игр от Gameсube"
-        url: /games#wii_install_gc
-      - title: "- Что понадобится"
-        url: /games#what_need_gc
-      - title: "- Часть I - Подготовительные работы"
-        url: /games#prep_gc
-      - title: "- Часть II - Установка Gamecube-игр на носитель"
-        url: /games#gc_install
-      - title: "- Часть III - Настройка USB Loader GX и Nintendont"
-        url: /games#gc_setup
-      - title: "- Часть IV - Запуск Gamecube-игр"
-        url: /games#gc_launch
-      - title: "• В начало раздела"
-        url: /games#start
-        
-get-started:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /get-started#what_need
-      - title: "• Инструкция"
-        url: /get-started#instructions
-      - title: "• Подготовительные работы"
-        url: /get-started#part1
-      - title: "• Блокировка обновления системы"
-        url: /get-started#part2
-      - title: "• В начало раздела"
-        url: /get-started#start
-        
-home:
-  - title: "Разделы"
-    children:
-      - title: "• Что такое Homebrew?"
-        url: /#what_hombrw
-      - title: "• Что такое кастомная прошивка (CFW)?"
-        url: /#what_cfw
-      - title: "• Так чему же учит этот гайд?"
-        url: /#what_guide
-      - title: "• Что же можно делать на кастомной прошивке?"
-        url: /#what_can_cfw
-      - title: "• Что нужно знать, перед тем, как начать?"
-        url: /#what_know
-      - title: "• В начало раздела"
-        url: /#start
-        
-h2testw-windows:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /h2testw-windows#what_need
-      - title: "• Инструкция:"
-        url: /h2testw-windows#instructions
-      - title: "• В начало раздела"
-        url: /h2testw-windows#start
-       
-haxchi:
-  - title: "Разделы"
-    children:
-      - title: "• Что понадобится"
-        url: /haxchi#what_need
-      - title: "- Игры, совместимые с Haxchi"
-        url: /haxchi#games
-      - title: "• Инструкция"
-        url: /haxchi#instructions
-      - title: "• В начало раздела"
-        url: /haxchi#start
-
-mocha-cfw:
-  - title: "Разделы"
-    children:
-      - title: "• Инструкция:"
-        url: /mocha-cfw#instructions
-      - title: "• В начало раздела"
-        url: /mocha-cfw#start
-        
-uninstall-cfw:
-  - title: "Разделы"
-    children:
-      - title: "• Инструкция"
-        url: /uninstall-cfw #instructions
-      - title: "• Часть I - Удаление из Wii U"
-        url: /uninstall-cfw#part1
-      - title: "- CBHC"
-        url: /uninstall-cfw#cbhc
-      - title: "- Haxchi"
-        url: /uninstall-cfw#haxchi
-      - title: "- Homebrew Launcher"
-        url: /uninstall-cfw#hbl
-      - title: "• Часть II - Удаление из SD-карты"
-        url: /uninstall-cfw#part2
-      - title: "• В начало раздела"
-        url: /uninstall-cfw#start
-
-vwii-modding:
-  - title: "Разделы"
-    children:
-      - title: "• Инструкция"
-        url: /vwii-modding#instructions
-      - title: "• Часть I - Подготовительные работы"
-        url: /vwii-modding#part1
-      - title: "• Часть II - wuphax"
-        url: /vwii-modding#part2
-      - title: "• Часть III - Снятие образа vWii NAND"
-        url: /vwii-modding#part3
-      - title: "• Часть IV - Установка cIOS"
-        url: /vwii-modding#part4
-      - title: "• Часть V - Применение патчей к IOS80"
-        url: /vwii-modding#part5
-      - title: "• Часть VI - Установка загрузчиков игр vWii"
-        url: /vwii-modding#part6
-      - title: "• В начало раздела"
-        url: /vwii-modding#start
-
 bottom:
   - title: Если вам помогло или просто понравилось это руководство, то я принимаю <a href="/donations" target="_blank">пожертвования</a> на карту Visa, или Bitcoin.
   - title: По вопросам, касающимся взлома обращайтесь в <a href="https://vk.com/3ds_cfw" target="_blank">группу в вконтакте</a>, <a href="https://discord.gg/h2s4aP7" target="_blank">Discord</a> или <a href="https://t.me/homebrew_group" target="_blank">Telegram</a><br>Об ошибках и неточностях просьба писать в <a href="https://vk.com/3ds_cfw" target="_blank">группу руководства</a>, <a href="https://discord.gg/VKYYWmY" target="_blank">Discord</a> или в <a href="https://t.me/rashevskyv" target="_blank">Telegram</a>.
   - title: Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br>Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a> или <a href="https://theunarchiver.com/" target="_blank">The Unarchiver</a>
+  
+
+sidebar_title:
+  - 
+    title: Общий прогресс
+sidebar_pages:
+  - 
+    title: Главная
+    url: /
+  - 
+    title: Начало
+    url: get-started
+  - 
+    title: Homebrew Launcher
+    url: homebrew-launcher
+  - 
+    title: Несколько вариантов
+    url: multiple-options
+  - 
+    title: Mocha CFW
+    url: mocha-cfw
+  - 
+    title: Haxchi
+    url: haxchi
+  - 
+    title: Coldboot Haxchi (Опционально)
+    url: coldboot-haxchi
+  - 
+    title: Homebrew Launcher (Channel)
+    url: homebrew-launcher-(channel)
+  - 
+    title: Резервная копия NAND (Опционально)
+    url: nand-backup

@@ -1,7 +1,7 @@
 ---
 title: "Homebrew Launcher (Channel)" #
-lang: ru
 permalink: /homebrew-launcher-channel.html
+lang: ru
 author_profile: true
 ---
 

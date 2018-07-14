@@ -4,7 +4,7 @@ permalink: /donations.html
 author_profile: true
 ---
 
-## Если вам помогло или просто понравилось это руководство, то автор принимает пожертвования:
+## Если вам помогло или просто понравилось это руководство, то автор принимает пожертвования? реквизиты переводчика можно найти ниже:
 
 [![Paypal]({{ "/images/donate/paypal.png" | absolute_url }}){:target="_blank"}{:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.me/plailectguides/15){: .align-center}
 plailect@gmail.com
@@ -17,7 +17,11 @@ plailect@gmail.com
 {: .notice--info}
 
 [![Ethereum]({{ "/images/donate/ethereum.png" | absolute_url }}){:target="_blank"}{:height="64px" width="256px"}{: style="padding-bottom: .35em"}](https://www.ethereum.org/){: .align-center}
-0x0ff3aa34308ed81db88e096416e30fe222592efc
+0x608C5554D2C53698aA7DFFc7e64BF37f7bebb475
+{: .text-center}
+{: .notice--info}
+
+[![Paypal]({{ "/images/paypal.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted){: .align-center}
 {: .text-center}
 {: .notice--info}
 
