@@ -20,8 +20,6 @@ author_profile: true
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
-* [WiiFlow 4.2.1](files/WiiFlow_4.2.1.wad)
-* [USBLoaddrGX r1262](files/USBLoaddrGX_r1262.wad)
 * [YAWMM_EN](files/YAWMM_EN.zip)
 * Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
 
@@ -34,8 +32,6 @@ author_profile: true
 1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в **корень вашей SD-карты**
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip`в корень вашей SD-карты
 1. Скопируйте с заменой папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в **корень вашей SD-карты**
-1. Скопируйте `WiiFlow_4.2.1.wad` в папку `wad` в корне SD-карты
-1. Скопируйте `USBLoaddrGX_r1262.wad` в папку `wad` в корне SD-карты
 1. Скопируйте содержимое `.zip-архива` YAWMM_EN в **папку `apps`** на вашей SD-карты
 1. Скопируйте с заменой _содержимое_ `.zip-архива` Homebrew Launcher в **корень вашей SD-карты**
 1. Вставьте SD-карту обратно в консоль
@@ -115,25 +111,12 @@ author_profile: true
 1. По завершении процесса, нажмите любую кнопку, чтобы вернуться в Homebrew Channel
 1. Выйдите в меню vWii
 
-### Часть VI - Установка загрузчиков игр vWii
+### Часть VI - Установка загрузчиков игр vWii и запуск игр
 
-На данном этапе мы установим два приложения, с помощью которых можно запускать игры vWii с USB-ноcителей. USB Loader GX и WiiFlow. Первый, хоть и более функционален, не умеет запускать игры с SD-карты, с чем без труда справляется WiiFlow. Если вы не планируете запускать игры с SD-карты, пропустите установку WiiFlow.
-{: .notice--info}
-
-1. Из Homebrew Channel в vWii, запустите Yet Another Wad Manager Mod для vWii
-1. При запуске программы будет показано предупреждение, пропустите его, нажав кнопку (A)
-1. На запрос "Load another IOS anyways" выберите "No", если не выбрано, и нажмите (A)
-1. Выберите "SD Card" и нажмите (A)
-1. Перейдите в папку `wad`
-1. Выделите `WiiFlow_4.2.1.wad` и `USBLoaddrGX_r1262.wad` с помощью кнопки (+)
-1. Переместите курсор на один из выбранных файлов и нажмите (A) для подтверждения установки, а затем еще раз (A) для ее начала
-1. После окончания установки нажмите любую кнопку, чтобы продолжить
-1. Нажмите кнопку (HOME), чтобы вернуться в Homebrew Channel
-1. Нажмите (HOME) и выберите "Exit to System Menu", чтобы вернуться в главное меню vWii
-
+Об установке игр и лоадеров подробно рассказано на этой странице - [Установка игр для vWii](https://wiiu.customfw.xyz/games-vwii)
 ___
 
-Теперь вы можете установить и использовать любое хомбрю для vWii, например, [USB Loader GX](games#запуск-wii-игр-в-vwii-через-usb-loader-gx), [Wiiflow](games#запуск-wii-игр-в-vwii-через-wiiflow), CFG USB Loader, эмуляторы, и т. д.
+Теперь вы можете установить и использовать любое хомбрю для vWii, например, [USB Loader GX](games-vwii#запуск-wii-игр-в-vwii-через-usb-loader-gx), [Wiiflow](games-vwii#запуск-wii-игр-в-vwii-через-wiiflow), CFG USB Loader, эмуляторы, и т. д.
 {: .notice--success}
 
 Для того, чтобы научиться устанавливать игры, перейдите [сюда](games)
