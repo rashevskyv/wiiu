@@ -114,6 +114,7 @@ author_profile: true
 ### Часть VI - Установка загрузчиков игр vWii и запуск игр
 
 Об установке игр и лоадеров подробно рассказано на этой странице - [Установка игр для vWii](https://wiiu.customfw.xyz/games-vwii)
+
 ___
 
 Теперь вы можете установить и использовать любое хомбрю для vWii, например, [USB Loader GX](games-vwii#запуск-wii-игр-в-vwii-через-usb-loader-gx), [Wiiflow](games-vwii#запуск-wii-игр-в-vwii-через-wiiflow), CFG USB Loader, эмуляторы, и т. д.
