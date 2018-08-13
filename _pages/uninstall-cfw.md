@@ -14,10 +14,8 @@ author_profile: true
 {: .notice--danger}
 
 ## Часть I - Удаление из Wii U
-<a name="part1" />
 
 ### CBHC
-<a name="cbhc" />
 
 1. Запустите Homebrew Launcher Channel
 1. Запустите инсталлятор CBHC
@@ -29,18 +27,15 @@ author_profile: true
 1. Переустановите вашу игру от DS virtual console из eShop
 
 ### Haxchi
-<a name="haxchi" />
 
 1. Откройте Системные настройки (System Settings), Управление данными (Data Management) и удалите вашу игру от DS virtual console
 1. Переустановите вашу игру от DS virtual console из eShop
 
 ### Homebrew Launcher
-<a name="hbl" />
 
 1. Удалите все сделанные вами закладки из браузера Wii U
 
 ## Часть II - Удаление из SD-карты
-<a name="part2" />
 
 {% capture notice-3 %}
 **Удалите все файлы и папки из корня SD-карты, **кроме** указанных ниже (некоторых, а то и всех, может на карте не оказаться):**

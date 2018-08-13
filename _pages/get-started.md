@@ -23,8 +23,8 @@ SD-карта должна быть отформатирована в FAT32 (с 
 
 ## Что понадобится
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
+* [config.txt]({{ "/files/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest){:target="_blank"}
 * Свежая версия [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest){:target="_blank"}
@@ -34,6 +34,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 * Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(the channel `.zip` file)*
 * Предыдущая версия (v1.3) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(the launcher `.zip` file)*
 * Свежая версия [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(both `.zip` files)*
+* Свежая версия [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip){:target="_blank"}
 * Свежая версия [FTPU Everywhere](https://github.com/FIX94/ftpiiu/releases/latest) *(`.elf-архива`)*
 
@@ -59,6 +60,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 1. Скопируйте _содержимое_ `.zip-архива` с hid\_to\_vpad в корень вашей SD-карты
 1. Скопируйте _содержимое_ `.zip-архива` с NNU-Patcher в корень вашей SD-карты
 1. Скопируйте _содержимое_ `.zip-архива` с  Mocha CFW в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с  Wii U NAND Dumper в корень вашей SD-карты
 1. Скопируйте `config.ini` в папку `/wiiu/apps/mocha/` на SD-карте
 1. Скопируйте `ftpiiu.elf` в папку `/wiiu/apps/ftpiiu_e/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
@@ -166,29 +168,21 @@ Homebrew Launcher - приложение, выводящее в виде спи�
 	* Может понадобится ни одна попытка. Пробуйте пока не выйдет! 
 
 Homebrew Launcher - приложение, выводящее в виде списка и позволяющее запускать другие хомбрю приложения прямо с SD-карты.
-{: .notice}
+{: .notice--info}
 
 Поскольку мы запускаем его из встроенного браузера Wii U, нам понадобится доступ в интернет на консоли.
 {: .notice--info}
 
 ___
 
-{% capture notice-1 %}
+## Выберите прошивку
 
 [Mocha CFW](mocha-cfw)
+{: .notice--success}
 
 Этот метод подразумевает запуск эксплойта по новой после каждой перезагрузки приставки. Крайне не рекомендуется пользоваться этим методом на прошивке 5.5.2, поскольку веб-эксплойт крайне нестабилен.
 
-{% endcapture %}
-
-<div class="notice--success">{{ notice-1 | markdownify }}</div>
-
-{% capture notice-1 %}
-
 [Haxchi](haxchi)
+{: .notice--success}
 
 Этот метод использует недорогую игру от DS Virtual Console, через которую будет автоматически запускаться кастомная прошивка при запуске приставки. *Рекомендуемый* метод для пользователей приставок с прошивкой 5.5.2, поскольку веб-эксплойт из предыдущего метода крайне нестабилен.
-
-{% endcapture %}
-
-<div class="notice--success">{{ notice-1 | markdownify }}</div>

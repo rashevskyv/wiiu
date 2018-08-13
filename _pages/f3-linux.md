@@ -55,13 +55,13 @@ Data LOST: 0.00 Byte (0 sectors)
 Average Reading speed: 9.42 MB/s
 ~~~
 
-___
-
 Если в результате тестирования вы видите `Data LOST: 0.00 Byte (0 sectors)`, ваша SD-карта в порядке. Можете удалить все файлы с расширением `.h2w` на SD-карте
 {: .notice--success}
 
 При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
+
+___
 
 Вернитесь к [Началу](get-started)
 {: .notice--success}

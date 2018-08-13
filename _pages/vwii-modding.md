@@ -16,8 +16,8 @@ author_profile: true
 
 ## Что понадобится
 
-* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
-* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* [`vWii_cIOS_apps_20131218.zip`](files/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](files/Patched_IOS80_Installer_for_vWii.zip)
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
 * [YAWMM_EN](files/YAWMM_EN.zip)
