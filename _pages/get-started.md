@@ -23,7 +23,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 
 ## Что понадобится
 
-* Свежая версия [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/download/WiiUSDFiles100/wiiusdfiles.zip){:target="_blank"} от [VK:3ds_cfw](https://vk.com/3ds_cfw){:target="_blank"}
+* Свежая версия [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"} от [VK:3ds_cfw](https://vk.com/3ds_cfw){:target="_blank"}
 
 ## Инструкция
 
