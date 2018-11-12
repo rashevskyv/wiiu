@@ -31,7 +31,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ `.zip-архива` [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/download/WiiUSDFiles100/wiiusdfiles.zip){:target="_blank"} от [VK:3ds_cfw](https://vk.com/3ds_cfw){:target="_blank"} в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"} от [VK:3ds_cfw](https://vk.com/3ds_cfw){:target="_blank"} в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 
 	Карту нужно вставлять в переднюю панель приставки. Не пытайтесь вставить её через USB-переходник в USB-порт!
