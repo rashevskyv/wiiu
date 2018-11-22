@@ -27,7 +27,7 @@ author_profile: true
 ### Что понадобится
 
 + Приставка должна быть взломана. Если это не так, начните гайд [с начала](/). Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133){:target="_blank"} или на [OLX](https://www.olx.ua/list/user/1nlHd/){:target="_blank"}), то приставка уже взломана. 
-+ Свежая версия [uTikDownloadHelper](files/uTikDownloadHelper.zip){:target="_blank"} (`.exe-файл`)
++ [uTikDownloadHelper](files/uTikDownloadHelper.zip){:target="_blank"} (`.exe-файл`)
 + [Прописать в hosts](https://remontka.pro/hosts-file-windows-10/){:target="_blank"} следующие адреса: 
 
 `104.129.56.137 wiiu.titlekeys.gq`
@@ -35,6 +35,7 @@ author_profile: true
 
 ### Часть I - Получаем установочные файлы игры
 
+1. Положите папку `uTikDownloadHelper` из архива `uTikDownloadHelper.zip` в папку `C:\Users\%username%\AppData\Local`
 1. Запустите uTikDownloadHelper
 	+ Если программа глючит, или не запускается, обновите [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653){:target="_blank"}
 1. Если это первый запуск программы, то будет нужно ввести адрес сайта с ключами. В появившемся диалоговом окне введите `wiiu.titlekeys.gq`
