@@ -48,7 +48,6 @@ ___
 На вашей приставке уже установлен эксплойт Haxchi.
 
 Использование этого метода не несёт в себе никаких рисков, но каждый раз после перезагрузки вам придётся активировать его вручную.
-This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
 
 ## Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-channel)
 {: .notice--primary}
