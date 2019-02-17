@@ -5,7 +5,7 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "Полное руководство по установке кастомной прошивке на Wii U, от начала до Coldboot Haxchi<br />**Последнее изменение:** 22 ноября 2018"
+excerpt: "Полное руководство по установке кастомной прошивке на Wii U, от начала до Coldboot Haxchi<br />**Последнее изменение:** 16 февраля"
 permalink: /
 author_profile: true
 ---
@@ -23,7 +23,7 @@ author_profile: true
 Перед началом работ следует прочитать инструкцию полностью, чтобы осознать весь фронт работ.
 {: .notice--warning}
 
-**Об ошибках и неточностях просьба рапортовать сюда - [http://vk.com/3ds_cfw](http://vk.com/3ds_cfw)**
+**Об ошибках и неточностях просьба рапортовать сюда - [http://vk.com/nin_cfw](http://vk.com/nin_cfw)**
 {: .notice--warning}
 
 ## Что такое Homebrew? 

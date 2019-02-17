@@ -36,7 +36,7 @@ author_profile: true
 + [Зачем реклама?](why-ads)
 + [Модификация vWii](vwii-modding)
 + [Начало](get-started)
-+ [Пожертвования](donations)
++ [Пожертвования](http://customfw.xyz/donations)
 + [Резервное копирование NAND](nand-backup)
 + [Удаление кастомной прошивки](uninstall-cfw)
 + [Установка игр для GameCube](games-gc)

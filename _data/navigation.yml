@@ -29,15 +29,15 @@ main:
   - title: "Для тех, кто<br>купил прошитую"
     url: /bought-hacked
   - title: "Пожертвования"
-    url: /donations
-  - title: "Благодарности"
-    url: /credits
+    url: http://customfw.xyz/donations
+  - title: "Связаться с нами"
+    url: http://customfw.xyz/contacts
   - title: "Навигация по сайту"
     url: /site-navigation
     
 bottom:
-  - title: Если вам помогло или просто понравилось это руководство, то я принимаю <a href="/donations" target="_blank">пожертвования</a> на карту Visa, или Bitcoin.
-  - title: По вопросам, касающимся взлома обращайтесь в <a href="https://vk.com/3ds_cfw" target="_blank">группу в вконтакте</a>, <a href="https://discord.gg/h2s4aP7" target="_blank">Discord</a> или <a href="https://t.me/homebrew_group" target="_blank">Telegram</a><br>Об ошибках и неточностях просьба писать в <a href="https://vk.com/3ds_cfw" target="_blank">группу руководства</a>, <a href="https://discord.gg/VKYYWmY" target="_blank">Discord</a> или в <a href="https://t.me/rashevskyv" target="_blank">Telegram</a>.
+  - title: <div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
+  - title: <div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
   - title: Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br>Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a> или <a href="https://theunarchiver.com/" target="_blank">The Unarchiver</a>
   
 
