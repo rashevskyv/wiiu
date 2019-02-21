@@ -23,7 +23,7 @@ author_profile: true
 Перед началом работ следует прочитать инструкцию полностью, чтобы осознать весь фронт работ.
 {: .notice--warning}
 
-**Об ошибках и неточностях просьба рапортовать сюда - [http://vk.com/nin_cfw](http://vk.com/nin_cfw)**
+**Об ошибках и неточностях просьба рапортовать сюда - [http://vk.com/nincfw](http://vk.com/nincfw)**
 {: .notice--warning}
 
 ## Что такое Homebrew? 
