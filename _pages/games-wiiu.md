@@ -33,8 +33,8 @@ author_profile: true
 
 1. Запустите uTikDownloadHelper
 	+ Если программа глючит, или не запускается, обновите [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653){:target="_blank"}
-1. Если это первый запуск программы, то будет нужно ввести адрес сайта с ключами. В появившемся диалоговом окне введите один из адресов, доступных по этому адресу - [titlekeys.ovh](http://titlekeys.ovh){:target="_blank"}
-	* Если программа по прежнему не работает, положите папку `uTikDownloadHelper` из архива `uTikDownloadHelper.zip` в папку `C:\Users\%username%\AppData\Local`
+1. Положите папку `uTikDownloadHelper` из архива `uTikDownloadHelper.zip` в папку `C:\Users\%username%\AppData\Local`
+1. Запустите программу 
 1. В строке поиска введите название необходимой игры, или найдите ее в списке
 1. Дважды нажмите на игру, в появившемся диалоговом окне поставьте галочки напротив пунктов "Title" (сама игра), "DLC" (загружаемый контент) и "Update" (обновление игры)
 1. Нажмите кнопку "Download"
