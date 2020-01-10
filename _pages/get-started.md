@@ -19,7 +19,7 @@ SD-карта должна быть отформатирована в FAT32 (с 
 
 **Нельзя** называть SD-карту `wiiu`, это приведет к проблемам.
 
-Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!
+Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](http://customfw.xyz/h2testw-windows), [F3 (Linux)](http://customfw.xyz/f3-linux), или [F3X (Mac)](http://customfw.xyz/f3x-mac)!
 
 ## Что понадобится
 

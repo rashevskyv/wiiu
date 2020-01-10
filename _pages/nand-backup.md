@@ -12,7 +12,7 @@ author_profile: true
 Если вы пользуетесь Mocha CFW, перезагрузите приставку и запустите NAND Dumper из чистой системы, войдя в Homebrew Launcher из браузера. NAND Dumper зависнет, если его запускать из Mocha CFW! 
 {: .notice--warning}
 
-Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-windows), [F3 (Linux)](f3-linux), или [F3X (Mac)](f3x-mac)!
+Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](http://customfw.xyz/h2testw-windows), [F3 (Linux)](http://customfw.xyz/f3-linux), или [F3X (Mac)](http://customfw.xyz/f3x-mac)!
 
 ## Что понадобится
 
