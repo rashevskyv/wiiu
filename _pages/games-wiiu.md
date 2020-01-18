@@ -34,6 +34,7 @@ author_profile: true
 1. Запустите uTikDownloadHelper
 	+ Если программа глючит, или не запускается, обновите [Microsoft .NET Framework 4.5](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653){:target="_blank"}
     + Положите папку `uTikDownloadHelper` из архива `uTikDownloadHelper.zip` в папку `C:\Users\%username%\AppData\Local`
+1. Нажмите в середину экрана программы"
 1. В появившемся окне введите `http://cldr.xyz` и нажмите "**ОК**"
 1. В строке поиска введите название необходимой игры, или найдите ее в списке
 1. Дважды нажмите на игру, в появившемся диалоговом окне поставьте галочки напротив пунктов "Title" (сама игра), "DLC" (загружаемый контент) и "Update" (обновление игры)
