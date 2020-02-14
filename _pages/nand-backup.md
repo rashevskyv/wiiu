@@ -16,7 +16,7 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* Свежая версия [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}
 
 ## Инструкция
 
@@ -25,7 +25,8 @@ Wii U NAND Dumper очень привередлив к карте памяти, 
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ `.zip-архива` с Wii U NAND Dumper в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"} в корень вашей SD-карты
+  * Не нужно делать, если уже делали в процессе выполнения руководства
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 1. Запустите Homebrew Launcher
@@ -41,7 +42,7 @@ Wii U NAND Dumper очень привередлив к карте памяти, 
 1. По завершению работы ваша Wii U перезагрузится
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` из корня SD-карты в надежное место
+1. Скопируйте `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, и все файлы вида `mlc.bin.part` из корня SD-карты в надёжное место
 
 ___
 
