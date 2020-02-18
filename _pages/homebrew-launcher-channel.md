@@ -13,16 +13,16 @@ author_profile: true
 
 ### Часть I - Установка каналов
 
-1. Запустите Homebrew Launcher
-	+ Пользователи CBHC должны нажать кнопку (HOME) во время загрузки для доступа к меню CBHC, где необходимо выбрать Homebrew Launcher
-	+ Пользователи Haxchi должны сначала запустить Haxchi, а затем запустить его еще раз, удерживая (A), чтобы войти в Homebrew Launcher
+1. Запустите **Homebrew Launcher**
+	+ Пользователи **CBHC** должны нажать кнопку {% include inc/btn.md btn="HOME" %} во время загрузки для доступа к меню CBHC, где необходимо выбрать Homebrew Launcher
+	+ Пользователи Haxchi должны сначала запустить Haxchi, а затем запустить его еще раз, удерживая {% include inc/btn.md btn="A" %}, чтобы войти в Homebrew Launcher
 	+ Пользователи Mocha CFW должны просто запустить Homebrew Launcher
 1. Запустите WUP Installer GX2
 	+ Если WUP Installer GX2 падает с ошибкой "**DSi Exception Has Occurred**", перезапустите приставку и попробуйте заново.
 1. Отметьте галочками "**HBL**" и "**WUP Installer GX2**"
 1. Нажмите "**Install**" для установки, а затем "**Yes**" для подтверждения
 1. Выберите "**NAND**" в качестве места установки
-1. Нажмите (HOME), а затем Закрыть программу (Close the software) для выхода из установщика по завершении установки
+1. Нажмите {% include inc/btn.md btn="HOME" %}, а затем Закрыть программу (Close the software) для выхода из установщика по завершении установки
 
 ___
 
