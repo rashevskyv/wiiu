@@ -1,0 +1,1 @@
+Если вы купили приставку у меня (в [VK](https://vk.com/nincfw) или на [OLX](https://nincfw.olx.ua))

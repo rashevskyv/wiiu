@@ -16,7 +16,7 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}
+* Свежая версия {% include inc/sdfiles.md %}
 
 ## Инструкция
 
@@ -25,7 +25,7 @@ Wii U NAND Dumper очень привередлив к карте памяти, 
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ `.zip-архива` [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"} в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` {% include inc/sdfiles.md %} в корень вашей SD-карты
   * Не нужно делать, если уже делали в процессе выполнения руководства
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль

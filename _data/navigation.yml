@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "<b>Прошивка<br>3DS, PS4</b>"
+  - title: "<b>Прошить другую<br>приставку</b>"
     url: http://customfw.xyz
   - title: "<i>Купить<br>прошитую</i>"
-    url: https://nincfw.olx.ua/
+    url: https://shop.customfw.xyz/
   - title: "Установка<br>игр"
     url: /games
   - title: "FAQ"

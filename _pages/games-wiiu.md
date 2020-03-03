@@ -26,7 +26,7 @@ author_profile: true
 
 ### Что понадобится
 
-+ Приставка должна быть взломана. Если это не так, начните гайд [с начала](/). Если вы купили приставку у меня (в [VK](https://vk.com/market-125012133){:target="_blank"} или на [OLX](https://www.olx.ua/list/user/1nlHd/){:target="_blank"}), то приставка уже взломана. 
++ Приставка должна быть взломана. Если это не так, начните гайд [с начала](/). Если вы купили приставку у меня (в [VK](https://vk.com/nincfw){:target="_blank"} или на [OLX](https://nincfw.olx.ua){:target="_blank"}), то приставка уже взломана. 
 + [uTikDownloadHelper](files/uTikDownloadHelper.zip){:target="_blank"} (`.exe-файл`)
 
 ### Часть I - Получаем установочные файлы игры

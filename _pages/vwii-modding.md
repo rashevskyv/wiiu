@@ -16,13 +16,13 @@ author_profile: true
 
 ## Что понадобится
 
-* Свежая версия [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}
+* Свежая версия {% include inc/sdfiles.md %}
 
 ### Часть I - Подготовительные работы
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ `.zip-архива` [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"} в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` {% include inc/sdfiles.md %} в корень вашей SD-карты
   * Не нужно делать, если уже делали в процессе выполнения руководства
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
@@ -39,7 +39,11 @@ author_profile: true
 1. Запустите **Mii Channel** в vWii
 1. Если эксплойт сработал корректно, запустится **Hackmii Installer**
 1. Прочитайте предупреждение и нажмите {% include inc/btn.md btn="1" %} для продолжения, когда об этом будет написано
-1. Пройдите через подсказки на экране, чтобы установить **Homebrew Channel** в vWii
+1. Выберите "**Continue**"
+2. Выберите "**Install The Homebreww Channel**"
+2. Выберите "**Yes, continue**"
+2. Выберите "**Continue**"
+2. Выберите "**Exit**"
 1. Если эксплойт сработал корректно, запустится **Homebrew Channel**
 
 ### Часть III - Снятие образа vWii NAND
@@ -47,8 +51,7 @@ author_profile: true
 Резервная копия NAND поможет восстановить работоспособность vWii в случае, если что-то пойдет не так.
 {: .notice--info}
 
-1. Запустите **Homebrew Channel** на vWii
-1. Запустите **Dump Mii NAND**
+1. В Homebrew Channel запустите **Dump Mii NAND**
   + Будьте готовы ждать; время копирование может занять несколько часов и зависит от скорости доступа к вашей SD-карте
 1. По завершению работы ваша Wii U перезагрузится
 1. Выключите консоль
@@ -61,24 +64,22 @@ author_profile: true
 Убедитесь, что в корне SD-карты нет папок `wad` или `wads` и что нет никаких `.wad-файлов` нигде, кроме папки `/apps/`на SD-карте.
 {: .notice--warning}
 
-1. Запустите Homebrew Channel на vWii
-  + Пользователи Haxchi и Mocha CFW, запускающие ее через Homebrew Launcher, могут запускать vWii из SysNAND и уже из нее запускать Homebrew Channel
-  + Пользователи Mocha CFW, запускающие ее из под CBHC, могут зажать кнопку {% include inc/btn.md btn="B" %} при загрузке системы и выбрать "Boot vWii Homebrew Channel"
+1. Запустите **Homebrew Channel** на vWii
 1. Запустите **d2x cIOS Installer**
 1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Select cIOS : **v10 beta52 dx-v10-beta52-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
 1. Нажмите {% include inc/btn.md btn="A" %} для установки
 1. Дождитесь окончания установки и нажмите {% include inc/btn.md btn="A" %} для продолжения
 1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Select cIOS : **v10 beta52 dx-v10-beta52-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
 1. Нажмите {% include inc/btn.md btn="A" %} для установки
 1. Дождитесь окончания установки и нажмите {% include inc/btn.md btn="A" %} для продолжения
 1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Select cIOS : **v10 beta52 dx-v10-beta52-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
 1. Нажмите {% include inc/btn.md btn="A" %} для установки
@@ -89,7 +90,7 @@ author_profile: true
 Этот шаг брикнет вашу vWii, если по какой-то причине будет прерван в процессе применения патчей (отключение электроэнергии, например). В таком случае для восстановления будет необходима резервная копи NAND vWii. Убедитесь, что она у вас есть, перед тем как начинать.
 {: .notice--danger}
 
-1. Из Homebrew Channel в vWii, запустите **Patched IOS80 Installer for vWii**
+1. Из **Homebrew Channel** в vWii, запустите "**Patched IOS80 Installer for vWii**""
 1. Внимательно прочтите предупреждение и подождите 30 секунд, после чего сможете продолжить
 1. Нажмите {% include inc/btn.md btn="A" %} для установки
   + Все должно пройти очень быстро
@@ -98,7 +99,7 @@ author_profile: true
 
 ### Часть VI - Восстановление Mii Channel в vWii
 
-1. Запустите **Homebrew Launcher** методом, использовавшимся ранее на этой странице
+1. Запустите **Homebrew Launcher** в Wii U методом, использовавшимся ранее на этой странице
 1. Запустите **wuphax**
 1. Нажмите {% include inc/btn.md btn="B" %}, когда будет предложено, чтобы восстановить Mii Channel
 

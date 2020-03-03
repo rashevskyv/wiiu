@@ -14,6 +14,7 @@ Wii U имеет аппаратную совместимость с Wii, что 
 Содержимое остальных пунктов очевидно из их названия. 
 
 + [Установка игр для WiiU](games-wiiu){:target="_blank"}
-+ [Установка игр для vWii](games-vwii){:target="_blank"}
-+ [Установка игр для GameCube](games-gc){:target="_blank"}
++ [Установка игр для Wii и GameCube на главный экран WiiU с помощью инжектора](games-inject){:target="_blank"}
++ [Запуск игр для Wii через vWii](games-vwii){:target="_blank"}
++ [Запуск игр для GameCube через vWii](games-gc){:target="_blank"}
 <!--+ [Запуск игр из других платформ с помощью встроенного эмулятора](games-inject){:target="_blank"}-->
