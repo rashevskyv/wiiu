@@ -37,7 +37,8 @@ author_profile: true
 <div class="notice--info">{{ notice-7 | markdownify }}</div>
 
 1. Вставьте SD-карту в ПК
-1. Отформатируйте ее в FAT32 с помощью программы [`guiformat`](http://www.ridgecrop.demon.co.uk/guiformat.exe)
+1. Отформатируйте ее в FAT32 с помощью программы [`rufus`](https://customfw.xyz/format_sd){:target="_blank"}
+  * Если не работает, пробуйте менять размер кластера 
 1. Скачайте [архив с содержимым SD-карты](https://yadi.sk/d/e2cclf7W3KiH3c) (Яндекс.Диск) или [зеркало](https://mega.nz/#!NgVBgAIB!j3x4XzECemC4u_GlZOb2qJt9EJS6Xp0dsSBkGe5y8eA) на MEGA
 1. Разархивируйте содержимое архива в корень SD-карты:
 
