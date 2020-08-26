@@ -46,9 +46,6 @@ author_profile: true
 | Mario Kart DS |
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
-| Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
-| Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
 | Wario: Master of Disguise |
