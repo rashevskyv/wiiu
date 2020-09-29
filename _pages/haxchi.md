@@ -56,11 +56,11 @@ NNID и Nintendo Account не одно и тоже, хотя казалось б
 
 | Игры, совместимые с Haxchi|
 | ------------- |
+| **Dr. Kawashima's Brain Training (рекомендуется)**|
 | Animal Crossing: Wild World |
 | Big Brain Academy |
 | Brain Age |
 | DK: Jungle Climber |
-| Dr. Kawashima's Brain Training |
 | Kirby: Canvas Curse |
 | Kirby: Mass Attack|
 | Kirby: Squeak Squad / Kirby: Mouse Attack |
