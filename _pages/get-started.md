@@ -18,7 +18,7 @@ SD-карта должна быть [отформатирована в FAT32](ht
 **Нельзя** называть SD-карту `wiiu`, это приведет к проблемам.
 {: .notice--warning}
 
-Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](http://customfw.xyz/h2testw-windows), [F3 (Linux)](http://customfw.xyz/f3-linux), или [F3X (Mac)](http://customfw.xyz/f3x-mac)!
+Прежде чем начать, рекомендуется [проверить свою SD-карту на подлинность](https://customfw.xyz/test_sd){:target="_blank"}
 
 ## Что понадобится
 

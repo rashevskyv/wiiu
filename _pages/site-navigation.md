@@ -22,9 +22,6 @@ author_profile: true
 
 + [Coldboot Haxchi](coldboot-haxchi)
 + [disc2app](disc2app)
-+ [F3 (Linux)](http://customfw.xyz/f3-linux)
-+ [F3X (Mac)](http://customfw.xyz/f3x-mac)
-+ [H2testw (Windows)](http://customfw.xyz/h2testw-windows)
 + [Haxchi](haxchi)
 + [Homebrew Launcher (Channel)](homebrew-launcher-channel)
 + [Homebrew Launcher](homebrew-launcher)
