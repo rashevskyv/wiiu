@@ -14,6 +14,11 @@
 	}
  }
  
+ #main {
+	@include breakpoint($x-large) {
+	  max-width: 1920px;
+	}
+ }
  
  .toc__menu {
 	/* hide sub sub links on small screens*/
