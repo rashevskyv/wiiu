@@ -43,7 +43,7 @@ author_profile: true
 **О:** Нет! Вы должны быть уверены, что в настройках подключения консоли у вас установлен DNS, блокирующий обновления системы!
 
 ### **В:** Я испортил свой vWii. Что делать?    
-**О:** [Инструкция](https://www.youtube.com/watch?v=Ay8KH3kK4_A&feature=emb_logo){:target="_blank"}
+**О:** [Инструкция](https://gbatemp.net/threads/vwii-decaffeinator-restore-vwii-without-a-nand-backup.566252/){:target="_blank"}
 
 ### **В:** Куда я могу обратиться за помощью?    
 **О:** Если у вас есть вопросы, вы можете задать их на [#wiiuhacks on Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) (англ.) или [Nintendo Homebrew в Discord](https://discord.gg/MWxPgEp) (англ.).  
