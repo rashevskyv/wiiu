@@ -1,0 +1,39 @@
+I"�
+<div class="notice--info">
+<p><strong>Популярные страницы</strong></p>
+
+<ul>
+  <li><a href="faq">Вопросы и ответы</a></li>
+  <li><a href="vwii-modding">Модификация vWii</a></li>
+  <li><a href="games">Установка игр для Wii U, vWii и Game Cube</a></li>
+</ul>
+
+</div>
+
+<div class="notice--primary">
+<p><strong>Все страницы</strong></p>
+
+<ul>
+  <li><a href="games-gc.md" target="_blank">Установка игр для GameCube</a></li>
+  <li><a href="games-inject.md" target="_blank">Запуск игр из других платформ с помощью встроенного эмулятора</a></li>
+  <li><a href="games-vwii.md" target="_blank"></a></li>
+  <li><a href="games-wiiu.md" target="_blank"></a></li>
+  <li><a href="games.md" target="_blank"></a></li>
+  <li><a href="bought-hacked.md" target="_blank"></a></li>
+  <li><a href="disc2app.md" target="_blank"></a></li>
+  <li><a href="faq.md" target="_blank"></a></li>
+  <li><a href="get-started.md" target="_blank"></a></li>
+  <li><a href="home.md" target="_blank"></a></li>
+  <li><a href="nand-backup.md" target="_blank"></a></li>
+  <li><a href="site-navigation.md" target="_blank"></a></li>
+  <li><a href="tiramisu.md" target="_blank"></a></li>
+  <li><a href="uninstall-cbhc.md" target="_blank"></a></li>
+  <li><a href="vwii-modding.md" target="_blank"></a></li>
+</ul>
+
+</div>
+
+<hr />
+
+<p class="notice--success"><a href="javascript:window.close();">Закрыть страницу</a></p>
+:ET

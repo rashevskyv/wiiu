@@ -2,12 +2,6 @@
 ---
 
 <!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
--->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
     {% include head.html %}
@@ -20,9 +14,10 @@
     {% include masthead.html %}
 
     {{ content }}
+    <a href="#" class="scrollup">Наверх</a>
 
-    <div class="page__footer">
-      <footer>
+    <div class="page__footer-container">
+      <footer class="page__footer">
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>

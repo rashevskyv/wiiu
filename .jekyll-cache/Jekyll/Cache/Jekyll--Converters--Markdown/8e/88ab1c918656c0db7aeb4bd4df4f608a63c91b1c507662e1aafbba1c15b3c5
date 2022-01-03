@@ -1,0 +1,95 @@
+I"#<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#подготовительные-действия" id="markdown-toc-подготовительные-действия">Подготовительные действия</a></li>
+  <li><a href="#часть-i---запуск-homebrew-launcher" id="markdown-toc-часть-i---запуск-homebrew-launcher">Часть I - Запуск Homebrew Launcher</a></li>
+  <li><a href="#часть-ii---создание-резервной-копии-nand" id="markdown-toc-часть-ii---создание-резервной-копии-nand">Часть II - Создание резервной копии NAND</a></li>
+  <li><a href="#следующий-шаг-установка-tiramisu" id="markdown-toc-следующий-шаг-установка-tiramisu">Следующий шаг: Установка Tiramisu</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>На этой странице мы создадим резервную копию NAND на SD-карте, что позволит нам восстановить работоспособность устройства, используя хардмод, в случае брика.</p>
+
+<p>Если у вас черная модель Wii U (32ГБ), SD-карта должна быть не менее 64ГБ. Если у вас белая модель Wii U (8ГБ), SD-карта должна быть не менее 16ГБ.</p>
+
+<p class="notice--warning">Если вы пользуетесь Mocha CFW, перезагрузите приставку и запустите NAND Dumper из чистой системы, войдя в Homebrew Launcher из браузера. NAND Dumper зависнет, если его запускать из Mocha CFW!</p>
+
+<p>Прежде чем начать, рекомендуется проверить свою SD-карту <a href="https://customfw.xyz/test_sd" target="_blank">на ошибки</a></p>
+
+<p class="notice--warning">Если Wii U NAND Dumper не запускается или не делает резервную копию, <a href="https://customfw.xyz/format_sd" target="_blank">пробуйте форматировать</a> карту с другим размером кластера!</p>
+
+<h2 id="подготовительные-действия">Подготовительные действия</h2>
+
+<ol>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Скопируйте <strong>содержимое</strong> <code class="language-plaintext highlighter-rouge">.zip-архива</code> Свежая версия <a href="https://github.com/rashevskyv/wiiu/releases/latest" target="_blank">WiiUSDFiles</a> в корень вашей SD-карты
+    <ul>
+      <li>Не нужно делать, если уже делали в процессе выполнения руководства</li>
+    </ul>
+  </li>
+  <li>Вставьте SD-карту обратно в консоль</li>
+  <li>Включите консоль</li>
+</ol>
+
+<h2 id="часть-i---запуск-homebrew-launcher">Часть I - Запуск Homebrew Launcher</h2>
+
+<p class="notice--info"><strong>Homebrew Launcher</strong> - приложение, выводящее в виде списка и позволяющее запускать другие хомбрю приложения, прямо с SD-карты.</p>
+
+<p class="notice--warning">Поскольку мы запускаем его из встроенного браузера Wii U, нам понадобится доступ в интернет на консоли.</p>
+
+<ol>
+  <li>Запустите <strong>браузер</strong> на приставке</li>
+  <li>Перейдите на сайт <code class="language-plaintext highlighter-rouge">wiiuexploit.xyz</code></li>
+  <li>Нажмите на “<strong>HAXX</strong>”</li>
+  <li>Консоль должна загрузиться в <strong>Homebrew Launcher</strong>
+    <ul>
+      <li>Если приставка зависла - перегрузите её, удерживая кнопку питания и пробуйте заново
+        <ul>
+          <li>Если это не помогло, перейдите в настройки браузера и выберите пункт “<strong>Сброс данных сохранения</strong>” (Reset Save Data)
+            <ul>
+              <li>Это поможет избежать проблем при использовании уязвимости браузера</li>
+              <li>Это приведёт также к удалению всех сохраненных данных браузера, включая настройки, историю и закладки</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Может понадобится ни одна попытка. Пробуйте пока не выйдет!</li>
+    </ul>
+  </li>
+  <li>Вернитесь к браузеру</li>
+</ol>
+
+<h2 id="часть-ii---создание-резервной-копии-nand">Часть II - Создание резервной копии NAND</h2>
+
+<ol>
+  <li>Запустите <strong>nanddumper</strong></li>
+  <li>С помощью крестовины отметьте следующие пункты:
+    <ul>
+      <li>Dump SLC (528MB): <strong>yes</strong></li>
+      <li>Dump SLCCMPT (528MB): <strong>yes</strong></li>
+      <li>Dump MLC (8GB/32GB): <strong>yes</strong></li>
+      <li>Dump OTP (1KB): <strong>yes</strong></li>
+      <li>Dump SEEPROM (1KB): <strong>yes</strong></li>
+    </ul>
+  </li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы сделать резервную копию NAND
+    <ul>
+      <li>Будьте готовы ждать; время копирование может занять несколько часов и зависит от количества свободного места во внутренней памяти, чем больше свободного места, тем быстрее будет идти копирование</li>
+    </ul>
+  </li>
+  <li>По завершению работы ваша Wii U перезагрузится</li>
+  <li>Выключите консоль</li>
+  <li>Вставьте SD-карту в компьютер</li>
+  <li>Скопируйте <code class="language-plaintext highlighter-rouge">slc.bin</code>, <code class="language-plaintext highlighter-rouge">slccmpt.bin</code>, <code class="language-plaintext highlighter-rouge">otp.bin</code>, <code class="language-plaintext highlighter-rouge">seeprom.bin</code>, и все файлы вида <code class="language-plaintext highlighter-rouge">mlc.bin.part</code> из корня SD-карты в надёжное место</li>
+</ol>
+
+<p class="notice--info">В случае брика вашей приставки, восстановить ее работоспособность можно будет с помощью хардмода и этого бекапа.</p>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-установка-tiramisu">Следующий шаг: <a href="tiramisu">Установка Tiramisu</a></h2>
+:ET

@@ -10,24 +10,14 @@ main:
     url: /faq
   - title: "Бекап<br>NAND"
     url: /nand-backup
-  - title: "Homebrew<br>launcher"
-    url: /homebrew-launcher
-  - title: "Homebrew Launcher<br>(Channel)"
-    url: /homebrew-launcher-channel
-  - title: "Coldboot<br>Haxchi"
-    url: /coldboot-haxchi
-  - title: "Haxchi"
-    url: /haxchi
-  - title: "Mocha CFW"
-    url: /mocha-cfw
-  - title: "Удаление<br>CFW"
-    url: /uninstall-cfw
+  - title: "Tiramisu"
+    url: /tirmisu
+  - title: "Удаление<br>CBHC"
+    url: /uninstall-cbhc
   - title: "Модификация<br>vWii"
     url: /vwii-modding
   - title: "disc2app"
     url: /disc2app
-  - title: "Для тех, кто<br>купил прошитую"
-    url: /bought-hacked
   - title: "Пожертвования"
     url: http://customfw.xyz/donations
   - title: "Связаться с нами"

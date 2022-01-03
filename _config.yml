@@ -11,7 +11,7 @@ title                    : "Взлом Wii U"
 title_separator          : "-"
 
 name                     : "Plailect, FlimFlam69, xHR"
-description              : "Инструкция по установке Coldboot Haxchi CFW на Wii U"
+description              : "Инструкция по установке CFW на Wii U"
 url                      : "https://wiiu.customfw.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "wiiu.customfw.xyz"
 baseurl                  : # the subpath of your site, e.g. "/blog"

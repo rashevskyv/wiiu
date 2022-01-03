@@ -1,0 +1,33 @@
+I"s
+<div class="notice--info">
+<p><strong>Популярные страницы</strong></p>
+
+<ul>
+  <li><a href="faq">Вопросы и ответы</a></li>
+  <li><a href="vwii-modding">Модификация vWii</a></li>
+  <li><a href="games">Установка игр для Wii U, vWii и Game Cube</a></li>
+</ul>
+
+</div>
+
+<div class="notice--primary">
+<p><strong>Все страницы</strong></p>
+
+<ul>
+  <li><a href="disc2app">disc2app</a></li>
+  <li><a href="credits">Благодарности</a></li>
+  <li><a href="faq">Вопросы и ответы</a></li>
+  <li><a href="bought-hacked">Действия после получения прошитой приставки</a></li>
+  <li><a href="vwii-modding">Модификация vWii</a></li>
+  <li><a href="get-started">Начало</a></li>
+  <li><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+  <li><a href="nand-backup">Резервное копирование NAND</a></li>
+  <li><a href="uninstall-cbhc">Удаление кастомной прошивки</a></li>
+  <li><a href="games-gc">Установка игр для GameCube</a></li>
+  <li><a href="games-vwii">Установка игр для vWii</a></li>
+  <li><a href="games-wiiu">Установка игр для Wii U</a></li>
+  <li><a href="games">Установка игр для Wii U, vWii и Game Cube</a></li>
+</ul>
+
+</div>
+:ET
