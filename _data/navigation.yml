@@ -11,7 +11,7 @@ main:
   - title: "Бекап<br>NAND"
     url: /nand-backup
   - title: "Tiramisu"
-    url: /tirmisu
+    url: /tiramisu
   - title: "Удаление<br>CBHC"
     url: /uninstall-cbhc
   - title: "Модификация<br>vWii"
