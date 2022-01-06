@@ -29,22 +29,13 @@ author_profile: true
 
 ### Часть II - wuphax
 
-1. Запустите **Homebrew Launcher**
-	+ Если вы еще не выполнили основной гайд и не знаете как это сделать, посмотрите на странице [Homebrew Launcher](homebrew-launcher), а затем продолжайте с этого места.
-1. Запустите **wuphax**
-1. Нажмите {% include inc/btn.md btn="A" %} для того, чтобы сделать резервную копию Mii Channel и интегрировать Hackmii Installer
-1. Вас выкинет обратно в Homebrew Launcher, запущенный из SysNAND
+1. Запустите **Homebrew Launcher**, запустив приложение **Редактов Mii** (**Mii Maker**)
+1. Запустите **compat_installer**
+1. Нажмите {% include inc/btn.md btn="A" %} для того, чтобы установить **Homebrew Channel**
+1. Дождитесь надписи **Install succeeded**
 1. Нажмите {% include inc/btn.md btn="HOME" %}, чтобы вернуться в системное меню
 1. Запустите **vWii**
-1. Запустите **Mii Channel** в vWii
-1. Если эксплойт сработал корректно, запустится **Hackmii Installer**
-1. Прочитайте предупреждение и нажмите {% include inc/btn.md btn="1" %} для продолжения, когда об этом будет написано
-1. Выберите "**Continue**"
-2. Выберите "**Install The Homebreww Channel**"
-2. Выберите "**Yes, continue**"
-2. Выберите "**Continue**"
-2. Выберите "**Exit**"
-1. Если эксплойт сработал корректно, запустится **Homebrew Channel**
+  * Если установка прошла успешно, на экране появится **Homebrew Channel**
 
 ### Часть III - Снятие образа vWii NAND
 
@@ -97,13 +88,7 @@ author_profile: true
 1. По завершении процесса, нажмите любую кнопку, чтобы вернуться в Homebrew Channel
 1. Выключите Wii U кнопкой питания
 
-### Часть VI - Восстановление Mii Channel в vWii
-
-1. Запустите **Homebrew Launcher** в Wii U методом, использовавшимся ранее на этой странице
-1. Запустите **wuphax**
-1. Нажмите {% include inc/btn.md btn="B" %}, когда будет предложено, чтобы восстановить Mii Channel
-
-### Часть VII - Установка загрузчиков игр vWii и запуск игр
+### Часть VI - Установка загрузчиков игр vWii и запуск игр
 
 Об установке игр и лоадеров подробно рассказано на этой странице - [Установка игр для vWii](https://wiiu.customfw.xyz/games-vwii)
 
