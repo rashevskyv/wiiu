@@ -1,1 +1,1 @@
-Свежая версия [WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}
+[WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}
