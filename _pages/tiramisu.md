@@ -45,8 +45,9 @@ author_profile: true
 1. Выключите и включите консоль. Должен запуститься "**Environment Loader**"
 1. С помощью крестовины выберите **tiramisu** и нажмите {% include inc/btn.md btn="Y" %}, чтобы запускать Tiramisu при старте приставки
   * Для открытия **Environment Loader**, нажмите {% include inc/btn.md btn="X" %} при загрузке приставки
-1. В меню Tiramisu **Boot Selector** наведите курсор на **"Wii U Menu"** и нажмите {% include inc/btn.md btn="Y" %}, чтобы запускать главное меню при запуске консоли
+1. Перейдите в меню **tiramisu** -> **Tiramisu Boot Selector** наведите курсор на **"Wii U Menu"** и нажмите {% include inc/btn.md btn="Y" %}, чтобы запускать главное меню при запуске консоли
   * Для открытия Tiramisu **Boot Selector**, нажмите {% include inc/btn.md btn="+" %} при загрузке приставки
+1. Нажмите {% include inc/btn.md btn="A" %} на **"Wii U Menu"**, чтобы попасть в главное меню консоли
 
 После загрузки в **Tiramisu** вы можете запустить **Homebrew Launcher** через приложение **Редактор Mii** (**Mii Maker**). Чтобы запустить сам **Редактор Mii** (**Mii Maker**), просто нажмите {% include inc/btn.md btn="HOME" %} в **Homebrew Launcher**
 {: .notice--info}
