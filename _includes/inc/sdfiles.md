@@ -1,1 +1,0 @@
-[WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}

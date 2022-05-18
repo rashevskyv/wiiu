@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Haxchi - Взлом Wii U</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке CFW на Wii U">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом Wii U">
+<meta property="og:title" content="Haxchi">
+
+
+  <link rel="canonical" href="https://wiiu.customfw.xyz/haxchi.html">
+  <meta property="og:url" content="https://wiiu.customfw.xyz/haxchi.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, FlimFlam69, xHR",
+      "url" : "https://wiiu.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://wiiu.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом Wii U Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://wiiu.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 300) {
+				$('.scrollup').fadeIn();
+			} else {
+				$('.scrollup').fadeOut();
+			}
+			});
+			  
+			$('.scrollup').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	  
+	});
+</script>
+
+<script src="https://wiiu.customfw.xyz/assets/js/main.min.js"></script>
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://wiiu.customfw.xyz/">Взлом Wii U</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошить другую<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://shop.customfw.xyz/"><i>Купить<br>прошитую</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/games">Установка<br>игр</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/nand-backup">Бекап<br>NAND</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/tiramisu">Tiramisu</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/uninstall-cbhc">Удаление<br>CBHC</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/vwii-modding">Модификация<br>vWii</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертвования</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Связаться с нами</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/site-navigation">Навигация по сайту</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://wiiu.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Дружковка, Украина</span>
+        </li>
+      
+	<hr class="style-two">
+
+      
+<li><a href="https://vk.com/rashevskyv" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Вконтакте
+</a></li>
+
+
+<li><a href="https://vk.com/nincfw" itemprop="sameAs">
+  <i class="fa fa-fw fa-vk" aria-hidden="true"></i> Группа вконтакте
+</a></li>
+
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/xHR_" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Haxchi">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Haxchi
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
+      <li><a href="#часть-i---игры-ds-virtual-console" id="markdown-toc-часть-i---игры-ds-virtual-console">Часть I - Игры DS Virtual Console</a>        <ul>
+          <li><a href="#регистрация-аккаунта-и-nnid" id="markdown-toc-регистрация-аккаунта-и-nnid">Регистрация аккаунта и NNID</a></li>
+          <li><a href="#список-совместимый-ds-virtual-console-игр" id="markdown-toc-список-совместимый-ds-virtual-console-игр">Список совместимый DS Virtual Console игр</a></li>
+        </ul>
+      </li>
+      <li><a href="#часть-ii---запуск-homebrew-launcher" id="markdown-toc-часть-ii---запуск-homebrew-launcher">Часть II - Запуск Homebrew Launcher</a></li>
+      <li><a href="#часть-iii---установка-haxchi" id="markdown-toc-часть-iii---установка-haxchi">Часть III - Установка Haxchi</a></li>
+    </ul>
+  </li>
+  <li><a href="#дальнейшие-действия" id="markdown-toc-дальнейшие-действия">Дальнейшие действия</a>    <ul>
+      <li><a href="#остаться-на-haxchi" id="markdown-toc-остаться-на-haxchi">Остаться на Haxchi</a></li>
+      <li><a href="#установка-coldboot-haxchi" id="markdown-toc-установка-coldboot-haxchi">Установка Coldboot Haxchi</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<p><strong>Haxchi</strong> - это эксплойт, который позволяет нам запускать CFW напрямую из системного меню без использования Homebrew Launcher. Он включает в себя кастомную прошивку, которая патчит проверку подписи, проверку региона и запускает различный пользовательский код на фоне работающей прошивки.</p>
+
+<p>Так же на базе <strong>Haxchi</strong> можно заставить взлом запускаться автоматически при запуске приставки.</p>
+
+<p>Для использования <strong>Haxchi</strong> нужно будет внедрить эксплойт в официально купленную игру от Nintendo DS!</p>
+
+<h2 id="инструкция">Инструкция</h2>
+
+<h3 id="часть-i---игры-ds-virtual-console">Часть I - Игры DS Virtual Console</h3>
+
+<p class="notice--warning">Игра для DS Virtual Console должна быть <strong>законно приобретённой</strong> и установленной во <strong>внутреннюю память</strong> приставки. <strong>Не</strong> устанавливайте игру от DS virtual console на USB-носитель.</p>
+
+<h4 id="регистрация-аккаунта-и-nnid">Регистрация аккаунта и NNID</h4>
+
+<p>Если у вас есть уже на аккаунте одна из игр, указанных в списке совместимости ниже, удалите её и скачайте заново, а затем сразу переходите к <a href="#часть-ii---установка-haxchi">установке Haxchi</a>. Проверьте наличие купленной игры в eShop, даже если у вас новый, только что созданный аккаунт, поскольку в редких случаях эти игры могут раздаваться бесплатно, тогда они будут отображаться в eShop как купленные.</p>
+
+<ul>
+  <li>Если при запускеe Shop у вас возникает ошибка 105-5602:
+    <ol>
+      <li>Зайдите в <strong>Системные настройки</strong>, <strong>Информация о консоли</strong>, <strong>Выбор страны проживания</strong> и измените страну на “<strong>Германия</strong>”, подтвердите выбор нажатием кнопки “<strong>Изменить</strong>”</li>
+      <li>Перезагрузите приставку</li>
+      <li>Запустите <strong>eShop</strong> (снова будет ошибка)</li>
+      <li>Зайдите в <strong>Системные настройки</strong>, <strong>Информация о консоли</strong>, <strong>Выбор страны проживания</strong> и измените страну на ту, что была до этого, подтвердите выбор нажатием кнопки “<strong>Изменить</strong>”</li>
+      <li>Перезагрузите приставку</li>
+      <li>Запустите <strong>eShop</strong>, теперь он должен работать</li>
+    </ol>
+  </li>
+</ul>
+
+<p>Если таковой на аккаунте нет нужной игры, <strong>создайте новую учётную запись на вашей консоли и добавить новый NNID</strong>:</p>
+
+<p class="notice--warning">Записывайте все данные, которые вводите при создании аккаунта!</p>
+
+<ol>
+  <li>Нажмите на аватарку в левой верхней части окна и выберите “<strong>Поменять пользователя</strong>” (Change user)</li>
+  <li>Нажмите “<strong>Добавить нового пользователя</strong>” в верхней правой части экрана и следуйте указаниям на экране.</li>
+  <li>Назовите этот аккаунт “<strong>HAXCHI</strong>”, чтобы не запутаться.</li>
+  <li>Укажите <strong>Россию</strong> в качестве страны проживания, если ваша консоль PAL-региона и <strong>США</strong>, если консоль NTSC-региона</li>
+  <li><strong>Обязательно</strong> разрешите <strong>доступ к коду Nintendo Network с компьютеров и других устройств</strong>! Если вы не сделаете этого, то не сможете добавить ваучер на аккаунт простым способом! За это будет отвечать одна из настроек в процессе создания аккаунта!</li>
+</ol>
+
+<p>Теперь необходимо создать новый Nintendo Account:</p>
+
+<p class="notice--info">NNID и Nintendo Account не одно и тоже, хотя казалось бы</p>
+
+<ol>
+  <li>Перейдите на <a href="https://accounts.nintendo.com/authorize_age_gate?redirect_after=5&amp;redirect_uri=https%3A%2F%2Faccounts.nintendo.com%2F" target="_blank">сайт Nintendo</a> и создайте аккаунт, заполнив все необходимые поля</li>
+  <li>После того, как вы войдёте в созданный аккаунт на ПК, нажмите <strong>Edit</strong> возле <strong>Linked accounts</strong> и выберите <strong>Nintendo Network ID</strong></li>
+  <li>Войдите в ваш NNID и привяжите его к аккаунту</li>
+</ol>
+
+<h4 id="список-совместимый-ds-virtual-console-игр">Список совместимый DS Virtual Console игр</h4>
+
+<p class="notice--warning">Если у вас уже куплена одни из игр из списка ниже, скачайте её на свою приставку и переходите к следующей части</p>
+
+<p class="notice--warning">Если у вас не получается скачать игру на самой приставке, купите игру через сайт!</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Animal Crossing: Wild World</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Animal-Crossing-Wild-World-270011.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/animal-crossing-wild-world-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000023019" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Big Brain Academy</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Big-Brain-Academy-270143.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/big-brain-academy-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000013967" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Brain Age: Train Your Brain in Minutes a Day!</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Dr-Kawashima-s-Brain-Training-How-Old-is-Your-Brain--270627.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/brain-age-train-your-brain-in-minutes-a-day-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000006826" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Donkey Kong: Jungle Climber</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Donkey-Kong-Jungle-Climber-270506.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/dk-jungle-climber-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000014168" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Dr. Kawashima’s Brain Training: How Old is Your Brain?</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Dr-Kawashima-s-Brain-Training-How-Old-is-Your-Brain--270627.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/brain-age-train-your-brain-in-minutes-a-day-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000006826" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Kirby: Canvas Curse / Kirby: Power Paintbrush</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Kirby-Power-Paintbrush-271287.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/kirby-canvas-curse-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000015447" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Kirby: Mass Attack</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Kirby-Mass-Attack-271265.html#Overview" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/kirby-mass-attack-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000017169" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Kirby: Squeak Squad / Kirby: Mouse Attack</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Kirby-Mouse-Attack-271276.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/kirby-squeak-squad-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000014167" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>The Legend of Zelda: Phantom Hourglass</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/The-Legend-of-Zelda-Phantom-Hourglass-273289.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-phantom-hourglass-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000017170" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>The Legend of Zelda: Spirit Tracks</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/The-Legend-of-Zelda-Spirit-Tracks-273300.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/the-legend-of-zelda-spirit-tracks-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000017168" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Mario &amp; Luigi: Partners in Time</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Mario-Luigi-Partners-in-Time-271595.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/mario-luigi-partners-in-time-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000013367" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Mario Kart DS</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Mario-Kart-DS-271518.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/mario-kart-ds-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000011949" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>New Super Mario Bros.</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/New-Super-Mario-Bros--271969.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/new-super-mario-bros-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000011947" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Pokemon Mystery Dungeon: Explorers of the Sky</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Pokemon-Mystery-Dungeon-Explorers-of-Sky-272409.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/pokemon-mystery-dungeon-explorers-of-sky-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000023018" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Star Fox Command</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Star-Fox-Command-273113.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/star-fox-command-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000014227" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Super Mario 64 DS</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Super-Mario-64-DS-273179.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/super-mario-64-ds-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000015449" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Wario: Master of Disguise</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Wario-Master-of-Disguise-273553.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/wario-master-of-disguise-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000014228" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>WarioWare: Touched!</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/WarioWare-Touched--273564.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/warioware-touched-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000013308" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Yoshi’s Island DS</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Yoshi-s-Island-DS-273630.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/yoshis-island-ds-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000013369" target="_blank">JPN</a></td>
+    </tr>
+    <tr>
+      <td>Yoshi Touch &amp; Go</td>
+      <td><a href="https://www.nintendo.eu/Games/Nintendo-DS/Yoshi-Touch-Go-273641.html" target="_blank">EUR</a></td>
+      <td><a href="https://www.nintendo.com/games/detail/yoshi-touch-go-wii-u/" target="_blank">USA</a></td>
+      <td><a href="https://www.nintendo.co.jp/titles/20010000006827" target="_blank">JPN</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Отключите все USB-носители от приставки, иначе игра будет установлена на них, а нам она нужна во внутренней памяти приставки</li>
+  <li>Если ваша приставка американка или японка, то вы можете купить игру прямо через eShop на самой приставке. Если при покупке магазин отказывается работать с вашей картой, то вам придется купить <a href="https://www.amazon.com/gp/product/B01LZNGPY3/ref=ppx_yo_dt_b_d_asin_title_o00?ie=UTF8&amp;psc=1" target="_blank">$10 Nintendo eShop Gift Card</a>, а затем использовать добавить её на приставке.</li>
+  <li>Игру в Европе можно купить <strong>только</strong> добавив деньги на ваш аккаунт:
+    <ol>
+      <li>На ПК запустите браузер и перейдите в <a href="https://www.nintendo.ru/-/Nintendo-eShop/Nintendo-eShop-1806894.html" target="_blank">eShop</a></li>
+      <li>Залогиньтесь под вашим аккаунтом с помощью <strong>Кода Nintendo Network</strong>, который привязан к вашей приставке 
+|   * Если вы не можете получить доступ к NNID с ПК, измените настройку “<strong>доступ с компьютеров и других устройств</strong>” в разделе “<strong>Настройка пользователя</strong>”, который находится в меню, вызываемом по нажатию на аватарку на главном экране
+|   * Подробнее об этой процедуре можно прочитать <a href="https://www.nintendo.ru/-/Nintendo-2DS-Nintendo-3DS/-/Nintendo-eShop/-Nintendo-eShop--1626660.html" target="_blank">здесь</a></li>
+      <li>Перейдите на страницу <a href="https://ec.nintendo.com/my/balance_add" target="_blank">пополнения баланса</a> и введите пароль от вашей учетной записи</li>
+      <li>Выберите способ пополнения баланса и положите минимальное количество денег на свой счёт (для России - 750 рублей)</li>
+      <li>После того, как деньги будут добавлены, вам нужно объединить вашу учетную запись и ваш NNID. Для этого перейдите в <a href="https://ec.nintendo.com/my/#/" target="_blank">меню магазина</a></li>
+      <li>Нажмите на ссылку “<strong>Объединить средства</strong>”, которая будет располагаться внизу справа, под методами оплаты</li>
+      <li>После того, как вы объедините средства, вы можете перейти в eShop, в раздел <strong>Nintendo DS</strong> на вашей консоли и наконец купить игру <strong>Dr. Kawashima’s Brain Training</strong></li>
+    </ol>
+  </li>
+  <li>Если ваша игра после покупки не начала качаться автоматически, зайдите в eShop на приставке, найдите список купленных игр и установите игру принудительно</li>
+  <li>Используйте приложение Google Translate и перевод через камеру на вашем смартфоне, если интерфейс приставки на незнакомом для вас языке</li>
+</ul>
+
+<p class="notice--danger">После взлома можете создавать и использовать другие аккаунты, если это необходимо. Главное не удаляйте тот, из которого была куплена игра, в которую установлен Haxchi!</p>
+
+<h3 id="часть-ii---запуск-homebrew-launcher">Часть II - Запуск Homebrew Launcher</h3>
+
+<p class="notice--warning">Поскольку мы запускаем эксплойт из встроенного браузера Wii U, нам понадобится доступ в интернет на консоли.</p>
+
+<ol>
+  <li>Запустите <strong>браузер</strong> на приставке</li>
+  <li>Перейдите на сайт <code class="language-plaintext highlighter-rouge">wiiuexploit.xyz</code></li>
+  <li>Нажмите на “<strong>The Exploit!</strong>” и зажмите и удерживайте <img src="/images/buttons/.png" alt="()" />, пока не появится меню
+    <ul>
+      <li>Если приставка зависла - перегрузите её, удерживая кнопку питания и пробуйте заново
+        <ul>
+          <li>Если это не помогло, перейдите в настройки браузера и выберите пункт “<strong>Сброс данных сохранения</strong>” (Reset Save Data)
+            <ul>
+              <li>Это поможет избежать проблем при использовании уязвимости браузера</li>
+              <li>Это приведёт также к удалению всех сохранённых данных браузера, включая настройки, историю и закладки</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Может понадобится ни одна попытка. Пробуйте пока не выйдет!</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="часть-iii---установка-haxchi">Часть III - Установка Haxchi</h3>
+
+<ol>
+  <li>Запустите инсталлятор <strong>Haxchi</strong></li>
+  <li>Выберите игру от DS virtual console, в которую вы собираетесь установить Haxchi, а затем нажмите <img src="/images/buttons/A.png" alt="(A)" /> для подтверждения</li>
+  <li>Ознакомьтесь с появившимся предупреждением и нажмите <img src="/images/buttons/A.png" alt="(A)" /> для установки</li>
+  <li>После окончания процесса, игра, в которую вы установили <strong>Haxchi</strong> сменит название и иконку и будет запускать по-умолчанию <strong>HaxchiCFW</strong>
+    <ul>
+      <li>Вы сможете запускать неподписанные приложения (например Homebrew Channel или резервные копии игр) прямо из системного меню</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<p class="notice--info">В данный момент для запуска CFW вам каждый раз будет нужно запускать <em>Haxchi</em> из главного меню приставки. На следующей странице мы установим <strong>CBHC (Coldboot Haxchi)</strong>, который автоматизирует этот процесс.</p>
+
+<p class="notice--info">Вы можете удерживать кнопку <img src="/images/buttons/A.png" alt="(A)" /> после запуска <strong>Haxchi</strong>, чтобы попасть в <strong>Homebrew Launcher</strong></p>
+
+<hr />
+
+<h2 id="дальнейшие-действия">Дальнейшие действия</h2>
+
+<h3 id="остаться-на-haxchi"><a href="homebrew-launcher-channel">Остаться на Haxchi</a></h3>
+
+<p>На вашей приставке уже установлен эксплойт Haxchi.</p>
+
+<p>Использование этого метода не несёт в себе никаких рисков, но каждый раз после перезагрузки вам придётся активировать взлом вручную, запукская <strong>Haxchi</strong> с главного экрана приставки</p>
+
+<hr />
+
+<h3 id="установка-coldboot-haxchi"><a href="coldboot-haxchi">Установка Coldboot Haxchi</a></h3>
+
+<p><strong>CBHC (Coldboot Haxchi)</strong> изменяет системный тайл, запускающийся по-умолчанию при старте SysNAND, на игру из DS virtual console, которая настроена на запуск CFW, что позволяет запускать кастом сразу при загрузке приставки.</p>
+
+<p>Использование этого эксплойта менее безопасно, поскольку единственный способ запустить систему - использовать специально подготовленную игру от DS. Удалив или переместив эту игру вы не сможете загрузить приставку! Поэтому, используя этот метод, нужно будет соблюдать ряд простых правил безопасности, о чем будет написано далее.</p>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+		
+    
+  </article>
+
+  
+  
+</div>
+
+    <a href="#" class="scrollup">Наверх</a>
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <a href="#" class="scrollup">Наверх</a>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    
+	  <li><a href="https://vk.com/" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> ВК</a></li>
+    
+    
+	  <li><a href="https://vk.com/" itemprop="sameAs"><i class="fa fa-fw fa-vk" aria-hidden="true"></i> Custom Nintendo
+	  </a></li>	
+    
+    <li><a href="https://wiiu.customfw.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-2');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter50015746 = new Ya.Metrika2({
+                    id:50015746,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50015746" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+  </body>
+</html>

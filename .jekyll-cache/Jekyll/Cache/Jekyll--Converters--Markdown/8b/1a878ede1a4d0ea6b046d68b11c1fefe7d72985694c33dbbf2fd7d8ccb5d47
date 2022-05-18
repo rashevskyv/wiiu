@@ -1,8 +1,0 @@
-I"�
-<p><strong>Удалите все файлы и папки из корня SD-карты, **кроме</strong> указанных ниже (некоторых, а то и всех, может на карте не оказаться):**</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+ DCIM
-+ private
-</code></pre></div></div>
-
-:ET
