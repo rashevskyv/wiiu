@@ -15,9 +15,7 @@ main:
   - title: "Удаление<br>CBHC"
     url: /uninstall-cbhc
   - title: "Модификация<br>vWii"
-    url: /vwii-modding
-  - title: "disc2app"
-    url: /disc2app
+    url: /vwii-modding  
   - title: "Пожертвования"
     url: http://customfw.xyz/donations
   - title: "Связаться с нами"

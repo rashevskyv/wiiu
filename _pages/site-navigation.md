@@ -25,7 +25,6 @@ author_profile: true
 * [Установка игр для vWii](games-vwii.md){:target="_blank"}
 * [Установка игр для Wii U](games-wiiu.md){:target="_blank"}
 * [Установка игр на приставке Wii U](games.md){:target="_blank"}
-* [disc2app](disc2app.md){:target="_blank"}
 * [Вопросы и ответы](faq.md){:target="_blank"}
 * [Начало](get-started.md){:target="_blank"}
 * [Взлом Wii U](home.md){:target="_blank"}
