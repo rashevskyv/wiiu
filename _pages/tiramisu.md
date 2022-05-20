@@ -23,14 +23,7 @@ author_profile: true
 1. С помощью крестовины выберите **Install** и запустите установку кнопкой {% include inc/btn.md btn="A" %} 
 1. Выберите "**Press A to shutdown**", чтобы выключить консоль
 
-## Часть II - Блокировка обновлений 
-
-1. Запустите приложение **"Информация о здоровье и безопасности"** (**"Health and Safety Information"**) (желтый триугольник с восклицательным знаком) -> **Tiramisu** -> **Homebrew Launcher**
-1. Выберите **UFDiine** и нажмите {% include inc/btn.md btn="A" %}, чтобы заблокировать обновления на консоли 
-1. Надпись **Update folder is deleted** означает, что обновления заблокированы
-1. Выключите консоль кнопкой питания и включите её
-
-## Часть III - Автозапуск PayloadLoader
+## Часть II - Автозапуск PayloadLoader
 
 1. Запустите приложение **"Информация о здоровье и безопасности"** из главного меню вашей консоли, удерживая кнопку {% include inc/btn.md btn="X" %}, чтобы попасть в меню **Environment Loader**
 1. С помощью крестовины выберите **installer** и запустите его кнопкой {% include inc/btn.md btn="A" %}
@@ -38,19 +31,29 @@ author_profile: true
 1. Выберите **Switch to PayloadLoader**
 1. После завершения установки нажмите {% include inc/btn.md btn="A" %}, чтобы выключить консоль
 1. Теперь **PayloadLoader** будет автоматически запускаться при каждой загрузке консоли
-  * Для того, чтобы изменить приложение, которое будет загружаться по-умолчанию, нажмите и удерживайте {% include inc/btn.md btn="+" %} на геймпаде во время загрузки приставки. Выберите нужный тайтл, нажав {% include inc/btn.md btn="Y" %}
 
-## Часть IV - Автозапуск Tiramisu
+## Часть III - Блокировка обновлений 
 
-1. Выключите и включите консоль. Должен запуститься "**Environment Loader**"
-1. С помощью крестовины выберите **tiramisu** и нажмите {% include inc/btn.md btn="Y" %}, чтобы запускать Tiramisu при старте приставки
-  * Для открытия **Environment Loader**, нажмите {% include inc/btn.md btn="X" %} при загрузке приставки
-1. Перейдите в меню **tiramisu** -> **Tiramisu Boot Selector** наведите курсор на **"Wii U Menu"** и нажмите {% include inc/btn.md btn="Y" %}, чтобы запускать главное меню при запуске консоли
-  * Для открытия Tiramisu **Boot Selector**, нажмите {% include inc/btn.md btn="+" %} при загрузке приставки
-1. Нажмите {% include inc/btn.md btn="A" %} на **"Wii U Menu"**, чтобы попасть в главное меню консоли
+1. Запустите приложение **Редактор Mii** (**Mii Maker**) для запуска **Homebrew Launcher**
+1. Выберите **UFDiine** и нажмите {% include inc/btn.md btn="A" %}, чтобы заблокировать обновления на консоли 
+1. Надпись **Update folder is deleted** означает, что обновления заблокированы
+1. Нажмите {% include inc/btn.md btn="HOME" %} для того, чтобы закрыть программу и ещё раз, для того, чтобы попасть в главное меню
 
-После загрузки в **Tiramisu** вы можете запустить **Homebrew Launcher** через приложение **Редактор Mii** (**Mii Maker**). Чтобы запустить сам **Редактор Mii** (**Mii Maker**), просто нажмите {% include inc/btn.md btn="HOME" %} в **Homebrew Launcher**
-{: .notice--info}
+## Часть IV - Homebrew Launcher и горячие клавиши 
+
+### Homebrew Launcher
+
+1. Для запуска **Homebrew Launcher** запустите **Редактор Mii** (**Mii Maker**). 
+  * Если вам нужно запустить сам **Редактор Mii** (**Mii Maker**), просто нажмите {% include inc/btn.md btn="HOME" %} в **Homebrew Launcher**
+  * Вы можете установить форвардер для **Homebrew Launcher**, чтобы запускать последний из главного меню консоли. Для этого установите **HBL** с помощью **WUP Installer**. Как устанавливать игры и приложения, описано в инструкции по установке [игр](games){:target="_blank"}
+
+### Горячие клавиши
+
+При запуске приставки вы можете зажать одну из указанных горячих клавиш, чтобы запустить системные приложения:
+
+* **Enviroment Loader** (удерживайте {% include inc/btn.md btn="X" %} для запуска) - позволяет запускать другие окружения, вместо tiramisu, а так же удалить эксплойт (через меню **installer**). Все окружения находятся по пути `sd:\wiiu\environments\%enviroment_name%\modules\setup\`. Обратите внимание, что при выборе окружения, будут запущены все модули в папке `setup` в порядке их наименования. Подробнее по [ссылке](https://gbatemp.net/threads/release-environment-loader.605382/){:target="_blank"}
+* **Tiramisu Boot Selector** (удерживайте {% include inc/btn.md btn="+" %} для запуска) - позволяет выбрать что именно будет грузиться. По умолчанию, идёт загрузка в **главное меню Wii U** (Wii U Menu), та же для выбора доступна загрузка в **главное меню Wii** (vWii System Menu) и в **Homebrew Launcher** для Wii U (Homebrew Launcher) или Wii (vWii Homebrew Channel).  
+* **Payload Loader** (удерживайте {% include inc/btn.md btn="B" %} для запуска) - позволяет выбрать пейлоад, который будет загружен в приставку. По-умолчанию будет грузиться Enviroment Loader (default). Свои пейлоады можно положить на карту памяти по пути `sd:\wiiu\payloads\`
 
 
 ___

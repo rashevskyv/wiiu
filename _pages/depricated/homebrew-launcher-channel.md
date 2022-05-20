@@ -15,7 +15,7 @@ author_profile: true
 
 1. Запустите **Homebrew Launcher**
 	+ **Пользователи CBHC** должны нажать кнопку {% include inc/btn.md btn="HOME" %} во время загрузки, для доступа к меню CBHC и выберете там Homebrew Launcher
-	+ **Пользователи Haxchi** должны сначала запустить **Haxchi**, а затем запустить его еще раз, удерживая {% include inc/btn.md btn="A" %}, чтобы войти в Homebrew Launcher
+	+ **Пользователи Haxchi** должны сначала запустить **Haxchi**, а затем запустить его ещё раз, удерживая {% include inc/btn.md btn="A" %}, чтобы войти в Homebrew Launcher
 	+ **Пользователи Mocha CFW** должны запустить Homebrew Launcher через браузер
 1. Запустите "**WUP Installer GX2**"
 	+ Если "**WUP Installer GX2**" падает с ошибкой "**DSi Exception Has Occurred**", перезапустите приставку и попробуйте заново.
