@@ -51,8 +51,6 @@ atom_feed:
 
 # SEO Related
 google_site_verification : bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE
-alexa_site_verification  :
-yandex_site_verification :
 
 # Social Sharing
 twitter:
@@ -81,7 +79,7 @@ author:
   name             : "xHR"
   avatar           : "/images/bio-photo.png"
   location         : "Дружковка, Украина"
-  email            : "rashevsky.v@gmail.com"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -102,11 +100,12 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "xHR_"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : UC49jZqLn59t9qyHfK2HyvQQ
+  tg               : kefir_cfw
 
 
 # Reading Files
