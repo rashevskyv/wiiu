@@ -1,1 +1,1 @@
-[WiiUSDFiles](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}
+[`wiiusdfiles.zip`](https://github.com/rashevskyv/wiiu/releases/latest){:target="_blank"}

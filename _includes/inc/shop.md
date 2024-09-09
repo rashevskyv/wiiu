@@ -1,0 +1,1 @@
+Если вы купили приставку у [меня](shop.customfw.xyz){:target="_blank"}

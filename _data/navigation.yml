@@ -12,8 +12,8 @@ main:
     url: /nand-backup
   - title: "Tiramisu"
     url: /tiramisu
-  - title: "Удаление<br>CBHC"
-    url: /uninstall-cbhc
+  - title: "Удаление<br>взлома"
+    url: /uninstall-hack
   - title: "Модификация<br>vWii"
     url: /vwii-modding  
   - title: "Пожертвования"

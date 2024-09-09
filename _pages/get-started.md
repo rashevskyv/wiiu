@@ -12,11 +12,9 @@ author_profile: true
 **Нельзя** называть SD-карту `wiiu`, это приведёт к проблемам
 {: .notice--warning}
 
-Если у вас Wii U японского региона, используйте сайт [https://wiiujapan.ru](https://wiiujapan.ru){:target="_blank"} как подсказку
-
 Прежде чем начать, рекомендуется [проверить свою SD-карту на подлинность](https://customfw.xyz/test_sd){:target="_blank"}
 
-Если на вашей консоли уже установлен CBHC или Haxchi, [удалите их](uninstall-cbhc){:target="_blank"} и только затем начинайте следовать инструкции!
+Если на вашей консоли уже установлен CBHC или Haxchi, [удалите их](uninstall-hack){:target="_blank"} и только затем продолжайте следовать инструкции!
 {: .notice--danger}
 
 ## Часть I - Подготовительные работы

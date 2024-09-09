@@ -30,7 +30,7 @@ author_profile: true
 * [Взлом Wii U](home.md){:target="_blank"}
 * [Резервное копирование NAND](nand-backup.md){:target="_blank"}
 * [Tiramisu](tiramisu.md){:target="_blank"}
-* [Удаление ColdbootHax или Haxchi](uninstall-cbhc.md){:target="_blank"}
+* [Удаление ColdbootHax или Haxchi](uninstall-hack.md){:target="_blank"}
 * [Модификация vWii](vwii-modding.md){:target="_blank"}
 
 {% endcapture %}

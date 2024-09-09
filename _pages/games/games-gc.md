@@ -13,7 +13,7 @@ author_profile: true
 ### Что понадобится
 <a name="what_need_gc" />
 
-+ vWii режим должен быть взломан. Если вы не делали этого, перейдите на [соответствующую страницу гайда](vwii-modding). Если вы купили приставку у меня (в [VK](https://vk.com/nincfw) или на [OLX](https://nincfw.olx.ua)), то vWii режим уже взломан. 
++ vWii режим должен быть взломан. Если вы не делали этого, перейдите на [соответствующую страницу гайда](vwii-modding). {% include inc/shop.md %}, то vWii режим уже взломан. 
 + [Установленный и настроенный USB Loader GX](games#запуск-wii-игр-в-vwii-через-usb-loader-gx)
 + [Nintendont.zip](https://yadi.sk/d/Eg-OZEOe3KkkiC)
 + [DIOS MIOS Toolbox 2.11](https://yadi.sk/d/c-f8sPvQ3KiZ2V)

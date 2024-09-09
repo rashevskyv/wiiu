@@ -113,7 +113,7 @@ $(document).ready(function(){
   var sidebar_shown = true;
   var sidebar_hidden_pages = ["404", "credits", "disc2app", "donations", "f3-(linux)", "f3x-(mac)", 
                               "faq", "file-extensions-(windows)", "h2testw-(windows)", "site-navigation", 
-                              "troubleshooting", "uninstall-cbhc", "vwii-modding", "why-ads"];
+                              "troubleshooting", "uninstall-hack", "vwii-modding", "why-ads"];
   
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
