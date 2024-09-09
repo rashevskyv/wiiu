@@ -19,7 +19,7 @@
 
 
 
-<title>Homebrew Launcher - Взлом Wii U</title>
+<title>Резервное копирование сохранений - Взлом Wii U</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Взлом Wii U">
-<meta property="og:title" content="Homebrew Launcher">
+<meta property="og:title" content="Резервное копирование сохранений">
 
 
-  <link rel="canonical" href="https://wiiu.customfw.xyz/homebrew-launcher.html">
-  <meta property="og:url" content="https://wiiu.customfw.xyz/homebrew-launcher.html">
+  <link rel="canonical" href="https://wiiu.customfw.xyz/save-backup.html">
+  <meta property="og:url" content="https://wiiu.customfw.xyz/save-backup.html">
 
 
 
@@ -306,84 +306,44 @@
  
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Homebrew Launcher">
+    <meta itemprop="headline" content="Резервное копирование сохранений">
     
     
     
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Homebrew Launcher
+          <h1 class="page__title" itemprop="headline">Резервное копирование сохранений
 </h1>
           
         </header>
       
 	  
 	  	
-        <aside class="sidebar__right">
-<nav class="toc">
-    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
-<ul class="toc__menu" id="markdown-toc">
-  <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
-      <li><a href="#часть-i---подготовка-браузера" id="markdown-toc-часть-i---подготовка-браузера">Часть I - Подготовка браузера</a></li>
-      <li><a href="#часть-ii---запуск-эксплойта" id="markdown-toc-часть-ii---запуск-эксплойта">Часть II - Запуск эксплойта</a></li>
+        <p>Запуститив SaveMii WUP Port вы можете изменить язык приложения, нажав кнопку <img src="/images/buttons/X.png" alt="(X)" /></p>
+
+<p>Выберите что именно будете бекапить:</p>
+<ul>
+  <li>Wii U Save Management - позволяет выбрать конкретные игры для бекапа Wii U</li>
+  <li>vWii Save Management - позволяет выбрать конкретные игры для бекапа vWii</li>
+  <li>Batch Backup
+    <ul>
+      <li>Backup All - бекап всех игр для vWii и Wii U</li>
+      <li>Backup Wii U - бекап всех игр только Wii U</li>
+      <li>Backup vWii - бекап всех игр для только vWii</li>
     </ul>
   </li>
-  <li><a href="#выберите-прошивку" id="markdown-toc-выберите-прошивку">Выберите прошивку</a></li>
 </ul>
 
-  </nav>
-</aside>
+<p>Выбрав конкретный тайтл для бекапа вы можете выбрать слот в который будет сделан бекап (Backup), либо слот с которого будет восстановлен бекап (Restore). Так же можно стереть данные сохранений (Wipe).</p>
 
-<p>Homebrew Launcher - приложение, выводящее в виде списка и позволяющее запускать другие хомбрю приложения прямо с SD-карты.</p>
+<p>Выбрав пакетную обработку, бекап будет сделан в пустой слот автоматически без подтверждений</p>
 
-<p>Поскольку мы запускаем его из встроенного браузера Wii U, нам понадобится доступ в интернет на консоли.</p>
-
-<h2 id="инструкция">Инструкция</h2>
-
-<h3 id="часть-i---подготовка-браузера">Часть I - Подготовка браузера</h3>
-
-<ol>
-  <li>Запустите браузер на приставке</li>
-  <li>Перейдите в настройки браузера и выберите пункт “Сброс данных сохранения” (Reset Save Data)
-    <ul>
-      <li>Это поможет избежать проблем при использовании уязвимости браузера</li>
-      <li>Это приведёт также к удалению всех сохраненных данные, включая настройки, историю и закладки</li>
-    </ul>
-  </li>
-  <li>Вернитесь к браузеру</li>
-</ol>
-
-<h3 id="часть-ii---запуск-эксплойта">Часть II - Запуск эксплойта</h3>
-
-<ol>
-  <li>Для прошивки 5.5.5: Поднимите занавес в браузере (кнопкой (Х)). Это увеличит вероятность успешного срабатывания эксплойта</li>
-  <li>Перейдите на сайт <code class="language-plaintext highlighter-rouge">usploit.hacks.guide</code>
-    <ul>
-      <li>Можете добавить этот сайт в закладки, чтобы не вводить адрес каждый раз заново</li>
-    </ul>
-  </li>
-  <li>Убедитесь, что в выпадающем списке выбран пункт “Homebrew Launcher 1.4 (5.5.0 - 5.5.1)”, а затем нажмите “Submit”
-    <ul>
-      <li>Может потребоваться несколько попыток</li>
-      <li>В некоторых случаях лучше срабатывает пункт “Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)”</li>
-      <li>При зависании отключите питание консоли, зажав кнопку питания, и попробуйте снова</li>
-    </ul>
-  </li>
-  <li>Консоль должна загрузиться в Homebrew Launcher</li>
-</ol>
+<p>Резервные копии создаются в папке <code class="language-plaintext highlighter-rouge">wiiu/backups</code> на карте памяти</p>
 
 <hr />
 
-<h2 id="выберите-прошивку">Выберите прошивку</h2>
-
-<p class="notice--success"><a href="mocha-cfw">Mocha CFW</a></p>
-
-<p>Этот метод подразумевает запуск эксплойта по новой после каждой перезагрузки приставки. Крайне не рекомендуется пользоваться этим методом на прошивке 5.5.5, поскольку веб-эксплойт крайне нестабилен.</p>
-
-<p class="notice--success"><a href="haxchi">Haxchi</a></p>
-
-<p>Этот метод использует недорогую игру от DS Virtual Console, через которую будет автоматически запускаться кастомная прошивка при запуске приставки. <em>Рекомендуемый</em> метод для пользователей приставок с прошивкой 5.5.5, поскольку веб-эксплойт из предыдущего метода крайне нестабилен.</p>
+<p class="notice--success"><a href="javascript:window.close();">Закрыть страницу</a></p>
 
 				
         
