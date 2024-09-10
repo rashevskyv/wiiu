@@ -1,5 +1,5 @@
 ---
-title: "ISFShax" #
+title: "Установка ISFShax" #
 lang: ru
 permalink: /isfshax.html
 author_profile: true

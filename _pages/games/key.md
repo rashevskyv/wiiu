@@ -6,4 +6,9 @@ author_profile: true
 ---
 
 
-D7B00402659BA2ABD2CB0DB27FA2B656
+`D7B00402659BA2ABD2CB0DB27FA2B656`
+
+___
+
+[Закрыть страницу](javascript:window.close();)
+{: .notice--success}

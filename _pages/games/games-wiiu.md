@@ -25,7 +25,7 @@ author_profile: true
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-{% spoiler Установка игр из самой приставки (WUP) %}
+{% spoiler Установка игр из самой приставки (NUSspli) %}
 
 ## Что понадобится
 
@@ -34,18 +34,6 @@ author_profile: true
 
 Обратите внимание, что карта памяти в приставке должна быть не меньше, чем размер устанавливаемой игры, поскольку перед установкой, игра будет скачиваться на карту памяти
 {: .notice--warning}
-
-## Установка приложения NUSspli
-
-1. Запустите **Homebrew Launcher**, запустив приложение **Редактов Mii** (**Mii Maker**)
-1. Запустите "**WUP Installer GX2**"
-1. Отметьте **NUSspli** галочкой (нажав по экрану, или кнопкой {% include inc/btn.md btn="A" %})
-1. Нажмите "**Install**"
-1. Нажмите "**Yes**"
-1. В появившемся диалоге выберите куда хотите установить игру
-	* **NAND**, если во внутреннюю память приставки
-	* **USB**, если на USB-носитель
-1. После окончания установки нажмите {% include inc/btn.md btn="HOME" %} и вернитесь в главное меню
 
 ## Установка игр через приложение NUSspli
 
@@ -103,7 +91,6 @@ author_profile: true
 
 ### Установка игр с помощью WUP Installer
 
-1. Запустите **Homebrew Launcher**, запустив приложение **Редактов Mii** (**Mii Maker**)
 1. Запустите "**WUP Installer GX2**"
 1. Отметьте файлы, которые хотите установить (либо нажмите {% include inc/btn.md btn="+" %}, чтобы установить все сразу)
 1. Нажмите "**Install**"
@@ -120,3 +107,8 @@ author_profile: true
 Воспользуйтесь этой [видеоинструкцией](https://www.youtube.com/playlist?list=PLo59pBvZG2_nbarZS66CtDJNzg6-wx6HA){:target="_blank"}
 
 {% endspoiler %}
+
+___
+
+[Закрыть страницу](javascript:window.close();)
+{: .notice--success}

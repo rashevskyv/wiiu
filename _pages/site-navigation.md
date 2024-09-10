@@ -11,7 +11,7 @@ author_profile: true
 
 + [Вопросы и ответы](faq)
 + [Модификация vWii](vwii-modding)
-+ [Установка игр на приставке Wii U](games.md){:target="_blank"}
++ [Установка игр на приставке Wii U](games.md){:target="_blank"}){:target="_blank"}
 
 
 {% endcapture %}
@@ -20,18 +20,21 @@ author_profile: true
 {% capture notice-2 %}
 **Все страницы**
 
-* [Установка игр для GameCube](games-gc.md){:target="_blank"}
-* [Запуск игр из других платформ с помощью встроенного эмулятора](games-inject.md){:target="_blank"}
-* [Установка игр для vWii](games-vwii.md){:target="_blank"}
-* [Установка игр для Wii U](games-wiiu.md){:target="_blank"}
-* [Установка игр на приставке Wii U](games.md){:target="_blank"}
-* [Вопросы и ответы](faq.md){:target="_blank"}
+* [Wii U Hack Guide](home.md){:target="_blank"}
 * [Начало](get-started.md){:target="_blank"}
-* [Взлом Wii U](home.md){:target="_blank"}
+* [Вопросы и ответы](faq.md){:target="_blank"}
 * [Резервное копирование NAND](nand-backup.md){:target="_blank"}
-* [Tiramisu](tiramisu.md){:target="_blank"}
-* [Удаление ColdbootHax или Haxchi](uninstall-hack.md){:target="_blank"}
+* [Установка Aroma](aroma.md){:target="_blank"}
+* [Установка ISFShax](isfshax.md){:target="_blank"}
+* [Смена региона Wii U](wiiu-region-change.md){:target="_blank"}
 * [Модификация vWii](vwii-modding.md){:target="_blank"}
+* [Установка игр на приставке Wii U](games.md){:target="_blank"}
+* [Установка игр для Wii U](games-wiiu.md){:target="_blank"}
+* [Установка игр для vWii](games-vwii.md){:target="_blank"}
+* [Запуск игр из других платформ с помощью встроенного эмулятора](games-inject){:target="_blank"}
+* [Wii U common key](key.md){:target="_blank"}
+* [Резервное копирование сохранений](save-backup.md){:target="_blank"}
+* [Удаление ColdbootHax или Haxchi](uninstall-hack.md){:target="_blank"}
 
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

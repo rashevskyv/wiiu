@@ -1,5 +1,5 @@
 ---
-title: "Aroma" #
+title: "Установка Aroma" #
 lang: ru
 permalink: /aroma.html
 author_profile: true
@@ -63,10 +63,7 @@ ___
 Для того, чтобы научиться устанавливать игры, перейдите [сюда](games)
 {: .notice--success}
 
-Информация о смене региона и русификации Wii U [тут](wiiu-region-change)
-{: .notice--success}
-
-Информация о смене региона и русификации Wii [тут](vwii-region-change)
+Информация о смене региона и русификации Wii U  и Wii [тут](wiiu-region-change)
 {: .notice--success}
 
 Для информации о модификации vWii, перейдите к странице [Модификация vWii](vwii-modding)
