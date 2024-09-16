@@ -10,8 +10,8 @@ main:
     url: /faq
   - title: "Бекап<br>NAND"
     url: /nand-backup
-  - title: "Tiramisu"
-    url: /tiramisu
+  - title: "Aroma"
+    url: /aroma
   - title: "Удаление<br>взлома"
     url: /uninstall-hack
   - title: "Модификация<br>vWii"
