@@ -390,7 +390,8 @@
   <li>Соглашаясь с написанным, нажмите кнопку <strong>Eject</strong> три раза, тем самым выбрав пункт <strong>Install isfshax</strong></li>
   <li>Нажмите кнопку <strong>Power</strong> 1 раз, выбрав пункт <strong>Yes, proceed</strong>, после чего нажмите <strong>Eject</strong> для начала установки</li>
   <li>Дважды нажмите <strong>Eject</strong>, чтобы выключить консоль</li>
-  <li>Вставте карту памяти в ПК и удалите fw.img, после чего переименуйте <code class="language-plaintext highlighter-rouge">fw_default.img</code> в <code class="language-plaintext highlighter-rouge">fw.img</code></li>
+  <li>Вставте карту памяти в ПК и <strong>удалите</strong> <code class="language-plaintext highlighter-rouge">fw.img</code></li>
+  <li>Переименуйте <code class="language-plaintext highlighter-rouge">fw_default.img</code> в <code class="language-plaintext highlighter-rouge">fw.img</code></li>
   <li>Верните карту в консоль</li>
 </ol>
 
@@ -423,7 +424,7 @@
     </ul>
   </li>
   <li>Запустите приложение <strong>haxcopy</strong> (<img src="/images/apps/haxcopy.png" alt="" width="60px" />), которое должно появиться на экране</li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для выбора пункта Copy hax folder to SLC и <img src="/images/buttons/A.png" alt="(A)" /> для начала копирования</li>
+  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" /> для выбора пункта <strong>Copy hax folder to SLC</strong> и <img src="/images/buttons/A.png" alt="(A)" /> для начала копирования</li>
   <li>После окончания закройте приложение кнопкой <img src="/images/buttons/HOME.png" alt="(HOME)" /></li>
   <li>Запустите <strong>Payload-Loader Installer</strong> (<img src="/images/apps/payload-loader.png" alt="" width="60px" />)</li>
   <li>Выберите <strong>Check</strong> -&gt; <strong>Boot options</strong></li>
@@ -435,11 +436,14 @@
 
 <p class="notice--warning">В случае, если ваша консоль не запускается и вам нужно попасть в загрузчик minute, убедитесь, что на карте памяти в корне лежит <code class="language-plaintext highlighter-rouge">fw.img</code> из архива <a href="https://github.com/rashevskyv/wiiu/releases/latest" target="_blank"><code class="language-plaintext highlighter-rouge">isfshax.zip</code></a>, вставьте карту памяти в выключенную консоль и быстро клацайте кнопку POWER, пока не увидите экран minute</p>
 
-<p>Вы можете удалить следующие файлы с карты памяти:</p>
+<p>Вы можете удалить следующие файлы с карты памяти, если они есть:</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">fw_default.img</code></li>
   <li><code class="language-plaintext highlighter-rouge">ios.img</code></li>
   <li><code class="language-plaintext highlighter-rouge">superblock.img</code>, <code class="language-plaintext highlighter-rouge">superblock.img.sha</code></li>
+  <li><code class="language-plaintext highlighter-rouge">wafel_setup_mlc.log</code></li>
+  <li><code class="language-plaintext highlighter-rouge">sys_prod.xml</code></li>
+  <li>папки <code class="language-plaintext highlighter-rouge">aroma</code>, <code class="language-plaintext highlighter-rouge">hax</code></li>
 </ul>
 
 <p>Следующие файлы переместите к вашему бекапу, который делали раньше:</p>
@@ -472,7 +476,7 @@
   <li>NTFS не будет файловой системой, которую будет использовать Wii U; она там только для того, чтобы SDUSB знал, какой раздел выбрать (он выберет первый NTFS-раздел). Впоследствии Wii U отформатирует этот раздел своей собственной файловой системой</li>
 </ul>
 
-<p>После того, как Вы разметите карту памяти, просто вставьте её в консоль и включите приставку. Wii U должна обнаружить раздел на карте памяти и предложить отформатировать его в свой формат. По окончанию форматирования консоль будет воспринимать раздел карты памяти как внутреннюю память и позволит устанавливать туда игры.</p>
+<p>После того, как Вы разметите карту памяти, просто вставьте её в консоль и включите приставку. Wii U должна обнаружить раздел на карте памяти и предложить отформатировать его в свой формат (если этого не произошло, отформатируйте самостоятельно через настроки консоли). По окончанию форматирования консоль будет воспринимать раздел карты памяти как внутреннюю память и позволит устанавливать туда игры.</p>
 
 <hr />
 
@@ -540,7 +544,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

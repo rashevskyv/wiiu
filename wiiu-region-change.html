@@ -320,14 +320,7 @@
       
 	  
 	  	
-        <aside class="sidebar__right">
-<nav class="toc">
-    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
-
-  </nav>
-</aside>
-
-<p target="_blank">Инструкция может быть актуальна для пользователей японских или американских Wii U, которые хотят поменять регион своей Wii U на европейский, тем самым получив хотя бы интерфейс на понятном языке.</p>
+        <p target="_blank">Инструкция может быть актуальна для пользователей японских или американских Wii U, которые хотят поменять регион своей Wii U на европейский, тем самым получив хотя бы интерфейс на понятном языке.</p>
 
 <p>С установленной прошивкой Aroma смена региона необходима только для замены языка на котором будет отображаться интерфейс работы приставки. За то на каком языке будут работать игры отвечает плагин <strong>Region Free Plugin</strong> из состава Aroma. То есть, даже на японской приставке игры имеющие в составе русский язык можно будет запустить на русском, просто поставив в плагине соответствующие настройки.</p>
 
@@ -379,21 +372,63 @@
   <li>Вернитесь в главное меню, выбрав <strong>Return to Main Menu</strong> (27 раз Power, 1 раз Eject)</li>
   <li>Выберите пункт <code class="language-plaintext highlighter-rouge">Patch (sd) and boot IOS (slc)</code> (2 раза Power, 1 раз Eject)
     <ul>
-      <li>Светодиод на консоли должен начать мигать синим. Это значит, что начался процесс смены региона. Дождитесь окончания мигания, что будет говорить об окончании процесса.</li>
+      <li><strong>Светодиод на консоли должен начать мигать синим.</strong> Это значит, что начался процесс смены региона. Дождитесь окончания мигания, что будет говорить об окончании процесса.</li>
     </ul>
   </li>
   <li>Нажмите и удерживайте кнопку POWER до полного выключения консоли, после чего вставьте карту памяти в ПК</li>
-  <li>В корне карты памяти должен находиться файл <code class="language-plaintext highlighter-rouge">wafel_setup_mlc.log</code>/ Откройте его и убедитесь, что там не содержится ошибок (везде должно быть <strong>00000000</strong>, кроме как напротив <strong>SetInitialLaunch</strong>, там должно стоять <strong>1</strong>).</li>
-  <li>Если ошибок не обнаружено, удалите файл <code class="language-plaintext highlighter-rouge">sd:/wiiu/ios_pluginswafel_setup_mlc.ipx</code> и папку <code class="language-plaintext highlighter-rouge">wafel_install</code> из корня карты памяти</li>
-  <li>Вставьте карту памяти в консоль и включите её. Вы должны увидеть сообщение на желтом фоне про блокировку обновлений.</li>
-  <li>Синхронизируйте геймпад Wii U, нажав кнопку синхронизации на консоли:
-    <ol>
-      <li>Вы увидите черный экран Aroma с предложением синхронизировать контроллер, нажмите кнопку синхронизации на консоли ещё раз, после чего зажмите и удерживайте кнопку синхронизации на контроллере.</li>
-      <li>Введите появившиеся символы на контроллере. После этого экран контроллера потухнет. Нажмите <img src="/images/buttons/X.png" alt="(X)" /> для блокировки обновлений.</li>
-      <li>Консоль должна выключиться</li>
-    </ol>
+  <li>В корне карты памяти должен находиться файл <code class="language-plaintext highlighter-rouge">wafel_setup_mlc.log</code>. Откройте его и убедитесь, что там не содержится ошибок (везде должно быть <strong>00000000</strong>, кроме как напротив <strong>SetInitialLaunch</strong>, там должно стоять <strong>1</strong>).
+    <ul>
+      <li>Если <strong>Set Region to X</strong> возвращает ошибку <strong>“FFFBFFEE”</strong>, следуйте инструкции по <strong>починке sys_prod вручную</strong> ниже, а затем возвращайтесь к выполнению инструкции</li>
+    </ul>
+  </li>
+  <li>Если ошибок не обнаружено, вставьте карту памяти в консоль и включите её. Вы должны увидеть сообщение на желтом фоне про блокировку обновлений.</li>
+  <li>Синхронизируйте геймпад Wii U, нажав кнопку синхронизации на консоли следующим образом:
+    <ul>
+      <li>Если ваш геймпад сразу синхронизирован, вероятно консоль зависнет после окончания инициализации на “<strong>Меню Wii U</strong>”, следуйте инструкции по <strong>починке sys_prod вручную</strong> ниже, а затем возвращайтесь к выполнению инструкции, чтобы это исправить
+        <ol>
+          <li>Вы увидите черный экран Aroma с предложением синхронизировать контроллер, нажмите кнопку синхронизации на консоли ещё раз, после чего зажмите и удерживайте кнопку синхронизации на контроллере.</li>
+        </ol>
+        <ul>
+          <li>Если контролер не выходит синхронизировать, виключите его, затем включите и пробуйте снова 
+    1. Введите появившиеся символы на контроллере. После этого экран контроллера потухнет. Нажмите <img src="/images/buttons/X.png" alt="(X)" /> для блокировки обновлений. 
+    1. Консоль должна выключиться</li>
+          <li>Если не выключилась, выключите принудительно, удерживая кнопку питания</li>
+        </ul>
+      </li>
+    </ul>
   </li>
   <li>Включите консоль и проведите первоначальную настройку. Теперь ваша консоль имеет европейский регион</li>
+  <li>Удалите файл <code class="language-plaintext highlighter-rouge">sd:/wiiu/ios_plugins/wafel_setup_mlc.ipx</code> и папку <code class="language-plaintext highlighter-rouge">wafel_install</code> из корня карты памяти</li>
+</ol>
+
+<h2 id="починка-sys_prod-вручную">Починка sys_prod вручную</h2>
+
+<p class="notice--info">Виполните эту часть только в том случае, если в логах при смене региона <strong>Set Region to X</strong> возвращает ошибку <strong>“FFFBFFEE”</strong>, и если ваша консоль зависает на “<strong>Меню Wii U</strong>”</p>
+
+<ol>
+  <li>Скачайте <code class="language-plaintext highlighter-rouge">sys_prod.zip</code> та покладіть <a href="https://github.com/Lazr1026/wafel_sysprod_copy/releases/latest" target="_blank">sys_prod.xml</a> із скачаного архіва в корінь картки пам’яті</li>
+  <li>Скачайте <a href="https://github.com/Lazr1026/wafel_sysprod_copy/releases/latest" target="_blank">wafel_sysprod_copy.ipx</a> та покладіть в папку <code class="language-plaintext highlighter-rouge">sd:/wiiu/ios_plugins</code> вашої картки пам’яті</li>
+  <li>Видаліть <code class="language-plaintext highlighter-rouge">sd:/wiiu/ios_plugins/wafel_setup_mlc.ipx</code>? якщо він все ще присутній на карті пам’яті</li>
+  <li>
+    <p>Відкрийте <code class="language-plaintext highlighter-rouge">sys_prod.xml</code> текстовим редактором та змініть “<strong>product_area</strong>” та “<strong>game_region</strong>” на “<strong>4</strong>” (що відповідає європейському регіону, на який ми змінинюємо регіон консолі)</p>
+
+    <p class="text-center notice--info"><img src="/images/screenshots/xml1.PNG" alt="" /></p>
+  </li>
+  <li>
+    <p>Змініть “<strong>code_id</strong>”, “<strong>serial_id</strong>” та “<strong>model_number</strong>” відповідно до значень серійного номеру внизу консолі</p>
+
+    <p class="text-center notice--info"><img src="/images/screenshots/xml2.PNG" alt="" /></p>
+
+    <p class="text-center notice--info"><img src="/images/screenshots/xml_console.PNG" alt="" /></p>
+  </li>
+  <li>Save the file, and then copy it to the root of the SD card.</li>
+  <li>Загрузіть консоль в minute та оберіть <code class="language-plaintext highlighter-rouge">Patch (sd) and boot IOS (slc)</code> (2 раза Power, 1 раз Eject)</li>
+  <li>Почекайте хвилину та вимкніть консоль, утримуючи кнопку <img src="/images/buttons/POWER.png" alt="(POWER)" /></li>
+  <li>Загрузіть консоль в minute та оберіть <code class="language-plaintext highlighter-rouge">Patch (sd) and boot IOS (slc)</code> (2 раза Power, 1 раз Eject), консоль має включитися.
+    <ul>
+      <li>Може бути запропоновано повторно підключити контролер Wii U та пройти ініціалізацію, однак після того консоль має успішно загрузитися в головне меню</li>
+    </ul>
+  </li>
 </ol>
 
 </div></details>
@@ -412,13 +447,14 @@
     </ol>
   </li>
   <li>Вставьте карту памяти в консоль и включите её, удерживая кнопку <img src="/images/buttons/X.png" alt="(X)" /></li>
-  <li>В появившемся меню выберите <strong>tiramisu</strong></li>
-  <li>Запустите приложение <strong>Редактор Mii (Mii Maker)</strong>, чтобы попасть в <strong>Homebrew Launcher</strong></li>
+  <li>В появившемся меню выберите <strong>tiramisu</strong> -&gt; <strong>Homebrew Launcher</strong>
+     * Если сразу загрузилось главное меню, запустите приложение <strong>Редактор Mii (Mii Maker)</strong>, чтобы попасть в <strong>Homebrew Launcher</strong></li>
   <li>Запустите <code class="language-plaintext highlighter-rouge">vwii-nand-restorer.elf</code></li>
   <li>Выберите <strong>Restore NAND</strong></li>
   <li>Ожидайте окончания восстановления. Это займёт не меньше 20 минут, в зависимости от скорости карты памяти</li>
   <li>Выберите <strong>Exit</strong></li>
-  <li>По окончанию восстановления запустите <strong>vWii</strong> и убедитесь, что всё работает.
+  <li>По окончанию восстановления запустите <strong>vWii</strong> и убедитесь, что всё работает.</li>
+  <li>Можете удалить папку <code class="language-plaintext highlighter-rouge">vwiinandrestorer</code> из карты памяти
     <ul>
       <li>vWii запуститься уже с установленным взломом и необходимыми программами, в том же самом виде, в котором он бы был после выполнения взлома по инструкции. То есть, если вы ещё не прошивали vWii, то делать этого уже не нужно</li>
     </ul>
@@ -560,7 +596,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
