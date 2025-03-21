@@ -18,8 +18,8 @@ author_profile: true
 1. С помощью крестовины выберите **aroma** и запустите её кнопкой {% include inc/btn.md btn="A" %}
 1. Появится желтый экран с предложением заблокировать обновление консоли. Нажмите {% include inc/btn.md btn="X" %}, чтобы продолжить. 
   * Приставка запустится на главный экран Wii U на котором появятся homebrew-приложения
-1. Запустите **Payload-Loader Installer** (иконка ракеты в коробке)
-1. Выберите **Check**, чтобы проверить можно ли установить **PayloadLoader** в приложение **"Информация о здоровье и безопасности"** (**"Health and Safety Information"**)
+1. Запустите **Payload-Loader Installer** (![](/images/apps/payload-loader.png){:width="60px"})
+1. Выберите **Check**, чтобы проверить можно ли установить **PayloadLoader** в приложение **"Информация о здоровье и безопасности"** (**"Health and Safety Information"**) - ![](/images/apps/hs.png){:width="60px"}
 1. Выберите **Install / Update** кнопкой {% include inc/btn.md btn="A" %}
 1. С помощью крестовины выберите **Install** и запустите установку кнопкой {% include inc/btn.md btn="A" %} 
 1. Выберите "**Press A to shutdown**", чтобы выключить консоль
@@ -27,7 +27,7 @@ author_profile: true
 ## Часть II - Автозапуск PayloadLoader
 
 1. Включите консоль
-1. Запустите приложение **"Информация о здоровье и безопасности"** (**"Health and Safety Information"**) - ![](/images/apps/hs.png){:width="60px"} из главного меню вашей консоли
+1. Запустите приложение **"Информация о здоровье и безопасности"** (**"Health and Safety Information"**) - ![](/images/apps/hs.png){:width="60px"} -  из главного меню вашей консоли
 1. Запустите **Payload-Loader Installer** (![](/images/apps/payload-loader.png){:width="60px"})
 1. Выберите **Check** -> **Boot options**
 1. Выберите **Switch to PayloadLoader**
