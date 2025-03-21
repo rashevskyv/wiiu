@@ -89,7 +89,7 @@ author_profile: true
 
 1. Save the file, and then copy it to the root of the SD card.
 1. Загрузіть консоль в minute та оберіть `Patch (sd) and boot IOS (slc)` (2 раза Power, 1 раз Eject)
-1. Почекайте хвилину та вимкніть консоль, утримуючи кнопку {% include inc/btn.txt btn="POWER" %}
+1. Почекайте хвилину та вимкніть консоль, утримуючи кнопку {% include inc/btn.md btn="POWER" %}
 1. Загрузіть консоль в minute та оберіть `Patch (sd) and boot IOS (slc)` (2 раза Power, 1 раз Eject), консоль має включитися. 
 	* Може бути запропоновано повторно підключити контролер Wii U та пройти ініціалізацію, однак після того консоль має успішно загрузитися в головне меню
 
