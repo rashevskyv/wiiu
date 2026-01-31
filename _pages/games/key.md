@@ -1,6 +1,6 @@
 ---
 title: "Wii U common key"
-lang: ru
+lang: uk
 permalink: key.html
 author_profile: true
 ---
@@ -10,5 +10,5 @@ author_profile: true
 
 ___
 
-[Закрыть страницу](javascript:window.close();)
+[Закрити сторінку](javascript:window.close();)
 {: .notice--success}

@@ -1,140 +1,145 @@
 ---
-title: "Модификация vWii" #
-lang: ru
+title: "Модифікація vWii" #
+lang: uk
 permalink: /vwii-modding.html
 author_profile: true
 ---
 
-{% include toc title="Разделы" %}
+{% include toc title="Розділи" %}
 
-Мы установим Homebrew Channel и другие модификации для встроенного в Wii U эмулятора Wii (vWii - virtual Wii).
+Ми встановимо Homebrew Channel та інші модифікації для вбудованого у Wii U емулятора Wii (vWii - virtual Wii).
 
-Помните, что без оригинального контроллера Wii, вы не сможете зайти в vWii
+Пам'ятайте, що без оригінального контролера Wii ви не зможете зайти у vWii
 {: .notice--warning}
 
-Если вы хотите изменить регион вашей vWii на европейский, перейдите [сюда](wiiu-region-change). После выполнения этой инструкции прошивать vWii уже не нужно будет. Вы можете выполнить смену региона вместо прошивки vWii. Результат будет идентичен
+Якщо ви хочете змінити регіон вашої vWii на європейський, перейдіть [сюди](wiiu-region-change). Після виконання цієї інструкції прошивати vWii вже не потрібно буде. Ви можете виконати зміну регіону замість прошивки vWii. Результат буде ідентичним
 {: .notice--info}
 
-## Инструкция
+## Інструкція
 
-### Часть I - Подготовительные работы
+### Частина I - Підготовчі роботи
 
-1. Выключите консоль
-1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ `.zip-архива` {% include inc/sdfiles.md %} в корень вашей SD-карты
-  * Не нужно делать, если уже делали в процессе выполнения руководства
-1. Вставьте SD-карту обратно в консоль
-1. Включите консоль
+1. Вимкніть консоль
+1. Вставте SD-карту в комп'ютер
+1. Скопіюйте _вміст_ `.zip-архіву` {% include inc/sdfiles.md %} у корінь вашої SD-карти
+  * Не потрібно робити, якщо вже робили в процесі виконання посібника
+1. Вставте SD-карту назад у консоль
+1. Увімкніть консоль
 
-### Часть II - установка Homebrew Menu
+### Частина II - встановлення Homebrew Menu
 
-1. Запустите **vWii Compat Installer** (![](/images/apps/compat_installer.png){:width="60px"})
-1. Нажмите {% include inc/btn.md btn="A" %} для того, чтобы установить **Homebrew Channel**
-1. Дождитесь надписи **Install succeeded**
-1. Нажмите {% include inc/btn.md btn="HOME" %}, чтобы вернуться в системное меню
-1. Запустите **vWii**
-  * Если установка прошла успешно, на экране появится **Homebrew Channel**
+1. Запустіть **vWii Compat Installer** (![](/images/apps/compat_installer.png){:width="60px"})
+1. Натисніть {% include inc/btn.md btn="A" %} для того, щоб встановити **Homebrew Channel**
+1. Дочекайтеся напису **Install succeeded**
+1. Натисніть {% include inc/btn.md btn="HOME" %}, щоб повернутися в системне меню
+1. Запустіть **vWii**
+  * Якщо встановлення пройшло успішно, на екрані з'явиться **Homebrew Channel**
 
-### Часть III - установка и настройка Priiloader
+### Частина III - встановлення та налаштування Priiloader
 
-1. Запустите **Homebrew Channel**
-1. Запустите **Priiloader Installer** и дождитесь инициализации программы
-1. Нажмите кнопку {% include inc/btn.md btn="+" %} на контроллере Wii 
-1. По завершению работы программы, нажмите {% include inc/btn.md btn="A" %}
-1. Запустите **Load Priiloader**
-1. Перейдите в **System Menu Hacks** и нажмите {% include inc/btn.md btn="A" %}
-1. Кнопкой {% include inc/btn.md btn="A" %} переведите в состояние **enable** следующие пункты:
-  * Block Online Updates
-  * Wii System Settings via Options Button
-  * Remove Deflicker (не трогайте, если используете старый телевизор)
-1. Выберите **System settings**, чтобы сохранить настройки
-1. Нажмите {% include inc/btn.md btn="B" %}, чтобы вернуться в главное меню
-1. Выберите **Homebrew Channel**, чтобы вернуться к выбору Homebrew
+1. Запустіть **Homebrew Channel**
+1. Запустіть **Priiloader Installer** і дочекайтеся ініціалізації програми
+1. Натисніть кнопку {% include inc/btn.md btn="+" %} на контролері Wii 
+1. По завершенню роботи програми натисніть {% include inc/btn.md btn="A" %}
+1. Запустіть **Load Priiloader**
+1. Перейдіть до **System Menu Hacks** і натисніть {% include inc/btn.md btn="A" %}
+1. Кнопкою {% include inc/btn.md btn="A" %} переведіть у стан **enable** наступні пункти:
+>  * Block Online Updates
+>  * Wii System Settings via Options Button
+>  * Remove Deflicker (не чіпайте, якщо використовуєте старий телевізор)
+1. Виберіть **System settings**, щоб зберегти налаштування
+1. Натисніть {% include inc/btn.md btn="B" %}, щоб повернутися в головне меню
+1. Виберіть **Homebrew Channel**, щоб повернутися до вибору Homebrew
 
-### Часть IV - установка cIOS
+### Частина IV - встановлення cIOS
 
-Убедитесь, что в корне SD-карты нет папок `wad` или `wads` и что нет никаких `.wad-файлов` нигде, кроме папки `/apps/`на SD-карте.
+Переконайтеся, що в корені SD-карти немає папок `wad` або `wads` і що немає жодних `.wad-файлів` ніде, крім папки `/apps/` на SD-карті.
 {: .notice--warning}
 
-1. Запустите **Homebrew Channel** на vWii
-1. Запустите **d2x cIOS Installer**
-1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
-  + Select cIOS : **d2x-v11-beta1-vWii**
-  + Select cIOS base : **56**
-  + Select cIOS slot : **249**
-1. Нажмите {% include inc/btn.md btn="A" %} для установки
-1. Дождитесь окончания установки и нажмите {% include inc/btn.md btn="A" %} для продолжения
-1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
-  + Select cIOS : **d2x-v11-beta1-vWii**
-  + Select cIOS base : **57**
-  + Select cIOS slot : **250**
-1. Нажмите {% include inc/btn.md btn="A" %} для установки
-1. Дождитесь окончания установки и нажмите {% include inc/btn.md btn="A" %} для продолжения
-1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
-  + Select cIOS : **d2x-v11-beta1-vWii**
-  + Select cIOS base : **58**
-  + Select cIOS slot : **251**
-1. Нажмите {% include inc/btn.md btn="A" %} для установки
-1. Дождитесь окончания установки и нажмите {% include inc/btn.md btn="B" %} для выхода
+1. Запустіть **Homebrew Channel** у vWii
+1. Запустіть **d2x cIOS Installer**
+1. Встановіть параметри у верхній частині екрана так, щоб вони відповідали вказаним нижче:
+>  + Select cIOS : **d2x-v11-beta1-vWii**
+>  + Select cIOS base : **56**
+>  + Select cIOS slot : **249**
+1. Натисніть {% include inc/btn.md btn="A" %} для встановлення
+1. Дочекайтеся закінчення встановлення та натисніть {% include inc/btn.md btn="A" %} для продовження
+1. Встановіть параметри у верхній частині екрана так, щоб вони відповідали вказаним нижче:
+>  + Select cIOS : **d2x-v11-beta1-vWii**
+>  + Select cIOS base : **57**
+>  + Select cIOS slot : **250**
+1. Натисніть {% include inc/btn.md btn="A" %} для встановлення
+1. Дочекайтеся закінчення встановлення та натисніть {% include inc/btn.md btn="A" %} для продовження
+1. Встановіть параметри у верхній частині екрана так, щоб вони відповідали вказаним нижче:
+>  + Select cIOS : **d2x-v11-beta1-vWii**
+>  + Select cIOS base : **58**
+>  + Select cIOS slot : **251**
+1. Натисніть {% include inc/btn.md btn="A" %} для встановлення
+1. Дочекайтеся закінчення встановлення та натисніть {% include inc/btn.md btn="B" %} для виходу
 
-### Часть V - применение патчей к IOS80
+### Частина V - застосування патчів до IOS80
 
-Этот шаг брикнет вашу vWii, если по какой-то причине будет прерван в процессе применения патчей (отключение электроэнергии, например). В таком случае для восстановления будет необходима резервная копи NAND vWii. Убедитесь, что она у вас есть, перед тем как начинать.
+Цей крок перетворить вашу vWii на «цеглу» (brick), якщо з якоїсь причини буде перерваний у процесі застосування патчів (наприклад, відключення електроенергії). У такому разі для відновлення буде необхідна резервна копія NAND vWii. Переконайтеся, що вона у вас є, перед тим як починати.
 {: .notice--danger}
 
-1. Из **Homebrew Channel** в vWii, запустите "**Patched IOS80 Installer for vWii**""
-1. Внимательно прочтите предупреждение и подождите 30 секунд, после чего сможете продолжить
-1. Нажмите {% include inc/btn.md btn="A" %} для установки
-  + Все должно пройти очень быстро
-1. По завершении процесса, нажмите любую кнопку, чтобы вернуться в Homebrew Channel
+1. З **Homebrew Channel** у vWii запустіть "**Patched IOS80 Installer for vWii**"
+1. Уважно прочитайте попередження і почекайте 30 секунд, після чого зможете продовжити
+1. Натисніть {% include inc/btn.md btn="A" %} для встановлення
+  * Все має пройти дуже швидко
+1. По завершенні процесу натисніть будь-яку кнопку, щоб повернутися в Homebrew Channel
 
-### Часть V - применение патчей к ww-43db
+### Частина V - застосування патчів до ww-43db
 
-С помощью этой утилиты применяются патчи для поддержки 16:9 в ряде WiiWare игр 
+За допомогою цієї утиліти застосовуються патчі для підтримки 16:9 у низці WiiWare ігор 
 
-1. Из **Homebrew Channel** в vWii, запустите "**ww-43-db-patcher**""
-1. Дождитесь окончания инициализации патчера
-1. Нажмите  нажмите {% include inc/btn.md btn="1" %} для начала работы программы
-1. Дождитесь окончания работы патчера и нажмите любую кнопку для возврата в **Homebrew Channel**
+1. З **Homebrew Channel** у vWii запустіть "**ww-43-db-patcher**"
+1. Дочекайтеся закінчення ініціалізації патчера
+1. Натисніть {% include inc/btn.md btn="1" %} для початку роботи програми
+1. Дочекайтеся закінчення роботи патчера і натисніть будь-яку кнопку для повернення в **Homebrew Channel**
 
-### Часть VI - Установка загрузчиков игр vWii и запуск игр
+### Частина VI - Встановлення завантажувачів ігор vWii та запуск ігор
 
-Об установке игр и лоадеров подробно рассказано на этой странице - [Установка игр для vWii](https://wiiu.customfw.xyz/games-vwii)
+Про встановлення ігор та лоадерів детально розповів на цій сторінці — [Встановлення ігор для vWii](https://wiiu.customfw.xyz/games-vwii)
 
-## Список установленных программ в **Homebrew Channel**: 
+## Список встановлених програм у **Homebrew Channel**
 
 * [ftpii](https://oscwii.org/library/app/ftpii) - FTP-сервер
-* [Homebrew Browser 0.3](https://oscwii.org/library/app/ww-43db-patcher) - возможность загружать новейшие приложения и игры для вашей Wii непосредственно через консоль
-* [Riivolution Patcher](https://oscwii.org/library/app/riivolution) - инструмент для мгновенного внесения изменений в игры, который работает с розничными дисками
-* [YAWM ModMii Edition 1.0.1](https://oscwii.org/library/app/yawmME) - менеджер и установщик WAD-файлов
-* [SaveGame Manager GX rev127](https://oscwii.org/library/app/SaveGame_Manager_GX) - менеджер сохранений
-* [WiiXplorer SS 260](https://oscwii.org/library/app/wiixplorer-ss) - файловый менеджер
-* [WiiFlow WFL 5.5.4](https://oscwii.org/library/app/wiiflow) - программа для запуска игр с карты памяти
-* [USB Loader GX 3.0 r1281](https://oscwii.org/library/app/usbloader_gx) - программа для запуска игр с карты памяти
+* [Homebrew Browser 0.3](https://oscwii.org/library/app/ww-43db-patcher) - можливість завантажувати новітні додатки та ігри для вашої Wii безпосередньо через консоль
+* [Riivolution Patcher](https://oscwii.org/library/app/riivolution) - інструмент для миттєвого внесення змін в ігри, який працює з роздрібними дисками
+* [YAWM ModMii Edition 1.0.1](https://oscwii.org/library/app/yawmME) - менеджер та установник WAD-файлів
+* [SaveGame Manager GX rev127](https://oscwii.org/library/app/SaveGame_Manager_GX) - менеджер збережень
+* [WiiXplorer SS 260](https://oscwii.org/library/app/wiixplorer-ss) - файловий менеджер
+* [WiiFlow WFL 5.5.4](https://oscwii.org/library/app/wiiflow) - програма для запуску ігор з карти пам'яті
+* [USB Loader GX 3.0 r1281](https://oscwii.org/library/app/usbloader_gx) - програма для запуску ігор з карти пам'яті
 
-Вы можете удалить следующие программы на этом этапе:
-* [Priiloader Installer 0.10.0](https://oscwii.org/library/app/priiloader) - это приложение заменяет первую часть системного меню, загружающуюся на Wii. Это позволяет загружать его перед самим меню Wii. Установщик может как установить, так и удалить priiloader
-* [Load Priiloader 1.0](https://oscwii.org/library/app/loadpriiloader) - загружает меню Priiloader через Homebrew Loader
-* [`d2x_cIOS_Installer-vWii.zip`](https://wii.hacks.guide/assets/files/d2x_cIOS_Installer-vWii.zip) - патчи системных модулей
-* [Patched IOS80 Installer for vWii 1.0](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii) - устанавливает патченный IOS80 без проверки подписи на vWii
-* [ww-43db-patcher 0.3](https://oscwii.org/library/app/ww-43db-patcher) - обновляет базу данных соотношения сторон 4:3 для WiiWare (43DB) в архиве системного меню vWii U8, заменяя записи. Это позволяет активировать доступ к соотношению сторон 16:9 в WiiWare-играх, где принудительно используется 4:3
+Ви можете видалити наступні програми на цьому етапі:
+* [Priiloader Installer 0.10.0](https://oscwii.org/library/app/priiloader) - цей додаток замінює першу частину системного меню, що завантажується на Wii. Це дозволяє завантажувати його перед самим меню Wii. Установник може як встановити, так і видалити priiloader
+* [Load Priiloader 1.0](https://oscwii.org/library/app/loadpriiloader) - завантажує меню Priiloader через Homebrew Loader
+* [`d2x_cIOS_Installer-vWii.zip`](https://wii.hacks.guide/assets/files/d2x_cIOS_Installer-vWii.zip) - патчі системних модулів
+* [Patched IOS80 Installer for vWii 1.0](https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii) - встановлює патчений IOS80 без перевірки підпису на vWii
+* [ww-43db-patcher 0.3](https://oscwii.org/library/app/ww-43db-patcher) - оновлює базу даних співвідношення сторін 4:3 для WiiWare (43DB) в архіві системного меню vWii U8, замінюючи записи. Це дозволяє активувати доступ до співвідношення сторін 16:9 у WiiWare-іграх, де примусово використовується 4:3
 
 ___
 
-Теперь вы можете установить и использовать любое хомбрю для vWii, например, [USB Loader GX](games-vwii#запуск-wii-игр-в-vwii-через-usb-loader-gx), [Wiiflow](games-vwii#запуск-wii-игр-в-vwii-через-wiiflow), CFG USB Loader, эмуляторы, и т. д.
+Тепер ви можете встановити та використовувати будь-яке хомбрю для vWii, наприклад, [USB Loader GX](games-vwii#запуск-wii-ігр-у-vwii-через-usb-loader-gx), [Wiiflow](games-vwii#запуск-wii-ігр-у-vwii-через-wiiflow), CFG USB Loader, емулятори тощо.
 {: .notice--success}
 
-Для того, чтобы научиться устанавливать игры, перейдите [сюда](games)
+Для того, щоб навчитися встановлювати ігри, перейдіть [сюди](games)
 {: .notice--success}
 
-Внешний жесткий диск необходимо подключать в верхний USB-порт Wii U, иначе vWii не увидит его. Нельзя использовать тот же жесткий диск, что вы используете для игр Wii U. Если вы используете жесткий диск без собственного дополнительного питания, вам понадобится [Y-cable](http://amzn.to/2mjQjin).
+Зовнішній жорсткий диск необхідно підключати у верхній USB-порт Wii U, інакше vWii не побачить його. Не можна використовувати той самий жорсткий диск, який ви використовуєте для ігор Wii U. Якщо ви використовуєте жорсткий диск без власного додаткового живлення, вам знадобиться [Y-cable](http://amzn.to/2mjQjin).
 {: .notice--info}
 
-Убедитесь, что все `.wad-файлы`(каналы, форвардеры, игры, и т.д.), которые вы собираетесь устанавливать, [совместимы с vWii](https://gbatemp.net/threads/340226/). Если вы случайно установите `.wad-файл` не совместимый с vWii, а предназначенный для обычной Wii, вы получите брик вашей vWii и вам придется восстанавливать её из резервной копии NAND.
+Переконайтеся, що всі `.wad-файли` (канали, форвардери, ігри тощо), які ви збираєтеся встановлювати, [сумісні з vWii](https://gbatemp.net/threads/340226/). Якщо ви випадково встановите `.wad-файл`, не сумісний з vWii, а призначений для звичайної Wii, ви отримаєте брік вашої vWii і вам доведеться відновлювати її з резервної копії NAND.
 {: .notice--danger}
 
-Установка кастомных тем в vWii так же приведёт к брику vWii.
+Встановлення кастомних тем у vWii так само призведе до бріку vWii.
 {: .notice--danger}
 
-Удаление `.wad-файлов` вручную без знания тонкостей этого процесса, так же приведут к брику vWii.
+Видалення `.wad-файлів` вручну без знання тонкощів цього процесу так само призведе до бріку vWii.
 {: .notice--danger}
+
+___
+
+[Закрыть страницу](javascript:window.close();)
+{: .notice--success}
