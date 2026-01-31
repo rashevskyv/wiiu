@@ -19,7 +19,7 @@
 
 
 
-<title>Резервное копирование NAND - Взлом Wii U</title>
+<title>Резервне копіювання NAND - Взлом Wii U</title>
 
 
 
@@ -33,7 +33,7 @@
 
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Взлом Wii U">
-<meta property="og:title" content="Резервное копирование NAND">
+<meta property="og:title" content="Резервне копіювання NAND">
 
 
   <link rel="canonical" href="https://wiiu.customfw.xyz/nand-backup.html">
@@ -94,7 +94,6 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="https://wiiu.customfw.xyz/assets/css/main.css">
-<link rel="stylesheet" href="https://customfw.xyz/stay-for-ukraine/css/stay_for_ukraine.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -118,9 +117,7 @@
 
   <body class="layout--single">
     
-    <div id="preloader" class="preloader"></div>
-<div id="stay-for-ukraine-popup"></div>
-<div id="ukranian-flag"></div>
+    
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
@@ -189,7 +186,7 @@
   
     <div class="author__avatar">
       
-        <center><img src="https://wiiu.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+        <center><img src="https://wiiu.customfw.xyz/assets/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
       
     </div>
   
@@ -211,11 +208,30 @@
 	<hr class="style-two">
 
       
+<li>
+  <a href="https://t.me/xhrxhrxhr" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-telegram" aria-hidden="true"></i> Telegram (чипування)
+  </a>
+</li>
 
 
 <li>
-  <a href="https://t.me/xhrxhrxhr" itemprop="sameAs">
-    <i class="fa fa-fw fa-telegram" aria-hidden="true"></i> Telegram
+  <a href="https://t.me/kefir_ukr" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-telegram" aria-hidden="true"></i> Група в Telegram
+  </a>
+</li>
+
+
+<li>
+  <a href="tel:0997763996" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-phone" aria-hidden="true"></i> Телефон
+  </a>
+</li>
+
+
+<li>
+  <a href="viber://0977359431" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-whatsapp" aria-hidden="true"></i> Viber
   </a>
 </li>
 
@@ -306,14 +322,14 @@
  
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Резервное копирование NAND">
+    <meta itemprop="headline" content="Резервне копіювання NAND">
     
     
     
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Резервное копирование NAND
+          <h1 class="page__title" itemprop="headline">Резервне копіювання NAND
 </h1>
           
         </header>
@@ -322,89 +338,91 @@
 	  	
         <aside class="sidebar__right">
 <nav class="toc">
-    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Розділи</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#часть-i---запуск-homebrew-launcher" id="markdown-toc-часть-i---запуск-homebrew-launcher">Часть I - Запуск Homebrew Launcher</a></li>
-  <li><a href="#часть-ii---создание-резервной-копии-nand" id="markdown-toc-часть-ii---создание-резервной-копии-nand">Часть II - Создание резервной копии NAND</a></li>
-  <li><a href="#следующий-шаг-установка-aroma" id="markdown-toc-следующий-шаг-установка-aroma">Следующий шаг: Установка Aroma</a></li>
+  <li><a href="#частина-i---запуск-homebrew-launcher" id="markdown-toc-частина-i---запуск-homebrew-launcher">Частина I - Запуск Homebrew Launcher</a></li>
+  <li><a href="#частина-ii---створення-резервної-копії-nand" id="markdown-toc-частина-ii---створення-резервної-копії-nand">Частина II - Створення резервної копії NAND</a></li>
+  <li><a href="#наступний-крок-встановлення-aroma" id="markdown-toc-наступний-крок-встановлення-aroma">Наступний крок: Встановлення Aroma</a></li>
 </ul>
 
   </nav>
 </aside>
 
-<p>На этой странице мы создадим резервную копию NAND на SD-карте, что позволит нам восстановить работоспособность устройства, используя хардмод, в случае брика.</p>
+<p>На цій сторінці ми створимо резервну копію NAND на SD-карті, що дозволить нам відновити працездатність пристрою, використовуючи хардмод, у разі бріку.</p>
 
-<p>Если у вас чёрная модель Wii U (32ГБ), SD-карта должна быть не менее 64ГБ. Если у вас белая модель Wii U (8ГБ), SD-карта должна быть не менее 16ГБ.</p>
+<p>Якщо у вас чорна модель Wii U (32 ГБ), SD-карта має бути не менше 64 ГБ. Якщо у вас біла модель Wii U (8 ГБ), SD-карта має бути не менше 16 ГБ.</p>
 
-<p>Прежде чем начать, рекомендуется проверить свою SD-карту <a href="https://customfw.xyz/test_sd" target="_blank">на ошибки</a></p>
+<p>Перш ніж почати, рекомендується перевірити свою SD-карту <a href="https://customfw.xyz/test_sd" target="_blank">на помилки</a>.</p>
 
-<p class="notice--warning">Если Wii U NAND Dumper не запускается или не делает резервную копию, <a href="https://customfw.xyz/format_sd" target="_blank">пробуйте форматировать</a> карту с другим размером кластера!</p>
+<p class="notice--warning">Якщо Wii U NAND Dumper не запускається або не робить резервну копію, <a href="https://customfw.xyz/format_sd" target="_blank">спробуйте форматувати</a> карту з іншим розміром кластера!</p>
 
-<p class="notice--warning">Убедитесь, что не пропустили <a href="get-started" target="_blank">подготовительные этапы</a>!</p>
+<p class="notice--warning">Переконайтеся, що не пропустили <a href="get-started" target="_blank">підготовчі етапи</a>!</p>
 
-<h2 id="часть-i---запуск-homebrew-launcher">Часть I - Запуск Homebrew Launcher</h2>
+<h2 id="частина-i---запуск-homebrew-launcher">Частина I - Запуск Homebrew Launcher</h2>
 
-<p class="notice--warning">Поскольку мы запускаем эксплойт из встроенного браузера Wii U, нам понадобится доступ в интернет на консоли.</p>
+<p class="notice--warning">Оскільки ми запускаємо експлойт із вбудованого браузера Wii U, нам знадобиться доступ до інтернету на консолі.</p>
 
 <ol>
-  <li>Запустите <strong>браузер</strong> на приставке</li>
-  <li>Перейдите на сайт <code class="language-plaintext highlighter-rouge">wiiuexploit.xyz</code>
+  <li>Запустіть <strong>браузер</strong> на приставці</li>
+  <li>Перейдіть на сайт <code class="language-plaintext highlighter-rouge">wiiuexploit.xyz</code>
     <ul>
-      <li>Если сайт не открывается, попробуйте подключиться к интернету, розданному через телефон, или подключиться к другой точке доступа</li>
+      <li>Якщо сайт не відкривається, спробуйте підключитися до інтернету, розданого через телефон, або підключитися к іншій точці доступу</li>
     </ul>
   </li>
-  <li>Нажмите на “<strong>Run Exploit!</strong>” и зажмите и удерживайте <img src="/images/buttons/B.png" alt="(B)" />, пока не появится меню
+  <li>Натисніть на “<strong>Run Exploit!</strong>” і затисніть та утримуйте <img src="/images/buttons/B.png" alt="(B)" />, поки не з’явиться меню
     <ul>
-      <li>Если приставка зависла - перегрузите её, удерживая кнопку питания и пробуйте заново
+      <li>Якщо приставка зависла — перезавантажте її, утримуючи кнопку живлення, і спробуйте знову
         <ul>
-          <li>Если это не помогло, перейдите в настройки браузера и выберите пункт “<strong>Сброс данных сохранения</strong>” (Reset Save Data)
+          <li>Якщо це не допомогло, перейдіть у налаштування браузера і виберіть пункт “<strong>Скидання даних збереження</strong>” (Reset Save Data)
             <ul>
-              <li>Это поможет избежать проблем при использовании уязвимости браузера</li>
-              <li>Это приведёт также к удалению всех сохраненных данных браузера, включая настройки, историю и закладки</li>
+              <li>Це допоможе уникнути проблем при використанні вразливості браузера</li>
+              <li>Це також призведе до видалення всіх збережених даних браузера, включаючи налаштування, історію та закладки</li>
             </ul>
           </li>
         </ul>
       </li>
-      <li>При возникновении ошибки <strong>SD Mount failed</strong> убедитесь, что ваша карта памяти отформатирована в <a href="http://customfw.xyz/format_sd" target="_blank">FAT32</a> по инструкции или воспользуйтесь другой картой памяти, если форматирование не помогает</li>
-      <li>Может понадобится ни одна попытка. Пробуйте пока не выйдет!</li>
+      <li>При виникненні помилки <strong>SD Mount failed</strong> переконайтеся, що ваша карта пам’яті відформатована у <a href="http://customfw.xyz/format_sd" target="_blank">FAT32</a> за інструкцією або скористайтеся іншою картою пам’яті, якщо форматування не допомагає</li>
+      <li>Може знадобитися не одна спроба. Пробуйте, поки не вийде!</li>
     </ul>
   </li>
 </ol>
 
-<h2 id="часть-ii---создание-резервной-копии-nand">Часть II - Создание резервной копии NAND</h2>
+<h2 id="частина-ii---створення-резервної-копії-nand">Частина II - Створення резервної копії NAND</h2>
 
 <ol>
   <li>Запустите <strong>nanddumper</strong></li>
-  <li>С помощью крестовины отметьте следующие пункты:
+  <li>За допомогою хрестовини позначте такі пункти:
+    <blockquote>
+      <ul>
+        <li>Dump SLC (528MB): <strong>yes</strong></li>
+        <li>Dump SLCCMPT (528MB): <strong>yes</strong></li>
+        <li>Dump MLC (8GB/32GB): <strong>yes</strong></li>
+        <li>Dump OTP (1KB): <strong>yes</strong></li>
+        <li>Dump SEEPROM (1KB): <strong>yes</strong></li>
+      </ul>
+    </blockquote>
+  </li>
+  <li>Натисніть <img src="/images/buttons/A.png" alt="(A)" />, щоб зробити резервну копію NAND.
     <ul>
-      <li>Dump SLC (528MB): <strong>yes</strong></li>
-      <li>Dump SLCCMPT (528MB): <strong>yes</strong></li>
-      <li>Dump MLC (8GB/32GB): <strong>yes</strong></li>
-      <li>Dump OTP (1KB): <strong>yes</strong></li>
-      <li>Dump SEEPROM (1KB): <strong>yes</strong></li>
+      <li>Будьте готові чекати; час копіювання може зайняти кілька годин і залежить від кількості вільного місця у внутрішній пам’яті: чим більше вільного місця, тим швидше йтиме копіювання.</li>
     </ul>
   </li>
-  <li>Нажмите <img src="/images/buttons/A.png" alt="(A)" />, чтобы сделать резервную копию NAND
+  <li>По завершенню роботи ваша Wii U перезавантажиться.</li>
+  <li>Вимкніть консоль.</li>
+  <li>Вставте SD-карту в комп’ютер.</li>
+  <li>Скопіюйте <code class="language-plaintext highlighter-rouge">slc.bin</code>, <code class="language-plaintext highlighter-rouge">slccmpt.bin</code>, <code class="language-plaintext highlighter-rouge">otp.bin</code>, <code class="language-plaintext highlighter-rouge">seeprom.bin</code> та всі файли вигляду <code class="language-plaintext highlighter-rouge">mlc.bin.part</code> з кореня SD-карти в надійне місце.
     <ul>
-      <li>Будьте готовы ждать; время копирование может занять несколько часов и зависит от количества свободного места во внутренней памяти, чем больше свободного места, тем быстрее будет идти копирование</li>
+      <li>Після закінчення копіювання ці файли можна видалити з карти пам’яті.</li>
     </ul>
   </li>
-  <li>По завершению работы ваша Wii U перезагрузится</li>
-  <li>Выключите консоль</li>
-  <li>Вставьте SD-карту в компьютер</li>
-  <li>Скопируйте <code class="language-plaintext highlighter-rouge">slc.bin</code>, <code class="language-plaintext highlighter-rouge">slccmpt.bin</code>, <code class="language-plaintext highlighter-rouge">otp.bin</code>, <code class="language-plaintext highlighter-rouge">seeprom.bin</code>, и все файлы вида <code class="language-plaintext highlighter-rouge">mlc.bin.part</code> из корня SD-карты в надёжное место
-    <ul>
-      <li>После окончания копирования, эти файлы можно удалить с карты памяти</li>
-    </ul>
-  </li>
-  <li>Вставьте карту памяти обратно в Wii U</li>
+  <li>Вставте карту пам’яті назад у Wii U.</li>
 </ol>
 
-<p class="notice--info">В случае брика вашей приставки, восстановить её работоспособность можно будет с помощью хардмода и этого бекапа.</p>
+<p class="notice--info">У разі бріку вашої приставки відновити її працездатність можна буде за допомогою хардмоду та цього бекапу.</p>
 
 <hr />
 
-<h2 class="notice--success" id="следующий-шаг-установка-aroma">Следующий шаг: <a href="aroma">Установка Aroma</a></h2>
+<h2 class="notice--success" id="наступний-крок-встановлення-aroma">Наступний крок: <a href="aroma">Встановлення Aroma</a></h2>
 
 				
         
@@ -457,18 +475,18 @@
   <ul class="social-icons">
     
     
-    
-    
       <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
+	  <li><a href="https://t.me/xhrxhrxhr" target="_blank" itemprop="sameAs"><i class="fa fa-fw fa-telegram" aria-hidden="true"></i> TG</a></li>
     
     
+	  <li><a href="https://t.me/kefir_ukr" target="_blank" itemprop="sameAs"><i class="fa fa-fw fa-telegram" aria-hidden="true"></i> Kefir / 4ifir - switch jailbroken
+	  </a></li>	
     
-  </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2025 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
