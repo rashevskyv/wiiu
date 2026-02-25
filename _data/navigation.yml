@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "<b>Прошить другую<br>приставку</b>"
+  - title: "<b>Прошити іншу<br>приставку</b>"
     url: http://customfw.xyz
-  - title: "<i>Купить<br>прошитую</i>"
+  - title: "<i>Купити<br>прошиту</i>"
     url: https://shop.customfw.xyz/
-  - title: "Установка<br>игр"
+  - title: "Встановлення<br>ігор"
     url: /games
   - title: "FAQ"
     url: /faq
@@ -12,39 +12,39 @@ main:
     url: /nand-backup
   - title: "Aroma"
     url: /aroma
-  - title: "Удаление<br>взлома"
+  - title: "Видалення<br>зламу"
     url: /uninstall-hack
-  - title: "Модификация<br>vWii"
+  - title: "Модифікація<br>vWii"
     url: /vwii-modding  
-  - title: "Пожертвования"
+  - title: "Пожертви"
     url: http://customfw.xyz/donations
-  - title: "Связаться с нами"
+  - title: "Зв'язатися з нами"
     url: http://customfw.xyz/contacts
-  - title: "Навигация по сайту"
+  - title: "Навігація по сайту"
     url: /site-navigation
     
 bottom:
-  - title: <div class="notice--danger"><h2>НЕ ИДИТЕ ВОЕВАТЬ В УКРАИНУ! ВЫ ТАМ УМРЁТЕ!</h2><ul><li><a href="https://www.youtube.com/watch?v=X39ZkynPjpQ" target="_blank">Как избежать мобилизации</a></li><li><a href="https://t.me/hochu_zhyt/4" target="_blank">Как сдаться в плен</a></li><li><a href="https://www.youtube.com/watch?v=teB8NVagI7c" target="_blank">Условия проживания пленных в Украине</a> и <a href="https://www.youtube.com/c/VolodymyrZolkin/videos" target="_blank">интервью с ними</a></li></ul></div>
-  - title: <div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
-  - title: <div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
-  - title: Для использования <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-ссылок в этом руководстве необходим torrent-клиент, например <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br>Для работы с файлами формата <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> используйте архиватор, например <a href="http://www.7-zip.org/" target="_blank">7-Zip</a> или <a href="https://theunarchiver.com/" target="_blank">The Unarchiver</a>
+  - title: <div class="notice--danger"><h2>НЕ ЙДІТЬ ВОЮВАТИ В УКРАЇНУ! ВИ ТАМ ПОМРЕТЕ!</h2><ul><li><a href="https://www.youtube.com/watch?v=X39ZkynPjpQ" target="_blank">Як уникнути мобілізації</a></li><li><a href="https://t.me/hochu_zhyt/4" target="_blank">Як здатися в полон</a></li><li><a href="https://www.youtube.com/watch?v=teB8NVagI7c" target="_blank">Умови проживання полонених в Україні</a> та <a href="https://www.youtube.com/c/VolodymyrZolkin/videos" target="_blank">інтерв'ю з ними</a></li></ul></div>
+  - title: <div class="notice">Якщо вам допомогло або просто сподобалося це керівництво, ми приймаємо <a href="http://customfw.xyz/donations" target="_blank">пожертви</a>.</div>
+  - title: <div class="notice">З питань щодо взлому та керівництва звертайтеся <a href="http://customfw.xyz/contacts" target="_blank">сюди</a>.</div>
+  - title: Для використання <a href="https://en.wikipedia.org/wiki/Magnet_URI_scheme" target="_blank">magnet</a>-посилань у цьому керівництві необхідний torrent-клієнт, наприклад <a href="http://dev.deluge-torrent.org/wiki/Download" target="_blank">Deluge</a><br>Для роботи з файлами формату <code class="highlighter-rouge">.7z</code>, <code class="highlighter-rouge">.zip</code>, <code class="highlighter-rouge">.rar</code> використовуйте архіватор, наприклад <a href="http://www.7-zip.org/" target="_blank">7-Zip</a> або <a href="https://theunarchiver.com/" target="_blank">The Unarchiver</a>
   
 
 sidebar_title:
   - 
-    title: Общий прогресс
+    title: Загальний прогрес
 sidebar_pages:
   - 
-    title: Главная
+    title: Головна
     url: /
   - 
-    title: Начало
+    title: Початок
     url: get-started
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Несколько вариантов
+    title: Кілька варіантів
     url: multiple-options
   - 
     title: Mocha CFW
@@ -53,11 +53,11 @@ sidebar_pages:
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi (Опционально)
+    title: Coldboot Haxchi (Опціонально)
     url: coldboot-haxchi
   - 
     title: Homebrew Launcher (Channel)
     url: homebrew-launcher-(channel)
   - 
-    title: Резервная копия NAND (Опционально)
+    title: Резервна копія NAND (Опціонально)
     url: nand-backup
