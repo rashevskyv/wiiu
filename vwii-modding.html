@@ -1,0 +1,615 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.6.0 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ru" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Модифікація vWii - Взлом Wii U</title>
+
+
+
+
+<meta name="description" content="Инструкция по установке CFW на Wii U">
+
+
+
+
+<meta name="author" content="xHR">
+
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Взлом Wii U">
+<meta property="og:title" content="Модифікація vWii">
+
+
+  <link rel="canonical" href="https://wiiu.customfw.xyz/vwii-modding.html">
+  <meta property="og:url" content="https://wiiu.customfw.xyz/vwii-modding.html">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Plailect, FlimFlam69, xHR",
+      "url" : "https://wiiu.customfw.xyz",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="bXQ2KTFgfxyvvQx2cGGgbQ59jCOMNMbdSyuHmLPhSwE" />
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://wiiu.customfw.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Взлом Wii U Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://wiiu.customfw.xyz/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    
+  </head>
+
+  <body class="layout--single">
+    
+    
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://wiiu.customfw.xyz/">Взлом Wii U</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz"><b>Прошити іншу<br>приставку</b></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://shop.customfw.xyz/"><i>Купити<br>прошиту</i></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/games">Встановлення<br>ігор</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/faq">FAQ</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/nand-backup">Бекап<br>NAND</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/aroma">Aroma</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/uninstall-hack">Видалення<br>зламу</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/vwii-modding">Модифікація<br>vWii</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/donations">Пожертви</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://customfw.xyz/contacts">Зв'язатися з нами</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://wiiu.customfw.xyz/site-navigation">Навігація по сайту</a></li>
+          
+        </ul>
+        <button type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <center><img src="https://wiiu.customfw.xyz/images/bio-photo.png" class="author__avatar" alt="xHR" itemprop="image"></center>
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">xHR</h3><br>
+    
+  </div>
+  
+  
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Івано-Франківськ</span>
+        </li>
+      
+	<hr class="style-two">
+
+      
+<li>
+  <a href="https://t.me/xhrxhrxhr" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-telegram" aria-hidden="true"></i> Telegram (чипування)
+  </a>
+</li>
+
+
+<li>
+  <a href="https://t.me/kefir_ukr" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-telegram" aria-hidden="true"></i> Група в Telegram
+  </a>
+</li>
+
+
+<li>
+  <a href="tel:0997763996" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-phone" aria-hidden="true"></i> Телефон
+  </a>
+</li>
+
+
+<li>
+  <a href="viber://0977359431" target="_blank" itemprop="sameAs">
+    <i class="fa fa-fw fa-whatsapp" aria-hidden="true"></i> Viber
+  </a>
+</li>
+
+	
+      
+
+      
+        <li>
+          <a href="mailto:rashevsky.v@gmail.com">
+            <meta itemprop="email" content="rashevsky.v@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://instagram.com/rashevsky.v" itemprop="sameAs">
+            <i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/rashevskyv" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li>
+        <a href="https://customfw.xyz/donations" itemprop="sameAs">
+          <i class="fa fa-fw fa-vine" aria-hidden="true"></i><strong>Пожертвования</strong>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+
+
+  
+  
+  
+  </div>
+ 
+  
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Модифікація vWii">
+    
+    
+    
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Модифікація vWii
+</h1>
+          
+        </header>
+      
+	  
+	  	
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Розділи</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#інструкція" id="markdown-toc-інструкція">Інструкція</a>    <ul>
+      <li><a href="#частина-i---підготовчі-роботи" id="markdown-toc-частина-i---підготовчі-роботи">Частина I - Підготовчі роботи</a></li>
+      <li><a href="#частина-ii---встановлення-homebrew-menu" id="markdown-toc-частина-ii---встановлення-homebrew-menu">Частина II - встановлення Homebrew Menu</a></li>
+      <li><a href="#частина-iii---встановлення-та-налаштування-priiloader" id="markdown-toc-частина-iii---встановлення-та-налаштування-priiloader">Частина III - встановлення та налаштування Priiloader</a></li>
+      <li><a href="#частина-iv---встановлення-cios" id="markdown-toc-частина-iv---встановлення-cios">Частина IV - встановлення cIOS</a></li>
+      <li><a href="#частина-v---застосування-патчів-до-ios80" id="markdown-toc-частина-v---застосування-патчів-до-ios80">Частина V - застосування патчів до IOS80</a></li>
+      <li><a href="#частина-v---застосування-патчів-до-ww-43db" id="markdown-toc-частина-v---застосування-патчів-до-ww-43db">Частина V - застосування патчів до ww-43db</a></li>
+      <li><a href="#частина-vi---встановлення-завантажувачів-ігор-vwii-та-запуск-ігор" id="markdown-toc-частина-vi---встановлення-завантажувачів-ігор-vwii-та-запуск-ігор">Частина VI - Встановлення завантажувачів ігор vWii та запуск ігор</a></li>
+    </ul>
+  </li>
+  <li><a href="#список-встановлених-програм-у-homebrew-channel" id="markdown-toc-список-встановлених-програм-у-homebrew-channel">Список встановлених програм у <strong>Homebrew Channel</strong></a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Ми встановимо Homebrew Channel та інші модифікації для вбудованого у Wii U емулятора Wii (vWii - virtual Wii).</p>
+
+<p class="notice--warning">Пам’ятайте, що без оригінального контролера Wii ви не зможете зайти у vWii</p>
+
+<p class="notice--info">Якщо ви хочете змінити регіон вашої vWii на європейський, перейдіть <a href="wiiu-region-change">сюди</a>. Після виконання цієї інструкції прошивати vWii вже не потрібно буде. Ви можете виконати зміну регіону замість прошивки vWii. Результат буде ідентичним</p>
+
+<h2 id="інструкція">Інструкція</h2>
+
+<h3 id="частина-i---підготовчі-роботи">Частина I - Підготовчі роботи</h3>
+
+<ol>
+  <li>Вимкніть консоль</li>
+  <li>Вставте SD-карту в комп’ютер</li>
+  <li>Скопіюйте <em>вміст</em> <code class="language-plaintext highlighter-rouge">.zip-архіву</code> <a href="https://github.com/rashevskyv/wiiu/releases/latest" target="_blank"><code class="language-plaintext highlighter-rouge">wiiusdfiles.zip</code></a> у корінь вашої SD-карти
+    <ul>
+      <li>Не потрібно робити, якщо вже робили в процесі виконання посібника</li>
+    </ul>
+  </li>
+  <li>Вставте SD-карту назад у консоль</li>
+  <li>Увімкніть консоль</li>
+</ol>
+
+<h3 id="частина-ii---встановлення-homebrew-menu">Частина II - встановлення Homebrew Menu</h3>
+
+<ol>
+  <li>Запустіть <strong>vWii Compat Installer</strong> (<img src="/images/apps/compat_installer.png" alt="" width="60px" />)</li>
+  <li>Натисніть <img src="/images/buttons/A.png" alt="(A)" /> для того, щоб встановити <strong>Homebrew Channel</strong></li>
+  <li>Дочекайтеся напису <strong>Install succeeded</strong></li>
+  <li>Натисніть <img src="/images/buttons/HOME.png" alt="(HOME)" />, щоб повернутися в системне меню</li>
+  <li>Запустіть <strong>vWii</strong>
+    <ul>
+      <li>Якщо встановлення пройшло успішно, на екрані з’явиться <strong>Homebrew Channel</strong></li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="частина-iii---встановлення-та-налаштування-priiloader">Частина III - встановлення та налаштування Priiloader</h3>
+
+<ol>
+  <li>Запустіть <strong>Homebrew Channel</strong></li>
+  <li>Запустіть <strong>Priiloader Installer</strong> і дочекайтеся ініціалізації програми</li>
+  <li>Натисніть кнопку <img src="/images/buttons/+.png" alt="(+)" /> на контролері Wii</li>
+  <li>По завершенню роботи програми натисніть <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Запустіть <strong>Load Priiloader</strong></li>
+  <li>Перейдіть до <strong>System Menu Hacks</strong> і натисніть <img src="/images/buttons/A.png" alt="(A)" /></li>
+  <li>Кнопкою <img src="/images/buttons/A.png" alt="(A)" /> переведіть у стан <strong>enable</strong> наступні пункти:
+    <blockquote>
+      <ul>
+        <li>Block Online Updates</li>
+        <li>Wii System Settings via Options Button</li>
+        <li>Remove Deflicker (не чіпайте, якщо використовуєте старий телевізор)</li>
+      </ul>
+    </blockquote>
+  </li>
+  <li>Виберіть <strong>System settings</strong>, щоб зберегти налаштування</li>
+  <li>Натисніть <img src="/images/buttons/B.png" alt="(B)" />, щоб повернутися в головне меню</li>
+  <li>Виберіть <strong>Homebrew Channel</strong>, щоб повернутися до вибору Homebrew</li>
+</ol>
+
+<h3 id="частина-iv---встановлення-cios">Частина IV - встановлення cIOS</h3>
+
+<p class="notice--warning">Переконайтеся, що в корені SD-карти немає папок <code class="language-plaintext highlighter-rouge">wad</code> або <code class="language-plaintext highlighter-rouge">wads</code> і що немає жодних <code class="language-plaintext highlighter-rouge">.wad-файлів</code> ніде, крім папки <code class="language-plaintext highlighter-rouge">/apps/</code> на SD-карті.</p>
+
+<ol>
+  <li>Запустіть <strong>Homebrew Channel</strong> у vWii</li>
+  <li>Запустіть <strong>d2x cIOS Installer</strong></li>
+  <li>Встановіть параметри у верхній частині екрана так, щоб вони відповідали вказаним нижче:
+    <blockquote>
+      <ul>
+        <li>Select cIOS : <strong>d2x-v11-beta1-vWii</strong></li>
+        <li>Select cIOS base : <strong>56</strong></li>
+        <li>Select cIOS slot : <strong>249</strong></li>
+      </ul>
+    </blockquote>
+  </li>
+  <li>Натисніть <img src="/images/buttons/A.png" alt="(A)" /> для встановлення</li>
+  <li>Дочекайтеся закінчення встановлення та натисніть <img src="/images/buttons/A.png" alt="(A)" /> для продовження</li>
+  <li>Встановіть параметри у верхній частині екрана так, щоб вони відповідали вказаним нижче:
+    <blockquote>
+      <ul>
+        <li>Select cIOS : <strong>d2x-v11-beta1-vWii</strong></li>
+        <li>Select cIOS base : <strong>57</strong></li>
+        <li>Select cIOS slot : <strong>250</strong></li>
+      </ul>
+    </blockquote>
+  </li>
+  <li>Натисніть <img src="/images/buttons/A.png" alt="(A)" /> для встановлення</li>
+  <li>Дочекайтеся закінчення встановлення та натисніть <img src="/images/buttons/A.png" alt="(A)" /> для продовження</li>
+  <li>Встановіть параметри у верхній частині екрана так, щоб вони відповідали вказаним нижче:
+    <blockquote>
+      <ul>
+        <li>Select cIOS : <strong>d2x-v11-beta1-vWii</strong></li>
+        <li>Select cIOS base : <strong>58</strong></li>
+        <li>Select cIOS slot : <strong>251</strong></li>
+      </ul>
+    </blockquote>
+  </li>
+  <li>Натисніть <img src="/images/buttons/A.png" alt="(A)" /> для встановлення</li>
+  <li>Дочекайтеся закінчення встановлення та натисніть <img src="/images/buttons/B.png" alt="(B)" /> для виходу</li>
+</ol>
+
+<h3 id="частина-v---застосування-патчів-до-ios80">Частина V - застосування патчів до IOS80</h3>
+
+<p class="notice--danger">Цей крок перетворить вашу vWii на «цеглу» (brick), якщо з якоїсь причини буде перерваний у процесі застосування патчів (наприклад, відключення електроенергії). У такому разі для відновлення буде необхідна резервна копія NAND vWii. Переконайтеся, що вона у вас є, перед тим як починати.</p>
+
+<ol>
+  <li>З <strong>Homebrew Channel</strong> у vWii запустіть “<strong>Patched IOS80 Installer for vWii</strong>”</li>
+  <li>Уважно прочитайте попередження і почекайте 30 секунд, після чого зможете продовжити</li>
+  <li>Натисніть <img src="/images/buttons/A.png" alt="(A)" /> для встановлення
+    <ul>
+      <li>Все має пройти дуже швидко</li>
+    </ul>
+  </li>
+  <li>По завершенні процесу натисніть будь-яку кнопку, щоб повернутися в Homebrew Channel</li>
+</ol>
+
+<h3 id="частина-v---застосування-патчів-до-ww-43db">Частина V - застосування патчів до ww-43db</h3>
+
+<p>За допомогою цієї утиліти застосовуються патчі для підтримки 16:9 у низці WiiWare ігор</p>
+
+<ol>
+  <li>З <strong>Homebrew Channel</strong> у vWii запустіть “<strong>ww-43-db-patcher</strong>”</li>
+  <li>Дочекайтеся закінчення ініціалізації патчера</li>
+  <li>Натисніть <img src="/images/buttons/1.png" alt="(1)" /> для початку роботи програми</li>
+  <li>Дочекайтеся закінчення роботи патчера і натисніть будь-яку кнопку для повернення в <strong>Homebrew Channel</strong></li>
+</ol>
+
+<h3 id="частина-vi---встановлення-завантажувачів-ігор-vwii-та-запуск-ігор">Частина VI - Встановлення завантажувачів ігор vWii та запуск ігор</h3>
+
+<p>Про встановлення ігор та лоадерів детально розповів на цій сторінці — <a href="https://wiiu.customfw.xyz/games-vwii">Встановлення ігор для vWii</a></p>
+
+<h2 id="список-встановлених-програм-у-homebrew-channel">Список встановлених програм у <strong>Homebrew Channel</strong></h2>
+
+<ul>
+  <li><a href="https://oscwii.org/library/app/ftpii">ftpii</a> - FTP-сервер</li>
+  <li><a href="https://oscwii.org/library/app/ww-43db-patcher">Homebrew Browser 0.3</a> - можливість завантажувати новітні додатки та ігри для вашої Wii безпосередньо через консоль</li>
+  <li><a href="https://oscwii.org/library/app/riivolution">Riivolution Patcher</a> - інструмент для миттєвого внесення змін в ігри, який працює з роздрібними дисками</li>
+  <li><a href="https://oscwii.org/library/app/yawmME">YAWM ModMii Edition 1.0.1</a> - менеджер та установник WAD-файлів</li>
+  <li><a href="https://oscwii.org/library/app/SaveGame_Manager_GX">SaveGame Manager GX rev127</a> - менеджер збережень</li>
+  <li><a href="https://oscwii.org/library/app/wiixplorer-ss">WiiXplorer SS 260</a> - файловий менеджер</li>
+  <li><a href="https://oscwii.org/library/app/wiiflow">WiiFlow WFL 5.5.4</a> - програма для запуску ігор з карти пам’яті</li>
+  <li><a href="https://oscwii.org/library/app/usbloader_gx">USB Loader GX 3.0 r1281</a> - програма для запуску ігор з карти пам’яті</li>
+</ul>
+
+<p>Ви можете видалити наступні програми на цьому етапі:</p>
+<ul>
+  <li><a href="https://oscwii.org/library/app/priiloader">Priiloader Installer 0.10.0</a> - цей додаток замінює першу частину системного меню, що завантажується на Wii. Це дозволяє завантажувати його перед самим меню Wii. Установник може як встановити, так і видалити priiloader</li>
+  <li><a href="https://oscwii.org/library/app/loadpriiloader">Load Priiloader 1.0</a> - завантажує меню Priiloader через Homebrew Loader</li>
+  <li><a href="https://wii.hacks.guide/assets/files/d2x_cIOS_Installer-vWii.zip"><code class="language-plaintext highlighter-rouge">d2x_cIOS_Installer-vWii.zip</code></a> - патчі системних модулів</li>
+  <li><a href="https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii">Patched IOS80 Installer for vWii 1.0</a> - встановлює патчений IOS80 без перевірки підпису на vWii</li>
+  <li><a href="https://oscwii.org/library/app/ww-43db-patcher">ww-43db-patcher 0.3</a> - оновлює базу даних співвідношення сторін 4:3 для WiiWare (43DB) в архіві системного меню vWii U8, замінюючи записи. Це дозволяє активувати доступ до співвідношення сторін 16:9 у WiiWare-іграх, де примусово використовується 4:3</li>
+</ul>
+
+<hr />
+
+<p class="notice--success">Тепер ви можете встановити та використовувати будь-яке хомбрю для vWii, наприклад, <a href="games-vwii#запуск-wii-ігр-у-vwii-через-usb-loader-gx">USB Loader GX</a>, <a href="games-vwii#запуск-wii-ігр-у-vwii-через-wiiflow">Wiiflow</a>, CFG USB Loader, емулятори тощо.</p>
+
+<p class="notice--success">Для того, щоб навчитися встановлювати ігри, перейдіть <a href="games">сюди</a></p>
+
+<p class="notice--info">Зовнішній жорсткий диск необхідно підключати у верхній USB-порт Wii U, інакше vWii не побачить його. Не можна використовувати той самий жорсткий диск, який ви використовуєте для ігор Wii U. Якщо ви використовуєте жорсткий диск без власного додаткового живлення, вам знадобиться <a href="http://amzn.to/2mjQjin">Y-cable</a>.</p>
+
+<p class="notice--danger">Переконайтеся, що всі <code class="language-plaintext highlighter-rouge">.wad-файли</code> (канали, форвардери, ігри тощо), які ви збираєтеся встановлювати, <a href="https://gbatemp.net/threads/340226/">сумісні з vWii</a>. Якщо ви випадково встановите <code class="language-plaintext highlighter-rouge">.wad-файл</code>, не сумісний з vWii, а призначений для звичайної Wii, ви отримаєте брік вашої vWii і вам доведеться відновлювати її з резервної копії NAND.</p>
+
+<p class="notice--danger">Встановлення кастомних тем у vWii так само призведе до бріку vWii.</p>
+
+<p class="notice--danger">Видалення <code class="language-plaintext highlighter-rouge">.wad-файлів</code> вручну без знання тонкощів цього процесу так само призведе до бріку vWii.</p>
+
+<hr />
+
+<p class="notice--success"><a href="javascript:window.close();">Закрыть страницу</a></p>
+
+				
+        
+      </section>
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+		
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer-container">
+      <footer class="page__footer">
+        <script src="/assets/js/main.min.js"></script>
+
+<!-- // to top button -->
+<a href="#" class="scrollup">Наверх</a>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+        $(".scrollup").fadeIn();
+      } else {
+        $(".scrollup").fadeOut();
+      }
+    });
+
+    $(".scrollup").click(function () {
+      $("html, body").animate({ scrollTop: 0 }, 600);
+      return false;
+    });
+  });
+</script>
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+      <li><a href="http://github.com/rashevskyv"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+	  <li><a href="https://t.me/xhrxhrxhr" target="_blank" itemprop="sameAs"><i class="fa fa-fw fa-telegram" aria-hidden="true"></i> TG</a></li>
+    
+    
+	  <li><a href="https://t.me/kefir_ukr" target="_blank" itemprop="sameAs"><i class="fa fa-fw fa-telegram" aria-hidden="true"></i> Kefir / 4ifir - switch jailbroken
+	  </a></li>	
+    
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 Plailect, FlimFlam69, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92824803-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92824803-2');
+</script>
+
+
+
+
+
+  </body>
+</html>
